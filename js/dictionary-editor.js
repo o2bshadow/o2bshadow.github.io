@@ -341,20 +341,16 @@ function deleteEntry(word) {
 // -- IPA Automation ------------------------------------
 let IPA_RULES = [];
 
-function patternSortKey(pattern) {
-  // remove regex syntax to get the literal match length
-  return pattern.replace(/\(\?<!\\w\)/g, '').replace(/\(\?<!\\w\)/g, '').replace(/[$^]/g, '').length;
-}
-
 async function loadPhonology() {
   try {
     const res = await fetch('phonology.json');
     if (!res.ok) throw new Error('phonology.json not found');
     const phonology = await res.json();
-    const sorted = Object.entries(phonology).sort((a, b) => 
-      patternSortKey(b[0]) - patternSortKey(a[0])
-    );
-    IPA_RULES = sorted.map(([pattern, repl]) => [new RegExp(pattern, 'g'), repl]);
+    // Sort longest literal match first
+    IPA_RULES = Object.entries(phonology).sort((a, b) => {
+      const litLen = p => p.replace(/\(\?<![^)]+\)/g, '').replace(/[$^]/g, '').length;
+      return litLen(b[0]) - litLen(a[0]);
+    });
   } catch(e) {
     console.warn('Could not load phonology rules:', e.message);
   }
@@ -362,12 +358,28 @@ async function loadPhonology() {
 
 function convertToIPA(word) {
   if (!IPA_RULES.length) return '';
-  let ipa = word.toLowerCase();
-  for (const [pattern, repl] of IPA_RULES) {
-    pattern.lastIndex = 0; // reset stateful global regex
-    ipa = ipa.replace(pattern, repl);
+  const input = word.toLowerCase();
+  let out = '';
+  let i = 0;
+  while (i < input.length) {
+    let matched = false;
+    for (const [pattern, repl] of IPA_RULES) {
+      const re = new RegExp(pattern, 'y'); // sticky flag — matches at position i only
+      re.lastIndex = i;
+      const m = re.exec(input);
+      if (m) {
+        out += repl;
+        i += m[0].length;
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) {
+      out += input[i];
+      i++;
+    }
   }
-  return ipa;
+  return out;
 }
 
 // ── PUSH ──────────────────────────────────────────────
