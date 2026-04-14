@@ -341,13 +341,19 @@ function deleteEntry(word) {
 // -- IPA Automation ------------------------------------
 let IPA_RULES = [];
 
+function patternSortKey(pattern) {
+  // remove regex syntax to get the literal match length
+  return pattern.replace(/\(\?<!\\w\)/g, '').replace(/\(\?<!\\w\)/g, '').replace(/[$^]/g, '').length;
+}
+
 async function loadPhonology() {
   try {
     const res = await fetch('phonology.json');
     if (!res.ok) throw new Error('phonology.json not found');
     const phonology = await res.json();
-    // Sort longest keys first, same as Python logic
-    const sorted = Object.entries(phonology).sort((a, b) => b[0].length - a[0].length);
+    const sorted = Object.entries(phonology).sort((a, b) => 
+      patternSortKey(b[0]) - patternSortKey(a[0])
+    );
     IPA_RULES = sorted.map(([pattern, repl]) => [new RegExp(pattern, 'g'), repl]);
   } catch(e) {
     console.warn('Could not load phonology rules:', e.message);
