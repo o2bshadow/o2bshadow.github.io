@@ -113,6 +113,14 @@ function updateModifiedCount() {
   el.textContent = `${n} unsaved change${n>1?'s':''}`;
 }
 
+function autoIPA() {
+  const word = CURRENT_WORD;
+  if (!word) return;
+  const ipa = convertToIPA(word);
+  const el = document.getElementById('ed-ipa');
+  if (el) el.value = ipa;
+}
+
 // ── EDITOR ────────────────────────────────────────────
 function selectWord(word) {
   CURRENT_WORD = word;
@@ -130,12 +138,15 @@ function renderEditor(word, data) {
       ${isNew ? '<span style="font-size:0.7rem;color:var(--green);font-family:JetBrains Mono,monospace;">NEW</span>' : ''}
     </div>
 
-    <div class="editor-grid">
-      <div class="field-group">
-        <label>Word (headword)</label>
-        <input type="text" id="ed-word" value="${escHtml(word)}" ${isNew ? '' : 'readonly style="opacity:0.5;cursor:not-allowed"'}>
+    <div class="field-group">
+      <label>Word (headword)</label>
+      <div style="display:flex; gap:6px;">
+        <input type="text" id="ed-word" value="${escHtml(word)}" style="flex:1">
+        <button class="btn btn-sm" onclick="autoIPA()" title="Regenerate IPA from current headword" style="white-space:nowrap;">⟳ ipa</button>
       </div>
-      <div class="field-group">
+    </div>
+
+    <div class="field-group">
         <label>Part of Speech</label>
         <select id="ed-pos">
           ${POS_OPTIONS.map(p => `<option value="${p}" ${data.pos===p?'selected':''}>${p}</option>`).join('')}
@@ -143,10 +154,11 @@ function renderEditor(word, data) {
       </div>
     </div>
 
-    <div class="editor-grid full">
-      <div class="field-group">
-        <label>IPA (one transcription per line)</label>
-        <textarea id="ed-ipa" rows="2">${(Array.isArray(data.ipa)?data.ipa:data.ipa?[data.ipa]:[]).join('\n')}</textarea>
+    <div class="field-group" style="margin-bottom:1rem">
+      <label>IPA (one transcription per line)</label>
+      <div style="display:flex; gap:6px; align-items:flex-start;">
+        <textarea id="ed-ipa" rows="2" style="flex:1">${(Array.isArray(data.ipa)?data.ipa:data.ipa?[data.ipa]:[]).join('\n')}</textarea>
+        <button class="btn btn-sm" onclick="autoIPA()" title="Generate IPA from word" style="margin-top:2px; white-space:nowrap;">⟳ generate</button>
       </div>
     </div>
 
@@ -258,23 +270,43 @@ function getRoots() {
 }
 
 function saveEntry() {
-  const word = CURRENT_WORD;
-  const pos  = document.getElementById('ed-pos').value;
-  const ipa  = document.getElementById('ed-ipa').value.split('\n').map(s=>s.trim()).filter(Boolean);
-  const def  = document.getElementById('ed-def').value.split('\n').map(s=>s.trim()).filter(Boolean);
-  const notes = document.getElementById('ed-notes').value.trim();
-  const root  = getRoots();
+  const oldWord = CURRENT_WORD;
+  const newWord = document.getElementById('ed-word').value.trim();
+  const pos     = document.getElementById('ed-pos').value;
+  const ipa     = document.getElementById('ed-ipa').value.split('\n').map(s=>s.trim()).filter(Boolean);
+  const def     = document.getElementById('ed-def').value.split('\n').map(s=>s.trim()).filter(Boolean);
+  const notes   = document.getElementById('ed-notes').value.trim();
+  const root    = getRoots();
   const antonyms = getArrayValues('antonyms');
   const synonyms = getArrayValues('synonyms');
   const related  = getArrayValues('related');
 
+  if (!newWord) { toast('Word cannot be empty', 'error'); return; }
+
+  if (newWord !== oldWord && DICT[newWord]) {
+    toast(`"${newWord}" already exists`, 'error');
+    return;
+  }
+
   const entry = { pos, ipa, def, root, antonyms, synonyms, related, notes };
-  DICT[word] = entry;
-  MODIFIED[word] = entry;
+
+  if (newWord !== oldWord) {
+    // rename: delete old, create new
+    delete DICT[oldWord];
+    MODIFIED[`__DELETED__${oldWord}`] = null;
+    DICT[newWord] = entry;
+    MODIFIED[newWord] = { ...entry, _isNew: true };
+    CURRENT_WORD = newWord;
+    // update the editor title
+    document.querySelector('.editor-word-title').childNodes[0].textContent = newWord + ' ';
+  } else {
+    DICT[oldWord] = entry;
+    MODIFIED[oldWord] = entry;
+  }
 
   renderWordList(document.getElementById('sidebar-search').value);
-  setStatus(`Saved "${word}" locally — push to publish`, 'warn');
-  toast(`"${word}" saved locally`, 'success');
+  setStatus(`Saved "${newWord}" locally — push to publish`, 'warn');
+  toast(`"${newWord}" saved locally`, 'success');
 }
 
 function openNewWordEditor() {
@@ -285,8 +317,13 @@ function openNewWordEditor() {
   DICT[w] = { pos:'noun', ipa:[], def:[], root:[], antonyms:[], synonyms:[], related:[], notes:'' };
   MODIFIED[w] = { ...DICT[w], _isNew: true };
   CURRENT_WORD = w;
+  // auto-generate IPA for new words
   renderWordList(document.getElementById('sidebar-search').value);
   renderEditor(w, DICT[w]);
+  requestAnimationFrame(() => {
+    const el = document.getElementById('ed-ipa');
+    if (el && IPA_RULES.length) el.value = convertToIPA(w);
+  });
 }
 
 function deleteEntry(word) {
@@ -299,6 +336,32 @@ function deleteEntry(word) {
   }
   renderWordList(document.getElementById('sidebar-search').value);
   toast(`"${word}" marked for deletion`, 'error');
+}
+
+// -- IPA Automation ------------------------------------
+let IPA_RULES = [];
+
+async function loadPhonology() {
+  try {
+    const res = await fetch('phonology.json');
+    if (!res.ok) throw new Error('phonology.json not found');
+    const phonology = await res.json();
+    // Sort longest keys first, same as Python logic
+    const sorted = Object.entries(phonology).sort((a, b) => b[0].length - a[0].length);
+    IPA_RULES = sorted.map(([pattern, repl]) => [new RegExp(pattern, 'g'), repl]);
+  } catch(e) {
+    console.warn('Could not load phonology rules:', e.message);
+  }
+}
+
+function convertToIPA(word) {
+  if (!IPA_RULES.length) return '';
+  let ipa = word.toLowerCase();
+  for (const [pattern, repl] of IPA_RULES) {
+    pattern.lastIndex = 0; // reset stateful global regex
+    ipa = ipa.replace(pattern, repl);
+  }
+  return ipa;
 }
 
 // ── PUSH ──────────────────────────────────────────────
@@ -391,3 +454,5 @@ async function confirmPush() {
 function escHtml(str) {
   return String(str ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
+
+loadPhonology();

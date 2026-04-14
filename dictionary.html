@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Language Dictionary</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="./dictionary.css" rel="stylesheet">
+<link href="./stylesheets/dictionary.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 
 </head>
@@ -13,7 +13,8 @@
 
 <header>
   <h1>Dictionary</h1>
-  <p>Aistvharkol; The Old Tongue</p>
+  <p><button class="copy-btn" onclick="window.open('./index.html', '_blank')">Aistvharkol; The Old Tongue</button></p>
+  <div class="divider"></div>
   <div class="search-bar">
     <div class="search-wrap">
       <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,9 +41,10 @@
 
 <button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
+<script type="text/javascript" src="./js/dictionary.js"></script>
 
-<script type="text/javascript" src="./dictionary.js"></script>
+<div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
 </body>
 
-</body>
+
 </html>
