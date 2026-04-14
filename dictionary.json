@@ -1,0 +1,7687 @@
+{
+  "a'oprar'ot": {
+    "pos": "conjunction",
+    "ipa": [
+      "æ'ɒʊprɔːr'ɒʊt"
+    ],
+    "def": "until",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aet": {
+    "pos": "noun",
+    "ipa": [
+      "eːyt"
+    ],
+    "def": [
+      "knowledge"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aetasch": {
+    "pos": "noun",
+    "ipa": [
+      "eːytɔːʃx"
+    ],
+    "def": [
+      "university, college",
+      "a place of advanced learning"
+    ],
+    "root": ["aet"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aetasha": {
+    "pos": "verb",
+    "ipa": [
+      "eːytɔːʃɔː"
+    ],
+    "def": [
+      "To study, as an advanced pursuit (distinct from to learn)"
+    ],
+    "root": ["aetasch"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aeth": {
+    "pos": "noun",
+    "ipa": [
+      "eːyθ"
+    ],
+    "def": [
+      "an innate need",
+      "a prerequisite"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aethra": {
+    "pos": "verb",
+    "ipa": [
+      "eːyθrɔː"
+    ],
+    "def": [
+      "to desire or crave",
+      "to want, in an immediate sense",
+      "to need"
+    ],
+    "root": ["aeth"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aethrán": {
+    "pos": "noun",
+    "ipa": [
+      "eːyθran"
+    ],
+    "def": [
+      "desire or craving",
+      "a want or a need"
+    ],
+    "root": ["aeth"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aetirn": {
+    "pos": "conjunction",
+    "ipa": [
+      "eːytirn"
+    ],
+    "def": "always",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "afcha": {
+    "pos": "verb",
+    "ipa": [
+      "æfxɔː"
+    ],
+    "def": [
+      "to eat"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ai": {
+    "pos": "noun",
+    "ipa": [
+      "æɪ"
+    ],
+    "def": [
+      "persistence, that which remains"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Placeholder — root not fully developed. Linked to concepts of persistence and support."
+  },
+  "aida": {
+    "pos": "verb",
+    "ipa": [
+      "æɪdɔː"
+    ],
+    "def": [
+      "to shine, specifically as a star"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aidal": {
+    "pos": "noun",
+    "ipa": [
+      "æɪdɔːl"
+    ],
+    "def": [
+      "star, celestial object"
+    ],
+    "root": ["aida"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aigran": {
+    "pos": "noun",
+    "ipa": [
+      "æɪgrɔːn"
+    ],
+    "def": "truth",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ailos": {
+    "pos": "noun",
+    "ipa": [
+      "æɪlɒ̞ʃ"
+    ],
+    "def": [
+      "second-in-command",
+      "a person or idea standing in support of"
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ailosi": {
+    "pos": "verb",
+    "ipa": [
+      "æɪlɒ̞ʃi"
+    ],
+    "def": [
+      "to second as a motion, idea, or person",
+      "to stand in support of"
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ains": {
+    "pos": "noun",
+    "ipa": [
+      "æɪns"
+    ],
+    "def": [
+      "idea",
+      "thought"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsa": {
+    "pos": "verb",
+    "ipa": [
+      "æɪnsɔː"
+    ],
+    "def": [
+      "to speak, to present, or to share information verbally"
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsal": {
+    "pos": "noun",
+    "ipa": [
+      "æɪnsɔːl"
+    ],
+    "def": [
+      "a word, written or spoken",
+      "a fixed ideal of an idea i.e. the word of the Court."
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsan": {
+    "pos": "noun",
+    "ipa": [
+      "æɪnsɔːn"
+    ],
+    "def": "title",
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsana": {
+    "pos": "verb",
+    "ipa": [
+      "æɪnsɔːnɔː"
+    ],
+    "def": [
+      "to give a title to, to name",
+      "to deem something worthwhile (col)"
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsar": {
+    "pos": "noun",
+    "ipa": [
+      "æɪnsɔːʀ"
+    ],
+    "def": [
+      "a formal speech, talk, or presentation"
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsav": {
+    "pos": "noun",
+    "ipa": [
+      "æɪnsɔːv"
+    ],
+    "def": [
+      "engraving or etching",
+      "words or symbols with meaning carved into something permenantly"
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ainsavi": {
+    "pos": "verb",
+    "ipa": [
+      "æɪnsɔːvi"
+    ],
+    "def": [
+      "to engrave or etch",
+      "to set down meaning with the intention of it being permanent",
+      "to preserve meaning"
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aisa": {
+    "pos": "verb",
+    "ipa": [
+      "æɪʃɔː"
+    ],
+    "def": [
+      "to remain"
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aisat": {
+    "pos": "noun",
+    "ipa": [
+      "æɪʃɔːt"
+    ],
+    "def": [
+      "remain, leftover, leaving"
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aistraiv": {
+    "pos": "verb",
+    "ipa": [
+      "æɪʃtrɔːɪv"
+    ],
+    "def": [
+      "a hidden meaning or second meaning",
+      "an idiom or metaphor",
+      "an underlying piece of information"
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aistrovi": {
+    "pos": "verb",
+    "ipa": [
+      "æɪʃtrɒvi"
+    ],
+    "def": [
+      "to encode or embed (as meaning)",
+      "to subvert"
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aiströch": {
+    "pos": "noun",
+    "ipa": [
+      "æɪʃtroʊx"
+    ],
+    "def": "desolation, destruction",
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aistvharkol": {
+    "pos": "noun",
+    "ipa": [
+      "æɪʃtⱱɔːrkɒl"
+    ],
+    "def": [
+      "the proper name for the language commonly referred to as the Old Tongue."
+    ],
+    "root": ["ai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ait": {
+    "pos": "preposition",
+    "ipa": [
+      "æɪt"
+    ],
+    "def": "to",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ak": {
+    "pos": "preposition",
+    "ipa": [
+      "æk"
+    ],
+    "def": "by",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "akaivh'id": {
+    "pos": "noun",
+    "ipa": [
+      "ækɔːɪⱱ'id"
+    ],
+    "def": "perfection",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "akar": {
+    "pos": "noun",
+    "ipa": [
+      "ækɔːʀ"
+    ],
+    "def": [
+      "flight",
+      "something in the act of being done"
+    ],
+    "root": ["akor"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "akara": {
+    "pos": "verb",
+    "ipa": [
+      "ækɔːrɔː"
+    ],
+    "def": [
+      "to fly"
+    ],
+    "root": ["akar"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "akor": {
+    "pos": "noun",
+    "ipa": [
+      "ækɒʀ"
+    ],
+    "def": [
+      "arrow",
+      "something linear, a pointed line"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aldreva": {
+    "pos": "verb",
+    "ipa": [
+      "ældreːvɔː"
+    ],
+    "def": [
+      "to cultivate"
+    ],
+    "root": ["drev"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aldrevaidh": {
+    "pos": "noun",
+    "ipa": [
+      "ældreːvɔːɪið"
+    ],
+    "def": "crop",
+    "root": ["aldreva"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aldrevha": {
+    "pos": "<TYPE NOT FOUND>",
+    "ipa": [
+      "ældreːⱱɔː"
+    ],
+    "def": "grow",
+    "root": ["aldrev"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "alfasz": {
+    "pos": "noun",
+    "ipa": [
+      "ælfɔːɮ"
+    ],
+    "def": "sand",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "alfaszi": {
+    "pos": "verb",
+    "ipa": [
+      "ælfɔːɮi"
+    ],
+    "def": [
+      "to sand, to wear away",
+      "to erode"
+    ],
+    "root": ["alfasz"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aln": {
+    "pos": "noun",
+    "ipa": [
+      "æln"
+    ],
+    "def": "tree",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "alvaidh": {
+    "pos": "noun",
+    "ipa": [
+      "ælvɔːɪið"
+    ],
+    "def": "purpose",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "alvari": {
+    "pos": "verb",
+    "ipa": [
+      "ælvɔːri"
+    ],
+    "def": [
+      "to command, to order"
+    ],
+    "root": ["alvaidh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "alvarin": {
+    "pos": "noun",
+    "ipa": [
+      "ælvɔːrɪn"
+    ],
+    "def": "command",
+    "root": ["alvaidh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "amirni": {
+    "pos": "verb",
+    "ipa": [
+      "æmirni"
+    ],
+    "def": [
+      "to remember"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "amist": {
+    "pos": "conjunction",
+    "ipa": [
+      "æmiʃt"
+    ],
+    "def": [
+      "when (derived from uncertain-now)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "amnis": {
+    "pos": "noun",
+    "ipa": [
+      "æmniʃ"
+    ],
+    "def": "snake",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "amural": {
+    "pos": "noun",
+    "ipa": [
+      "æmurɔːl"
+    ],
+    "def": "desert",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ankar": {
+    "pos": "noun",
+    "ipa": [
+      "ænkɔːʀ"
+    ],
+    "def": "wing",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "antraidh": {
+    "pos": "noun",
+    "ipa": [
+      "æntrɔːɪið"
+    ],
+    "def": "grief",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "antraidha": {
+    "pos": "verb",
+    "ipa": [
+      "æntrɔːɪiðɔː"
+    ],
+    "def": [
+      "to grieve"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "anvait": {
+    "pos": "adjective",
+    "ipa": [
+      "ænvɔːɪt"
+    ],
+    "def": "unreachable",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aoi": {
+    "pos": "verb",
+    "ipa": [
+      "æɒi"
+    ],
+    "def": [
+      "to age"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aoiv": {
+    "pos": "noun",
+    "ipa": [
+      "æɒiv"
+    ],
+    "def": [
+      "age, as in years"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ara": {
+    "pos": "verb",
+    "ipa": [
+      "ærɔː"
+    ],
+    "def": [
+      "to do"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ardhon": {
+    "pos": "preposition",
+    "ipa": [
+      "ærðɒn"
+    ],
+    "def": "above",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ardwon": {
+    "pos": "noun",
+    "ipa": [
+      "ærdwɒn"
+    ],
+    "def": [
+      "high, as in altitude",
+      "high, as in elated, high spirited"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ariot": {
+    "pos": "noun",
+    "ipa": [
+      "æriɒt"
+    ],
+    "def": [
+      "left, directional"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "astara": {
+    "pos": "verb",
+    "ipa": [
+      "æstɔːrɔː"
+    ],
+    "def": [
+      "to rule by fate"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "astaral": {
+    "pos": "noun",
+    "ipa": [
+      "æstɔːrɔːl"
+    ],
+    "def": "fated ruler",
+    "root": ["astara"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "astvhol": {
+    "pos": "noun",
+    "ipa": [
+      "æstⱱɒl"
+    ],
+    "def": "tongue",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "asör": {
+    "pos": "conjunction",
+    "ipa": [
+      "æsoʊʀ"
+    ],
+    "def": "or",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ath'sol": {
+    "pos": "noun",
+    "ipa": [
+      "æθ'sɒl"
+    ],
+    "def": [
+      "sixth day of the week"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "atha": {
+    "pos": "verb",
+    "ipa": [
+      "æθɔː"
+    ],
+    "def": [
+      "to die"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athadr": {
+    "pos": "noun",
+    "ipa": [
+      "æθɔːdʀ"
+    ],
+    "def": "death",
+    "root": ["atha"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athael": {
+    "pos": "noun",
+    "ipa": [
+      "æθeːyl"
+    ],
+    "def": [
+      "eighth month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athdraodh": {
+    "pos": "noun",
+    "ipa": [
+      "æθdrɔːɒð"
+    ],
+    "def": [
+      "trap, snare",
+      "a malevolent surprise"
+    ],
+    "root": ["ath","draodh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Compound of ath + draodh"
+  },
+  "athdraodhi": {
+    "pos": "verb",
+    "ipa": [
+      "æθdrɔːɒði"
+    ],
+    "def": [
+      "to trap",
+      "to snare (while hunting)"
+    ],
+    "root": ["athdraodh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athir": {
+    "pos": "noun",
+    "ipa": [
+      "æθiʀ"
+    ],
+    "def": "hope",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athira": {
+    "pos": "verb",
+    "ipa": [
+      "æθirɔː"
+    ],
+    "def": [
+      "to hope"
+    ],
+    "root": ["athir"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athron": {
+    "pos": "noun",
+    "ipa": [
+      "æθrɒn"
+    ],
+    "def": "sky",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athronil": {
+    "pos": "noun",
+    "ipa": [
+      "æθrɒnil"
+    ],
+    "def": "night sky",
+    "root": ["athron"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "athrothá": {
+    "pos": "verb",
+    "ipa": [
+      "æθrɒθa"
+    ],
+    "def": [
+      "to despair",
+      "to feel no hope"
+    ],
+    "root": ["athir"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Antonym of hope; derived from athir"
+  },
+  "athtyva": {
+    "pos": "verb",
+    "ipa": [
+      "æθtyvɔː"
+    ],
+    "def": [
+      "to kill"
+    ],
+    "root": ["atha"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "atra": {
+    "pos": "verb",
+    "ipa": [
+      "ætrɔː"
+    ],
+    "def": [
+      "to armor, to gird",
+      "to protect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "atral": {
+    "pos": "noun",
+    "ipa": [
+      "ætrɔːl"
+    ],
+    "def": "armor",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "attir": {
+    "pos": "noun",
+    "ipa": [
+      "ættiʀ"
+    ],
+    "def": "love",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "attiri": {
+    "pos": "verb",
+    "ipa": [
+      "ættiri"
+    ],
+    "def": [
+      "to love"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ava": {
+    "pos": "verb",
+    "ipa": [
+      "ævɔː"
+    ],
+    "def": [
+      "to be"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avain": {
+    "pos": "conjunction",
+    "ipa": [
+      "ævɔːɪn"
+    ],
+    "def": "rather",
+    "root": ["ava"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avak": {
+    "pos": "conjunction",
+    "ipa": [
+      "ævɔːk"
+    ],
+    "def": "because",
+    "root": ["ava"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avkaidh": {
+    "pos": "noun",
+    "ipa": [
+      "ævkɔːɪið"
+    ],
+    "def": "uncertain",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avkena": {
+    "pos": "verb",
+    "ipa": [
+      "ævkeːnɔː"
+    ],
+    "def": [
+      "to feel uncertain"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avra": {
+    "pos": "verb",
+    "ipa": [
+      "ævrɔː"
+    ],
+    "def": [
+      "to carve",
+      "to shape by removing aspects"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avracht": {
+    "pos": "noun",
+    "ipa": [
+      "ævrɔːxt"
+    ],
+    "def": [
+      "a carving",
+      "a sculpture created by removing material from a larger whole"
+    ],
+    "root": ["avra"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "avradha": {
+    "pos": "verb",
+    "ipa": [
+      "ævrɔːðɔː"
+    ],
+    "def": [
+      "to become",
+      "to change or grow into something new",
+      "to transform"
+    ],
+    "root": ["avra"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ayir": {
+    "pos": "preposition",
+    "ipa": [
+      "eːɪiʀ"
+    ],
+    "def": "about",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aythír": {
+    "pos": "noun",
+    "ipa": [
+      "eːɪθɪʀ"
+    ],
+    "def": "dream",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aythíri": {
+    "pos": "verb",
+    "ipa": [
+      "eːɪθɪri"
+    ],
+    "def": [
+      "to dream or imagine"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "bekos": {
+    "pos": "noun",
+    "ipa": [
+      "beːkɒ̞ʃ"
+    ],
+    "def": "bee",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "bit": {
+    "pos": "noun",
+    "ipa": [
+      "bit"
+    ],
+    "def": "well",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "bitu": {
+    "pos": "noun",
+    "ipa": [
+      "bitʌ"
+    ],
+    "def": "yak",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "bodth": {
+    "pos": "noun",
+    "ipa": [
+      "bɒdθ"
+    ],
+    "def": "raven",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "braen": {
+    "pos": "noun",
+    "ipa": [
+      "breːyn"
+    ],
+    "def": "morning",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "brakti": {
+    "pos": "verb",
+    "ipa": [
+      "brɔːkti"
+    ],
+    "def": [
+      "to judge"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "braktí": {
+    "pos": "noun",
+    "ipa": [
+      "brɔːktɪ"
+    ],
+    "def": "judge",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "bridha": {
+    "pos": "verb",
+    "ipa": [
+      "briðɔː"
+    ],
+    "def": [
+      "to move with speed",
+      "to act with purpose"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cadho": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːðɒ"
+    ],
+    "def": "shirt",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cadohár": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːdɒ̞aʀ"
+    ],
+    "def": "sweater",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cai": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːɪ"
+    ],
+    "def": "you",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cai'os": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːɪ'ɒʊ̞ʃ"
+    ],
+    "def": "yourself",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "caildraidh": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːɪldrɔːɪið"
+    ],
+    "def": [
+      "facet, face (of a cut object)",
+      "aspect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "caildrava": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːɪldrɔːvɔː"
+    ],
+    "def": [
+      "to knap or shape by cutting away incrementally",
+      "to cut facets",
+      "to wear down ones will incrementally (col)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "caiv": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːɪv"
+    ],
+    "def": [
+      "formal third person genderless pronoun used primarily in formal speech and writing"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cal": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːl"
+    ],
+    "def": "him",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cal'os": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːl'ɒʊ̞ʃ"
+    ],
+    "def": "himself",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "calsin": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːlsɪn"
+    ],
+    "def": [
+      "third month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "canso": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːnsɒ"
+    ],
+    "def": "cat",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "car": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːʀ"
+    ],
+    "def": "they",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "car'os": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːr'ɒʊ̞ʃ"
+    ],
+    "def": "itself",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cav": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːv"
+    ],
+    "def": "her",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cav'os": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɔːv'ɒʊ̞ʃ"
+    ],
+    "def": "herself",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "chaita": {
+    "pos": "noun",
+    "ipa": [
+      "xɔːɪtɔː"
+    ],
+    "def": "history",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "co": {
+    "pos": "pronoun",
+    "ipa": [
+      "kɒ"
+    ],
+    "def": "i",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "coraos": {
+    "pos": "noun",
+    "ipa": [
+      "kɒrɔːɒ̞ʃ"
+    ],
+    "def": "happiness",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "coraosi": {
+    "pos": "verb",
+    "ipa": [
+      "kɒrɔːɒ̞ʃi"
+    ],
+    "def": [
+      "to feel happy"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "craisc": {
+    "pos": "noun",
+    "ipa": [
+      "krɔːɪʃk"
+    ],
+    "def": "child",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cranvai": {
+    "pos": "verb",
+    "ipa": [
+      "krɔːnvɔːɪ"
+    ],
+    "def": [
+      "to change",
+      "to grow due to external pressure"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cranvais": {
+    "pos": "noun",
+    "ipa": [
+      "krɔːnvɔːɪʃ"
+    ],
+    "def": "change",
+    "root": ["cranvai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "crüi": {
+    "pos": "verb",
+    "ipa": [
+      "kroʊi"
+    ],
+    "def": [
+      "to fossilize",
+      "to cement"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "crüidh": {
+    "pos": "noun",
+    "ipa": [
+      "kroʊið"
+    ],
+    "def": "fossil",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cöa": {
+    "pos": "noun",
+    "ipa": [
+      "koʊɔː"
+    ],
+    "def": "family",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dagü": {
+    "pos": "noun",
+    "ipa": [
+      "dɔːgoʊ"
+    ],
+    "def": "brother",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dakla": {
+    "pos": "verb",
+    "ipa": [
+      "dɔːklɔː"
+    ],
+    "def": [
+      "to brave",
+      "to weather (as a storm)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "daklaí": {
+    "pos": "noun",
+    "ipa": [
+      "dɔːklɔːɪ"
+    ],
+    "def": "brave",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "danora": {
+    "pos": "verb",
+    "ipa": [
+      "dɔːnɒrɔː"
+    ],
+    "def": [
+      "to live, esp to thrive"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dapfir": {
+    "pos": "noun",
+    "ipa": [
+      "dɔːpfiʀ"
+    ],
+    "def": "destiny",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "daymist": {
+    "pos": "conjunction",
+    "ipa": [
+      "deːɪmiʃt"
+    ],
+    "def": "once",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "deru": {
+    "pos": "noun",
+    "ipa": [
+      "deːrʌ"
+    ],
+    "def": "tree",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "desia": {
+    "pos": "verb",
+    "ipa": [
+      "deːsiɔː"
+    ],
+    "def": [
+      "to decide, to elect",
+      "to opt"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "desián": {
+    "pos": "noun",
+    "ipa": [
+      "deːsɛən"
+    ],
+    "def": "decision",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dhaisöch": {
+    "pos": "noun",
+    "ipa": [
+      "ðɔːɪʃoʊx"
+    ],
+    "def": "luck",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dhrü": {
+    "pos": "noun",
+    "ipa": [
+      "ðroʊ"
+    ],
+    "def": "beast",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dhuch": {
+    "pos": "noun",
+    "ipa": [
+      "ðux"
+    ],
+    "def": "smoke",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dhwer": {
+    "pos": "noun",
+    "ipa": [
+      "ðweːʀ"
+    ],
+    "def": "door/gate",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "drakkir": {
+    "pos": "noun",
+    "ipa": [
+      "drɔːkkiʀ"
+    ],
+    "def": "dragon",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "draodh": {
+    "pos": "noun",
+    "ipa": [
+      "drɔːɒð"
+    ],
+    "def": [
+      "tangle, snare, or mat",
+      "a snag"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "draodhi": {
+    "pos": "verb",
+    "ipa": [
+      "drɔːɒði"
+    ],
+    "def": [
+      "to tangle, snare, or mat",
+      "to snag"
+    ],
+    "root": ["draodh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "drev": {
+    "pos": "noun",
+    "ipa": [
+      "dreːv"
+    ],
+    "def": "plant",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "drevi": {
+    "pos": "verb",
+    "ipa": [
+      "dreːvi"
+    ],
+    "def": [
+      "to plant, to sow"
+    ],
+    "root": ["drev"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dreáidh": {
+    "pos": "noun",
+    "ipa": [
+      "dreːaið"
+    ],
+    "def": "flower",
+    "root": ["drev"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "drisael": {
+    "pos": "noun",
+    "ipa": [
+      "drɪt͡sɛyl"
+    ],
+    "def": "memory",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "drisai": {
+    "pos": "verb",
+    "ipa": [
+      "driʃɔːɪ"
+    ],
+    "def": [
+      "to remember or recollect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dror": {
+    "pos": "noun",
+    "ipa": [
+      "drɒʀ"
+    ],
+    "def": "land",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dröfosni": {
+    "pos": "verb",
+    "ipa": [
+      "droʊfɒ̞ʃni"
+    ],
+    "def": [
+      "to lord over",
+      "to reign"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dröttnin": {
+    "pos": "noun",
+    "ipa": [
+      "droʊttnɪn"
+    ],
+    "def": "lord",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dvergza": {
+    "pos": "verb",
+    "ipa": [
+      "dveːrtʃɔː"
+    ],
+    "def": [
+      "to convey to someone that they are not welcome, i.e. opposite of to welcome"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dvergzá": {
+    "pos": "adjective",
+    "ipa": [
+      "dveːrtʃa"
+    ],
+    "def": "unwelcome",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dál": {
+    "pos": "noun",
+    "ipa": [
+      "dal"
+    ],
+    "def": "spirit",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "efia": {
+    "pos": "verb",
+    "ipa": [
+      "eːfiɔː"
+    ],
+    "def": [
+      "to oppose, to counter",
+      "to stand apart from someone or something"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "efian": {
+    "pos": "noun",
+    "ipa": [
+      "eːfiɔːn"
+    ],
+    "def": "enemy",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "einnor": {
+    "pos": "noun",
+    "ipa": [
+      "eːɪnnɒʀ"
+    ],
+    "def": "alone",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "eitra": {
+    "pos": "verb",
+    "ipa": [
+      "eːitrɔː"
+    ],
+    "def": [
+      "to poison"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "eitral": {
+    "pos": "noun",
+    "ipa": [
+      "eːitrɔːl"
+    ],
+    "def": "poison",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ekoa": {
+    "pos": "verb",
+    "ipa": [
+      "eːkɒɔː"
+    ],
+    "def": [
+      "to turn",
+      "to shift aside"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ekoá": {
+    "pos": "noun",
+    "ipa": [
+      "eːkɒa"
+    ],
+    "def": "turn",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ekthra": {
+    "pos": "verb",
+    "ipa": [
+      "eːkθrɔː"
+    ],
+    "def": [
+      "to ruin or destroy"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ekthrá": {
+    "pos": "noun",
+    "ipa": [
+      "eːkθra"
+    ],
+    "def": "ruin",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "elsra": {
+    "pos": "verb",
+    "ipa": [
+      "eːlsrɔː"
+    ],
+    "def": [
+      "to save, to preserve"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "elsrá": {
+    "pos": "noun",
+    "ipa": [
+      "eːlsra"
+    ],
+    "def": "save",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "entaya": {
+    "pos": "verb",
+    "ipa": [
+      "eːnteːɪɔː"
+    ],
+    "def": [
+      "to tell a story"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "entayl": {
+    "pos": "noun",
+    "ipa": [
+      "eːnteːɪl"
+    ],
+    "def": "story",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "enuliat": {
+    "pos": "noun",
+    "ipa": [
+      "eːnuliɔːt"
+    ],
+    "def": "shadow",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "enuliata": {
+    "pos": "verb",
+    "ipa": [
+      "eːnuliɔːtɔː"
+    ],
+    "def": [
+      "to shadow",
+      "to cast into shadow"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ervjar": {
+    "pos": "noun",
+    "ipa": [
+      "eːrvd͡ʒɔːʀ"
+    ],
+    "def": "bond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ervjara": {
+    "pos": "verb",
+    "ipa": [
+      "eːrvd͡ʒɔːrɔː"
+    ],
+    "def": [
+      "to bind, tie, or restrain",
+      "to lock within or to someone or something"
+    ],
+    "root": ["erv"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ervlaí": {
+    "pos": "noun",
+    "ipa": [
+      "eːrvlɔːɪ"
+    ],
+    "def": "eternal",
+    "root": ["ervli"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ervli": {
+    "pos": "verb",
+    "ipa": [
+      "eːrvli"
+    ],
+    "def": [
+      "to endure, persist, or remain",
+      "to last"
+    ],
+    "root": ["erv"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "esri": {
+    "pos": "verb",
+    "ipa": [
+      "ɛʃri"
+    ],
+    "def": [
+      "to individualize or emphasize the individual"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "esril": {
+    "pos": "noun",
+    "ipa": [
+      "ɛʃril"
+    ],
+    "def": "individual/each",
+    "root": ["esri"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "estra": {
+    "pos": "verb",
+    "ipa": [
+      "ɛʃtrɔː"
+    ],
+    "def": [
+      "to hear"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "evra": {
+    "pos": "verb",
+    "ipa": [
+      "eːvrɔː"
+    ],
+    "def": [
+      "to sculpt, to create by building up from nothing",
+      "to build up"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "evrá": {
+    "pos": "noun",
+    "ipa": [
+      "eːvra"
+    ],
+    "def": [
+      "something created by adding component pieces",
+      "a sculpture"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fien": {
+    "pos": "noun",
+    "ipa": [
+      "fieːn"
+    ],
+    "def": "book",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fiena": {
+    "pos": "verb",
+    "ipa": [
+      "fieːnɔː"
+    ],
+    "def": [
+      "to read"
+    ],
+    "root": ["fien"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fiensoln": {
+    "pos": "noun",
+    "ipa": [
+      "fieːnsɒln"
+    ],
+    "def": [
+      "bookshelf, bookplace, bookstorage"
+    ],
+    "root": ["fien", "soln"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Compound of fien + soln"
+  },
+  "foedris": {
+    "pos": "noun",
+    "ipa": [
+      "fɒeːdriʃ"
+    ],
+    "def": "ancient",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fos": {
+    "pos": "noun",
+    "ipa": [
+      "fɒ̞ʃ"
+    ],
+    "def": [
+      "over, above"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fro": {
+    "pos": "noun",
+    "ipa": [
+      "frɒ"
+    ],
+    "def": [
+      "elemental force"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "froda": {
+    "pos": "verb",
+    "ipa": [
+      "frɒdɔː"
+    ],
+    "def": [
+      "to burn"
+    ],
+    "root": ["fro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "frodá": {
+    "pos": "noun",
+    "ipa": [
+      "frɒda"
+    ],
+    "def": "burn",
+    "root": ["fro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "frohj": {
+    "pos": "noun",
+    "ipa": [
+      "frɒ̞d͡ʒ"
+    ],
+    "def": "snow",
+    "root": ["fro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "frohja": {
+    "pos": "verb",
+    "ipa": [
+      "frɒ̞d͡ʒɔː"
+    ],
+    "def": [
+      "to snow"
+    ],
+    "root": ["fro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "frosja": {
+    "pos": "verb",
+    "ipa": [
+      "frɒ̞ʃd͡ʒɔː"
+    ],
+    "def": [
+      "to ice",
+      "to precipitate as frozen rain or sleet"
+    ],
+    "root": ["fro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "frosjan": {
+    "pos": "noun",
+    "ipa": [
+      "frɒ̞ʃd͡ʒɔːn"
+    ],
+    "def": "ice",
+    "root": ["fro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fugra": {
+    "pos": "verb",
+    "ipa": [
+      "fugrɔː"
+    ],
+    "def": [
+      "to free, to release"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fugrá": {
+    "pos": "noun",
+    "ipa": [
+      "fugra"
+    ],
+    "def": "free",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "fval": {
+    "pos": "noun",
+    "ipa": [
+      "fvɔːl"
+    ],
+    "def": "white",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "gael": {
+    "pos": "noun",
+    "ipa": [
+      "geːyl"
+    ],
+    "def": "day",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "gafr": {
+    "pos": "noun",
+    "ipa": [
+      "gɔːfʀ"
+    ],
+    "def": "demon",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "graeti": {
+    "pos": "verb",
+    "ipa": [
+      "greːyti"
+    ],
+    "def": [
+      "to face"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "graetin": {
+    "pos": "noun",
+    "ipa": [
+      "greːytɪn"
+    ],
+    "def": "face",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hait": {
+    "pos": "preposition",
+    "ipa": [
+      "hɔːɪt"
+    ],
+    "def": "to the",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hak": {
+    "pos": "article",
+    "ipa": [
+      "hɔːk"
+    ],
+    "def": "the",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "han": {
+    "pos": "noun",
+    "ipa": [
+      "hɔːn"
+    ],
+    "def": "with",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hijror": {
+    "pos": "noun",
+    "ipa": [
+      "hid͡ʒrɒʀ"
+    ],
+    "def": "choice",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hijrora": {
+    "pos": "verb",
+    "ipa": [
+      "hid͡ʒrɒrɔː"
+    ],
+    "def": [
+      "to choose, to select"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hirid": {
+    "pos": "adjective",
+    "ipa": [
+      "hirid"
+    ],
+    "def": "loyal",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hrimár": {
+    "pos": "noun",
+    "ipa": [
+      "hrimaʀ"
+    ],
+    "def": "frost giant",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "hrál": {
+    "pos": "noun",
+    "ipa": [
+      "hral"
+    ],
+    "def": "neck",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ibura": {
+    "pos": "verb",
+    "ipa": [
+      "iburɔː"
+    ],
+    "def": [
+      "to walk, to stride",
+      "to travel by foot"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "iburá": {
+    "pos": "noun",
+    "ipa": [
+      "ibura"
+    ],
+    "def": [
+      "a walk",
+      "a path for foot traffic, generally locally"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "idir": {
+    "pos": "noun",
+    "ipa": [
+      "idiʀ"
+    ],
+    "def": "sea",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "idrai": {
+    "pos": "verb",
+    "ipa": [
+      "idrɔːɪ"
+    ],
+    "def": [
+      "to storm",
+      "to storm off (as in anger)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "idrail": {
+    "pos": "noun",
+    "ipa": [
+      "idrɔːɪl"
+    ],
+    "def": "storm",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ien": {
+    "pos": "preposition",
+    "ipa": [
+      "ieːn"
+    ],
+    "def": "in",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ietna": {
+    "pos": "verb",
+    "ipa": [
+      "ieːtnɔː"
+    ],
+    "def": [
+      "to stop, to halt, to cease moving"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ietná": {
+    "pos": "noun",
+    "ipa": [
+      "ieːtna"
+    ],
+    "def": [
+      "a stop on a journey",
+      "a place of rest"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ija": {
+    "pos": "verb",
+    "ipa": [
+      "id͡ʒɔː"
+    ],
+    "def": [
+      "to take, to sieze"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ijan": {
+    "pos": "noun",
+    "ipa": [
+      "id͡ʒɔːn"
+    ],
+    "def": [
+      "the result of an action",
+      "a takeaway"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ijeri": {
+    "pos": "verb",
+    "ipa": [
+      "id͡ʒeːri"
+    ],
+    "def": [
+      "to see",
+      "to perceive something which happened with vision"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ijerin": {
+    "pos": "noun",
+    "ipa": [
+      "id͡ʒeːrɪn"
+    ],
+    "def": "eyesight/vision",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "illtari": {
+    "pos": "verb",
+    "ipa": [
+      "illtɔːri"
+    ],
+    "def": [
+      "to cloak, shelter, or protect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "illtarn": {
+    "pos": "noun",
+    "ipa": [
+      "illtɔːrn"
+    ],
+    "def": [
+      "cloak, cape"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ilri": {
+    "pos": "verb",
+    "ipa": [
+      "ilri"
+    ],
+    "def": [
+      "to glance"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ilrin": {
+    "pos": "noun",
+    "ipa": [
+      "ilrɪn"
+    ],
+    "def": "glance",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ilta": {
+    "pos": "verb",
+    "ipa": [
+      "iltɔː"
+    ],
+    "def": [
+      "to heal",
+      "to mend as health",
+      "to relieve someone's ailments"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "iltain": {
+    "pos": "noun",
+    "ipa": [
+      "iltɔːɪn"
+    ],
+    "def": [
+      "pigment or dye used for ink, fabrics, paints, etc."
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "iltar": {
+    "pos": "noun",
+    "ipa": [
+      "iltɔːʀ"
+    ],
+    "def": [
+      "medicine",
+      "generally, items used for healing"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "im": {
+    "pos": "preposition",
+    "ipa": [
+      "im"
+    ],
+    "def": "like, as",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "inilas": {
+    "pos": "noun",
+    "ipa": [
+      "ɪnilɔːs"
+    ],
+    "def": "good",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "innithria": {
+    "pos": "verb",
+    "ipa": [
+      "ɪnniθriɔː"
+    ],
+    "def": [
+      "to fear (something)",
+      "to feel fear"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "innithrian": {
+    "pos": "noun",
+    "ipa": [
+      "ɪnniθriɔːn"
+    ],
+    "def": "fear",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "insia": {
+    "pos": "verb",
+    "ipa": [
+      "ɪnsiɔː"
+    ],
+    "def": [
+      "to write, to scribe",
+      "to document"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "insian": {
+    "pos": "noun",
+    "ipa": [
+      "ɪnsiɔːn"
+    ],
+    "def": "writ",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "inár": {
+    "pos": "noun",
+    "ipa": [
+      "ɪnaʀ"
+    ],
+    "def": "sword",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ioprat": {
+    "pos": "noun",
+    "ipa": [
+      "iɒprɔːt"
+    ],
+    "def": "mundane",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "irit": {
+    "pos": "noun",
+    "ipa": [
+      "irit"
+    ],
+    "def": "soul",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "irmae": {
+    "pos": "noun",
+    "ipa": [
+      "irmeːy"
+    ],
+    "def": "sky",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isarei": {
+    "pos": "verb",
+    "ipa": [
+      "iʃɔːreːi"
+    ],
+    "def": [
+      "to feel as emotions"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isaren": {
+    "pos": "noun",
+    "ipa": [
+      "iʃɔːreːn"
+    ],
+    "def": "emotion",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isdráidh": {
+    "pos": "noun",
+    "ipa": [
+      "iʃdraið"
+    ],
+    "def": "wildflower",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isen": {
+    "pos": "noun",
+    "ipa": [
+      "ɪt͡sɛn"
+    ],
+    "def": "black",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isk": {
+    "pos": "preposition",
+    "ipa": [
+      "iʃk"
+    ],
+    "def": "on",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isnioch": {
+    "pos": "noun",
+    "ipa": [
+      "iʃniɒx"
+    ],
+    "def": [
+      "work, employment, job"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isral": {
+    "pos": "noun",
+    "ipa": [
+      "iʃrɔːl"
+    ],
+    "def": "freedom",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isrenin": {
+    "pos": "noun",
+    "ipa": [
+      "iʃreːnɪn"
+    ],
+    "def": "black guard",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "istravi": {
+    "pos": "verb",
+    "ipa": [
+      "iʃtrɔːvi"
+    ],
+    "def": [
+      "to listen and understand"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jhod": {
+    "pos": "noun",
+    "ipa": [
+      "d͡ʑɒd"
+    ],
+    "def": "sun",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jhoda": {
+    "pos": "verb",
+    "ipa": [
+      "d͡ʑɒdɔː"
+    ],
+    "def": [
+      "to shine",
+      "to emit light"
+    ],
+    "root": ["jhod"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jhodrah": {
+    "pos": "noun",
+    "ipa": [
+      "d͡ʑɒdrə"
+    ],
+    "def": "sunlight",
+    "root": ["jhod"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jhothril": {
+    "pos": "noun",
+    "ipa": [
+      "d͡ʑɒθril"
+    ],
+    "def": "moon",
+    "root": ["jhod", "thril"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Compound of jhod + thril"
+  },
+  "jian": {
+    "pos": "adverb",
+    "ipa": [
+      "d͡ʒiɔːn"
+    ],
+    "def": "here",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jofa": {
+    "pos": "verb",
+    "ipa": [
+      "d͡ʒɒfɔː"
+    ],
+    "def": [
+      "to rule, to govern",
+      "to make a binding decision"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jofár": {
+    "pos": "noun",
+    "ipa": [
+      "d͡ʒɒfaʀ"
+    ],
+    "def": "king",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "jotunn": {
+    "pos": "noun",
+    "ipa": [
+      "d͡ʒɒtunn"
+    ],
+    "def": "power",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kael": {
+    "pos": "noun",
+    "ipa": [
+      "keːyl"
+    ],
+    "def": "find",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kaela": {
+    "pos": "verb",
+    "ipa": [
+      "keːylɔː"
+    ],
+    "def": [
+      "to find",
+      "to discover something known but forgotten"
+    ],
+    "root": ["kael"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kafna": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːfnɔː"
+    ],
+    "def": [
+      "to heat, to warm"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kafná": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːfna"
+    ],
+    "def": "heat",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kahlv": {
+    "pos": "noun",
+    "ipa": [
+      "kəlv"
+    ],
+    "def": "wish",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kahlva": {
+    "pos": "verb",
+    "ipa": [
+      "kəlvɔː"
+    ],
+    "def": [
+      "to wish"
+    ],
+    "root": ["kahlv"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kai": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːɪ"
+    ],
+    "def": [
+      "to bring"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kaidha": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːɪiðɔː"
+    ],
+    "def": [
+      "to have"
+    ],
+    "root": ["kai"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kain": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːɪn"
+    ],
+    "def": "wax",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kaina": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːɪnɔː"
+    ],
+    "def": [
+      "to seal, to finish, to wax (in order to protect)"
+    ],
+    "root": ["kain"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kaiosi": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːɪɒ̞ʃi"
+    ],
+    "def": [
+      "to consider",
+      "to contemplate"
+    ],
+    "root": ["ains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kaja": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːd͡ʒɔː"
+    ],
+    "def": [
+      "to strike, to hit"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kajan": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːd͡ʒɔːn"
+    ],
+    "def": "strike",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kal": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːl"
+    ],
+    "def": "rise",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kala": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːlɔː"
+    ],
+    "def": [
+      "to rise, as to one's feet",
+      "to rise, as over a horizon"
+    ],
+    "root": ["kal"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kani": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːni"
+    ],
+    "def": [
+      "to dog, to follow relentlessly",
+      "to chase after as a dog might a bone"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kanil": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːnil"
+    ],
+    "def": "dog",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "karina": {
+    "pos": "noun",
+    "ipa": [
+      "kɔːrɪnɔː"
+    ],
+    "def": [
+      "to meet, convene, come together"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kasta": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːstɔː"
+    ],
+    "def": [
+      "to cast as a spell, to put energy into the world"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kastá": {
+    "pos": "verb",
+    "ipa": [
+      "kɔːsta"
+    ],
+    "def": [
+      "a casting of a spell"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kenras": {
+    "pos": "noun",
+    "ipa": [
+      "keːnrɔːs"
+    ],
+    "def": "know",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kenrasi": {
+    "pos": "verb",
+    "ipa": [
+      "keːnrɔːsi"
+    ],
+    "def": [
+      "to know, to understand",
+      "to be familiar with someone or something"
+    ],
+    "root": ["kenras"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ki": {
+    "pos": "noun",
+    "ipa": [
+      "ki"
+    ],
+    "def": "who",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kina": {
+    "pos": "verb",
+    "ipa": [
+      "kɪnɔː"
+    ],
+    "def": [
+      "to move or traverse",
+      "to shift something from one location to another"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kiná": {
+    "pos": "noun",
+    "ipa": [
+      "kɪna"
+    ],
+    "def": "movement, motion, traversal",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kiril": {
+    "pos": "noun",
+    "ipa": [
+      "kiril"
+    ],
+    "def": "bridge",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kirila": {
+    "pos": "verb",
+    "ipa": [
+      "kirilɔː"
+    ],
+    "def": [
+      "to bridge between two things",
+      "to connect two distant points"
+    ],
+    "root": ["kiril"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kirro": {
+    "pos": "noun",
+    "ipa": [
+      "kirrɒ"
+    ],
+    "def": "farm",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kirroa": {
+    "pos": "verb",
+    "ipa": [
+      "kirrɒɔː"
+    ],
+    "def": [
+      "to farm, to cultivate",
+      "to grow"
+    ],
+    "root": ["kirro"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kisae": {
+    "pos": "noun",
+    "ipa": [
+      "kɪt͡sɛy"
+    ],
+    "def": "summer",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kol": {
+    "pos": "preposition",
+    "ipa": [
+      "kɒl"
+    ],
+    "def": "these",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kolt": {
+    "pos": "preposition",
+    "ipa": [
+      "kɒlt"
+    ],
+    "def": "those",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kor": {
+    "pos": "preposition",
+    "ipa": [
+      "kɒʀ"
+    ],
+    "def": "for",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kraidh": {
+    "pos": "noun",
+    "ipa": [
+      "krɔːɪið"
+    ],
+    "def": "broth",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kralm": {
+    "pos": "noun",
+    "ipa": [
+      "krɔːlm"
+    ],
+    "def": "gold",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "krivi": {
+    "pos": "verb",
+    "ipa": [
+      "krivi"
+    ],
+    "def": [
+      "to endanger, through action or inaction"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "krivit": {
+    "pos": "noun",
+    "ipa": [
+      "krivit"
+    ],
+    "def": "danger",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kroed": {
+    "pos": "noun",
+    "ipa": [
+      "krɒeːd"
+    ],
+    "def": "poem",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "krys": {
+    "pos": "noun",
+    "ipa": [
+      "krys"
+    ],
+    "def": "circle",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "krysi": {
+    "pos": "verb",
+    "ipa": [
+      "krysi"
+    ],
+    "def": [
+      "to circle",
+      "to enclose, especially as in a circle or loop"
+    ],
+    "root": ["krys"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kuita": {
+    "pos": "verb",
+    "ipa": [
+      "kuitɔː"
+    ],
+    "def": [
+      "to keep",
+      "to tend to or maintain"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kuitan": {
+    "pos": "noun",
+    "ipa": [
+      "kuitɔːn"
+    ],
+    "def": "keeper/keep",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kvangvadr": {
+    "pos": "noun",
+    "ipa": [
+      "kvɔːngvɔːdʀ"
+    ],
+    "def": "marriage",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kvat'mist": {
+    "pos": "conjunction",
+    "ipa": [
+      "kvɔːt'miʃt"
+    ],
+    "def": [
+      "that occurs, lit."
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyat": {
+    "pos": "noun",
+    "ipa": [
+      "kyɔːt"
+    ],
+    "def": "that",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyi": {
+    "pos": "verb",
+    "ipa": [
+      "kyi"
+    ],
+    "def": [
+      "to set to correctness (i.e. to right)",
+      "to correct something incorrect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyin": {
+    "pos": "noun",
+    "ipa": [
+      "kyɪn"
+    ],
+    "def": [
+      "directionally right"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyri": {
+    "pos": "verb",
+    "ipa": [
+      "kyri"
+    ],
+    "def": [
+      "to touch"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyril": {
+    "pos": "noun",
+    "ipa": [
+      "kyril"
+    ],
+    "def": "touch",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyut": {
+    "pos": "noun",
+    "ipa": [
+      "kyut"
+    ],
+    "def": "idiot",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kyá": {
+    "pos": "noun",
+    "ipa": [
+      "kya"
+    ],
+    "def": [
+      "right, as correctness"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "kía": {
+    "pos": "noun",
+    "ipa": [
+      "kɪɔː"
+    ],
+    "def": "this",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "köthri": {
+    "pos": "verb",
+    "ipa": [
+      "koʊθri"
+    ],
+    "def": [
+      "to season, as food"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "köthrin": {
+    "pos": "noun",
+    "ipa": [
+      "koʊθrɪn"
+    ],
+    "def": [
+      "seasoning, as for food"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "lann": {
+    "pos": "noun",
+    "ipa": [
+      "lɔːnn"
+    ],
+    "def": "crest",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "lanni": {
+    "pos": "verb",
+    "ipa": [
+      "lɔːnni"
+    ],
+    "def": [
+      "to crest, to come to the peak of",
+      "to summit"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "let'sol": {
+    "pos": "noun",
+    "ipa": [
+      "leːt'sɒl"
+    ],
+    "def": [
+      "first day of the week"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "letha": {
+    "pos": "verb",
+    "ipa": [
+      "leːθɔː"
+    ],
+    "def": [
+      "to slow",
+      "to cause a reduction in an action or rate"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "linr": {
+    "pos": "noun",
+    "ipa": [
+      "lɪnʀ"
+    ],
+    "def": "kind",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "loira": {
+    "pos": "noun",
+    "ipa": [
+      "lɒirɔː"
+    ],
+    "def": "mountain",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "loira isenrin": {
+    "pos": "noun",
+    "ipa": [
+      "lɒirɔː ɪt͡sɛnrɪn"
+    ],
+    "def": "the mtn of the black guard",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "losva": {
+    "pos": "verb",
+    "ipa": [
+      "lɒ̞ʃvɔː"
+    ],
+    "def": [
+      "to guide",
+      "to lead with experience and wisdom"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "losvaec": {
+    "pos": "noun",
+    "ipa": [
+      "lɒ̞ʃveːyk"
+    ],
+    "def": "guide, leader",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ma": {
+    "pos": "verb",
+    "ipa": [
+      "mɔː"
+    ],
+    "def": [
+      "to hate someone or something",
+      "to feel hate"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "malor": {
+    "pos": "noun",
+    "ipa": [
+      "mɔːlɒʀ"
+    ],
+    "def": "balance",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "malora": {
+    "pos": "verb",
+    "ipa": [
+      "mɔːlɒrɔː"
+    ],
+    "def": [
+      "to balance"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "marr": {
+    "pos": "noun",
+    "ipa": [
+      "mɔːrʀ"
+    ],
+    "def": "dirty",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "marra": {
+    "pos": "verb",
+    "ipa": [
+      "mɔːrrɔː"
+    ],
+    "def": [
+      "to dirty or sully",
+      "to make something less clean"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mat": {
+    "pos": "noun",
+    "ipa": [
+      "mɔːt"
+    ],
+    "def": "hate",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mer": {
+    "pos": "noun",
+    "ipa": [
+      "meːʀ"
+    ],
+    "def": "wet",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mera": {
+    "pos": "verb",
+    "ipa": [
+      "meːrɔː"
+    ],
+    "def": [
+      "to wet, to dampen"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mik": {
+    "pos": "noun",
+    "ipa": [
+      "mik"
+    ],
+    "def": "less",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mikra": {
+    "pos": "verb",
+    "ipa": [
+      "mikrɔː"
+    ],
+    "def": [
+      "to lessen",
+      "to reduce"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "min'sol": {
+    "pos": "noun",
+    "ipa": [
+      "mɪn'sɒl"
+    ],
+    "def": [
+      "fifth day of the week"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "minael": {
+    "pos": "noun",
+    "ipa": [
+      "mɪneːyl"
+    ],
+    "def": [
+      "fifth month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mirdir": {
+    "pos": "noun",
+    "ipa": [
+      "mirdiʀ"
+    ],
+    "def": "middle",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mist'ot": {
+    "pos": "conjunction",
+    "ipa": [
+      "miʃt'ɒʊt"
+    ],
+    "def": "later",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mitael": {
+    "pos": "noun",
+    "ipa": [
+      "miteːyl"
+    ],
+    "def": [
+      "seventh month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "mitz": {
+    "pos": "noun",
+    "ipa": [
+      "mitt͡s"
+    ],
+    "def": "now",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "muina": {
+    "pos": "verb",
+    "ipa": [
+      "muɪnɔː"
+    ],
+    "def": [
+      "to destroy, to raze"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "muinan": {
+    "pos": "noun",
+    "ipa": [
+      "muɪnɔːn"
+    ],
+    "def": "destruction",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "myrki": {
+    "pos": "verb",
+    "ipa": [
+      "myrki"
+    ],
+    "def": [
+      "to darken",
+      "to eclipse"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "myrkí": {
+    "pos": "noun",
+    "ipa": [
+      "myrkɪ"
+    ],
+    "def": "darkness",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naemvha": {
+    "pos": "conjunction",
+    "ipa": [
+      "neːymⱱɔː"
+    ],
+    "def": [
+      "to empty",
+      "to create a void"
+    ],
+    "root": ["naemvhar"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naemvhar": {
+    "pos": "noun",
+    "ipa": [
+      "neːymⱱɔːʀ"
+    ],
+    "def": "nothing",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naeri": {
+    "pos": "verb",
+    "ipa": [
+      "neːyri"
+    ],
+    "def": [
+      "to remove",
+      "to extract precisely, to excise"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naev'sol": {
+    "pos": "noun",
+    "ipa": [
+      "neːyv'sɒl"
+    ],
+    "def": [
+      "seventh day of the week"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nall": {
+    "pos": "noun",
+    "ipa": [
+      "nɔːll"
+    ],
+    "def": "lake",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nansa": {
+    "pos": "verb",
+    "ipa": [
+      "nɔːnsɔː"
+    ],
+    "def": [
+      "to doom"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nansá": {
+    "pos": "noun",
+    "ipa": [
+      "nɔːnsa"
+    ],
+    "def": "doom",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nav": {
+    "pos": "noun",
+    "ipa": [
+      "nɔːv"
+    ],
+    "def": [
+      "liquid"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nava": {
+    "pos": "verb",
+    "ipa": [
+      "nɔːvɔː"
+    ],
+    "def": [
+      "to swim"
+    ],
+    "root": ["nav"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "navea": {
+    "pos": "noun",
+    "ipa": [
+      "nɔːveːɔː"
+    ],
+    "def": [
+      "to water"
+    ],
+    "root": ["nav"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "navem": {
+    "pos": "noun",
+    "ipa": [
+      "nɔːveːm"
+    ],
+    "def": "water",
+    "root": ["nav"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nefra": {
+    "pos": "verb",
+    "ipa": [
+      "neːfrɔː"
+    ],
+    "def": [
+      "to name"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nefrav": {
+    "pos": "noun",
+    "ipa": [
+      "neːfrɔːv"
+    ],
+    "def": "name",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nidir": {
+    "pos": "noun",
+    "ipa": [
+      "nidiʀ"
+    ],
+    "def": "scion",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nikali": {
+    "pos": "verb",
+    "ipa": [
+      "nikɔːli"
+    ],
+    "def": [
+      "to demand"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nikalí": {
+    "pos": "noun",
+    "ipa": [
+      "nikɔːlɪ"
+    ],
+    "def": "demand",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nod": {
+    "pos": "noun",
+    "ipa": [
+      "nɒd"
+    ],
+    "def": "north",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "nodror": {
+    "pos": "noun",
+    "ipa": [
+      "nɒdrɒʀ"
+    ],
+    "def": "the northland",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "noev": {
+    "pos": "noun",
+    "ipa": [
+      "nɒeːv"
+    ],
+    "def": "near",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "novnír": {
+    "pos": "noun",
+    "ipa": [
+      "nɒvnɪʀ"
+    ],
+    "def": "woman",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "novraidh": {
+    "pos": "noun",
+    "ipa": [
+      "nɒvrɔːɪið"
+    ],
+    "def": "mother",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "níraidh": {
+    "pos": "noun",
+    "ipa": [
+      "nɪrɔːɪið"
+    ],
+    "def": "human",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "o'day'id": {
+    "pos": "conjunction",
+    "ipa": [
+      "ɒʊ'deːɪ'id"
+    ],
+    "def": "not only",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "o'tevar": {
+    "pos": "preposition",
+    "ipa": [
+      "ɒʊ'teːvɔːʀ"
+    ],
+    "def": "behind",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "o'thal": {
+    "pos": "adjective",
+    "ipa": [
+      "ɒʊ'θɔːl"
+    ],
+    "def": "old",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "o'vhar'os": {
+    "pos": "idiom",
+    "ipa": [
+      "ɒʊ'ⱱɔːr'ɒʊ̞ʃ"
+    ],
+    "def": "no such thing",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "oaetirn": {
+    "pos": "conjunction",
+    "ipa": [
+      "ɒʊeːytirn"
+    ],
+    "def": "never",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ofos": {
+    "pos": "preposition",
+    "ipa": [
+      "ɒʊfɒ̞ʃ"
+    ],
+    "def": [
+      "below, under"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ofrin": {
+    "pos": "adverb",
+    "ipa": [
+      "ɒʊfrɪn"
+    ],
+    "def": "again",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ogrefa": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊgreːfɔː"
+    ],
+    "def": "misfortune",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "oldraivh": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊldrɔːɪⱱ"
+    ],
+    "def": [
+      "Uniquely mortal imperfections that are not inherently negative"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "olt": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊlt"
+    ],
+    "def": "chill",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "olti": {
+    "pos": "verb",
+    "ipa": [
+      "ɒʊlti"
+    ],
+    "def": [
+      "to chill",
+      "to make cold"
+    ],
+    "root": ["olt"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "oprar": {
+    "pos": "conjunction",
+    "ipa": [
+      "ɒʊprɔːʀ"
+    ],
+    "def": "after",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "orait": {
+    "pos": "preposition",
+    "ipa": [
+      "ɒʊrɔːɪt"
+    ],
+    "def": "from",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "orathi": {
+    "pos": "verb",
+    "ipa": [
+      "ɒʊrɔːθi"
+    ],
+    "def": [
+      "to follow",
+      "to obey"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "orisk": {
+    "pos": "preposition",
+    "ipa": [
+      "ɒʊriʃk"
+    ],
+    "def": "in",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "oset": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊ̞ʃeːt"
+    ],
+    "def": "debt",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "osetli": {
+    "pos": "verb",
+    "ipa": [
+      "ɒʊ̞ʃeːtli"
+    ],
+    "def": [
+      "to owe, to owe a debt"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "osren": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊ̞ʃreːn"
+    ],
+    "def": "house",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "osvetliv": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊ̞ʃveːtliv"
+    ],
+    "def": [
+      "oxygen",
+      "breathable air"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "osör": {
+    "pos": "conjunction",
+    "ipa": [
+      "ɒʊ̞ʃoʊʀ"
+    ],
+    "def": "nor",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ot'mist'in": {
+    "pos": "conjunction",
+    "ipa": [
+      "ɒʊt'miʃt'ɪn"
+    ],
+    "def": [
+      "recently: lit. dim. passage of time backwards"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "otaoil": {
+    "pos": "verb",
+    "ipa": [
+      "ɒʊtɔːɒil"
+    ],
+    "def": [
+      "to remove scales, to descale"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "otevar": {
+    "pos": "preposition",
+    "ipa": [
+      "ɒʊteːvɔːʀ"
+    ],
+    "def": "behind",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ovaron": {
+    "pos": "noun",
+    "ipa": [
+      "ɒʊvɔːrɒn"
+    ],
+    "def": [
+      "beyond comprehension or understanding"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ovoska": {
+    "pos": "verb",
+    "ipa": [
+      "ɒʊvɒ̞ʃkɔː"
+    ],
+    "def": [
+      "to return, to give back",
+      "to return to something/someone"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "pramisto": {
+    "pos": "conjunction",
+    "ipa": [
+      "prɔːmiʃtɒ"
+    ],
+    "def": [
+      "by the time: lit. before later"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "prar": {
+    "pos": "conjunction",
+    "ipa": [
+      "prɔːʀ"
+    ],
+    "def": "before",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "pratir": {
+    "pos": "noun",
+    "ipa": [
+      "prɔːtiʀ"
+    ],
+    "def": [
+      "tenth month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "prostín": {
+    "pos": "noun",
+    "ipa": [
+      "prɒ̞ʃtɪn"
+    ],
+    "def": [
+      "present time"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ra": {
+    "pos": "verb",
+    "ipa": [
+      "rɔː"
+    ],
+    "def": [
+      "to light, to illuminate",
+      "to turn on a light",
+      "to light as a torch or lantern"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "radha": {
+    "pos": "verb",
+    "ipa": [
+      "rɔːðɔː"
+    ],
+    "def": [
+      "to control"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "radhan": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːðɔːn"
+    ],
+    "def": "control",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "raetir": {
+    "pos": "noun",
+    "ipa": [
+      "reːytiʀ"
+    ],
+    "def": [
+      "a celebration, party of remembrance"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "raetira": {
+    "pos": "verb",
+    "ipa": [
+      "reːytirɔː"
+    ],
+    "def": [
+      "to celebrate a life, lost or coming to an end"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rah": {
+    "pos": "noun",
+    "ipa": [
+      "rə"
+    ],
+    "def": "light",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rains": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːɪns"
+    ],
+    "def": [
+      "laugh or laughter"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rainsa": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːɪnsɔː"
+    ],
+    "def": [
+      "to laugh"
+    ],
+    "root": ["rains"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rakvais": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːkvɔːɪʃ"
+    ],
+    "def": "crystal",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ralnach": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːlnɔːx"
+    ],
+    "def": "money",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rasra": {
+    "pos": "verb",
+    "ipa": [
+      "rɔːsrɔː"
+    ],
+    "def": [
+      "to stumble or trip"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rasran": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːsrɔːn"
+    ],
+    "def": "stumbling point",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ratha": {
+    "pos": "verb",
+    "ipa": [
+      "rɔːθɔː"
+    ],
+    "def": [
+      "to court, to engage consistently"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rathan": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːθɔːn"
+    ],
+    "def": "court",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ravadh": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːvɔːð"
+    ],
+    "def": "elder",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "re": {
+    "pos": "conjunction",
+    "ipa": [
+      "reː"
+    ],
+    "def": "or",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "reask": {
+    "pos": "noun",
+    "ipa": [
+      "reːɔːsk"
+    ],
+    "def": "son",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rema": {
+    "pos": "verb",
+    "ipa": [
+      "reːmɔː"
+    ],
+    "def": [
+      "to run",
+      "to flee"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "reman": {
+    "pos": "noun",
+    "ipa": [
+      "reːmɔːn"
+    ],
+    "def": "run",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ri": {
+    "pos": "preposition",
+    "ipa": [
+      "ri"
+    ],
+    "def": "of",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ri'alvaidh": {
+    "pos": "idiom",
+    "ipa": [
+      "ri'ælvɔːɪið"
+    ],
+    "def": "for the purpose of",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ri'wae": {
+    "pos": "noun",
+    "ipa": [
+      "ri'weːɪ"
+    ],
+    "def": "sacred will",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ria": {
+    "pos": "verb",
+    "ipa": [
+      "riɔː"
+    ],
+    "def": [
+      "to draw on or from as of experience"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "riat": {
+    "pos": "noun",
+    "ipa": [
+      "riɔːt"
+    ],
+    "def": [
+      "attraction or appeal"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ridora": {
+    "pos": "verb",
+    "ipa": [
+      "ridɒrɔː"
+    ],
+    "def": [
+      "to edge along, to walk an edge"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ridore": {
+    "pos": "noun",
+    "ipa": [
+      "ridɒreː"
+    ],
+    "def": "edge",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rikvata": {
+    "pos": "verb",
+    "ipa": [
+      "rikvɔːtɔː"
+    ],
+    "def": [
+      "to break or fracture",
+      "to break, as a bone"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rikvataern": {
+    "pos": "noun",
+    "ipa": [
+      "rikvɔːteːyrn"
+    ],
+    "def": [
+      "a break or fracture",
+      "a jagged edge"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rin": {
+    "pos": "noun",
+    "ipa": [
+      "rɪn"
+    ],
+    "def": "guard",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rina": {
+    "pos": "verb",
+    "ipa": [
+      "rɪnɔː"
+    ],
+    "def": [
+      "to guard, to defend"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ris": {
+    "pos": "noun",
+    "ipa": [
+      "riʃ"
+    ],
+    "def": "place",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ris'valeth": {
+    "pos": "noun",
+    "ipa": [
+      "riʃ'vɔːleːθ"
+    ],
+    "def": "marketplace",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "risnír": {
+    "pos": "noun",
+    "ipa": [
+      "riʃnɪʀ"
+    ],
+    "def": "man",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "risvaidh": {
+    "pos": "noun",
+    "ipa": [
+      "riʃvɔːɪið"
+    ],
+    "def": "father",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rithani": {
+    "pos": "verb",
+    "ipa": [
+      "riθɔːni"
+    ],
+    "def": [
+      "to leave"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "roda": {
+    "pos": "verb",
+    "ipa": [
+      "rɒdɔː"
+    ],
+    "def": [
+      "to reach",
+      "to arrive at"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rodan": {
+    "pos": "noun",
+    "ipa": [
+      "rɒdɔːn"
+    ],
+    "def": "reach",
+    "root": ["roda"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rodis": {
+    "pos": "adjective",
+    "ipa": [
+      "rɒdiʃ"
+    ],
+    "def": "difficult",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ruka": {
+    "pos": "verb",
+    "ipa": [
+      "rukɔː"
+    ],
+    "def": [
+      "to believe",
+      "to have faith"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rü": {
+    "pos": "noun",
+    "ipa": [
+      "roʊ"
+    ],
+    "def": "fate",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rü'saec": {
+    "pos": "noun",
+    "ipa": [
+      "roʊ'ʃeːɪɔx"
+    ],
+    "def": "true bond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rüa": {
+    "pos": "verb",
+    "ipa": [
+      "roʊɔː"
+    ],
+    "def": [
+      "to fate",
+      "to condemn to one's fate"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rükias": {
+    "pos": "noun",
+    "ipa": [
+      "roʊkiɔːs"
+    ],
+    "def": "faith",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "saec": {
+    "pos": "noun",
+    "ipa": [
+      "ʃeːɪɔx"
+    ],
+    "def": "bond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "saei": {
+    "pos": "verb",
+    "ipa": [
+      "seːyi"
+    ],
+    "def": [
+      "to bond (with someone or something)",
+      "to join together permanently"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "saln": {
+    "pos": "noun",
+    "ipa": [
+      "sɔːln"
+    ],
+    "def": "home",
+    "root": [],
+    "antonyms": [],
+    "synonyms": ["soln"],
+    "related": [],
+    "notes": ""
+  },
+  "sannacha": {
+    "pos": "verb",
+    "ipa": [
+      "sɔːnnɔːxɔː"
+    ],
+    "def": [
+      "to smile"
+    ],
+    "root": ["san"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sannachaos": {
+    "pos": "noun",
+    "ipa": [
+      "sɔːnnɔːxɔːɒ̞ʃ"
+    ],
+    "def": "smile",
+    "root": ["san"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sannaga": {
+    "pos": "verb",
+    "ipa": [
+      "sɔːnnɔːgɔː"
+    ],
+    "def": [
+      "to speak"
+    ],
+    "root": ["san"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sannagat": {
+    "pos": "noun",
+    "ipa": [
+      "sɔːnnɔːgɔːt"
+    ],
+    "def": "speech",
+    "root": ["san"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sanvach": {
+    "pos": "noun",
+    "ipa": [
+      "sɔːnvɔːx"
+    ],
+    "def": "mouth",
+    "root": ["san"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sanvil": {
+    "pos": "noun",
+    "ipa": [
+      "sɔːnvil"
+    ],
+    "def": "glacier",
+    "root": ["anvait","aisa"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Compound of anvait + aisa"
+  },
+  "sefla": {
+    "pos": "verb",
+    "ipa": [
+      "seːflɔː"
+    ],
+    "def": [
+      "to make, to create"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sere": {
+    "pos": "noun",
+    "ipa": [
+      "seːreː"
+    ],
+    "def": "magic",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "serei": {
+    "pos": "verb",
+    "ipa": [
+      "seːreːi"
+    ],
+    "def": [
+      "to magic (someone or something)"
+    ],
+    "root": ["sere"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sier": {
+    "pos": "noun",
+    "ipa": [
+      "sieːʀ"
+    ],
+    "def": "rain",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sieri": {
+    "pos": "verb",
+    "ipa": [
+      "sieːri"
+    ],
+    "def": [
+      "to rain"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "skaidh": {
+    "pos": "noun",
+    "ipa": [
+      "skɔːɪið"
+    ],
+    "def": [
+      "a wait with intention, a pause",
+      "a delay that is required to achieve a goal"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "skaidha": {
+    "pos": "verb",
+    "ipa": [
+      "skɔːɪiðɔː"
+    ],
+    "def": [
+      "to wait or pause",
+      "to rest in the interim"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "skölvir": {
+    "pos": "noun",
+    "ipa": [
+      "skoʊlviʀ"
+    ],
+    "def": "courage",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "soe": {
+    "pos": "noun",
+    "ipa": [
+      "sɒeː"
+    ],
+    "def": "low/below",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "soej": {
+    "pos": "noun",
+    "ipa": [
+      "sɒeːd͡ʒ"
+    ],
+    "def": "bottom",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "soejin": {
+    "pos": "noun",
+    "ipa": [
+      "sɒeːd͡ʒɪn"
+    ],
+    "def": "beneath",
+    "root": ["soej"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "soejra": {
+    "pos": "verb",
+    "ipa": [
+      "sɒeːd͡ʒrɔː"
+    ],
+    "def": [
+      "to lower"
+    ],
+    "root": ["soej"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sokri": {
+    "pos": "verb",
+    "ipa": [
+      "sɒkri"
+    ],
+    "def": [
+      "to mist",
+      "to wet slightly, generally with a fine spray"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sokril": {
+    "pos": "noun",
+    "ipa": [
+      "sɒkril"
+    ],
+    "def": "mist",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solael": {
+    "pos": "noun",
+    "ipa": [
+      "sɒleːyl"
+    ],
+    "def": [
+      "second month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solchaiv": {
+    "pos": "noun",
+    "ipa": [
+      "sɒlxɔːɪv"
+    ],
+    "def": "dance",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solchaiva": {
+    "pos": "verb",
+    "ipa": [
+      "sɒlxɔːɪvɔː"
+    ],
+    "def": [
+      "to dance"
+    ],
+    "root": ["solchaiv"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solmit": {
+    "pos": "noun",
+    "ipa": [
+      "sɒlmit"
+    ],
+    "def": [
+      "first month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "soln": {
+    "pos": "noun",
+    "ipa": [
+      "sɒln"
+    ],
+    "def": [
+      "home, residence",
+      "place of belonging"
+    ],
+    "root": ["soln"],
+    "antonyms": [],
+    "synonyms": ["saln"],
+    "related": [],
+    "notes": ""
+  },
+  "sonil": {
+    "pos": "noun",
+    "ipa": [
+      "sɒnil"
+    ],
+    "def": "world",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sorch": {
+    "pos": "noun",
+    "ipa": [
+      "sɒrx"
+    ],
+    "def": [
+      "any fishes large enough to eat and good for eating."
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sorcha": {
+    "pos": "verb",
+    "ipa": [
+      "sɒrxɔː"
+    ],
+    "def": [
+      "to fish, the act of catching fish"
+    ],
+    "root": ["sorch"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sto": {
+    "pos": "conjunction",
+    "ipa": [
+      "stɒ"
+    ],
+    "def": "but",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "storau": {
+    "pos": "conjunction",
+    "ipa": [
+      "stɒrɔːʌ"
+    ],
+    "def": "Although",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "svaya": {
+    "pos": "verb",
+    "ipa": [
+      "sveːɪɔː"
+    ],
+    "def": [
+      "to lose sight of, esp. losing the details for the greater good."
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "svayan": {
+    "pos": "adjective",
+    "ipa": [
+      "sveːɪɔːn"
+    ],
+    "def": "lost within purpose",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sycá": {
+    "pos": "noun",
+    "ipa": [
+      "syka"
+    ],
+    "def": "daughter",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sögra": {
+    "pos": "verb",
+    "ipa": [
+      "soʊgrɔː"
+    ],
+    "def": [
+      "to retell, as a story"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sör": {
+    "pos": "conjunction",
+    "ipa": [
+      "soʊʀ"
+    ],
+    "def": "and",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sör'an": {
+    "pos": "conjunction",
+    "ipa": [
+      "soʊr'æn"
+    ],
+    "def": "both",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sörin": {
+    "pos": "adverb",
+    "ipa": [
+      "soʊrɪn"
+    ],
+    "def": "together",
+    "root": "sör",
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sörinsaiöch": {
+    "pos": "idiom",
+    "ipa": [
+      "soʊrɪnsɔːɪoʊx"
+    ],
+    "def": [
+      "\"Against the odds\" or \"in spite of everything\". Used to convey the occurence of something that should not have happened."
+    ],
+    "root": "sörin",
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sörlia": {
+    "pos": "verb",
+    "ipa": [
+      "soʊrliɔː"
+    ],
+    "def": [
+      "to feel compassion"
+    ],
+    "root": "sör",
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "sörlian": {
+    "pos": "noun",
+    "ipa": [
+      "soʊrliɔːn"
+    ],
+    "def": "compassion",
+    "root": "sör",
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ta'saec": {
+    "pos": "noun",
+    "ipa": [
+      "tɔː'ʃeːɪɔx"
+    ],
+    "def": "coterie bond",
+    "root": ["saec"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tachri": {
+    "pos": "verb",
+    "ipa": [
+      "tɔːxri"
+    ],
+    "def": [
+      "to give",
+      "to gift",
+      "to donate"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taelva": {
+    "pos": "verb",
+    "ipa": [
+      "teːylvɔː"
+    ],
+    "def": [
+      "to void",
+      "to remove with abandon"
+    ],
+    "root": ["taelvar"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taelvar": {
+    "pos": "noun",
+    "ipa": [
+      "teːylvɔːʀ"
+    ],
+    "def": "void",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taern": {
+    "pos": "adverb",
+    "ipa": [
+      "teːyrn"
+    ],
+    "def": "often",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tak": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːk"
+    ],
+    "def": [
+      "a bone"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "talra": {
+    "pos": "verb",
+    "ipa": [
+      "tɔːlrɔː"
+    ],
+    "def": [
+      "to sanctify or make holy",
+      "to protect with magic"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "talrae": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːlreːy"
+    ],
+    "def": "sacred",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tanmai": {
+    "pos": "adjective",
+    "ipa": [
+      "tɔːnmɔːɪ"
+    ],
+    "def": "together",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taoil": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːɒil"
+    ],
+    "def": "scale",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tarich": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːrix"
+    ],
+    "def": "rage",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taricha": {
+    "pos": "verb",
+    "ipa": [
+      "tɔːrixɔː"
+    ],
+    "def": [
+      "to rage",
+      "to feel anger"
+    ],
+    "root": ["tarich"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tashra": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːʃrɔː"
+    ],
+    "def": [
+      "to tease or mock"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tashral": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːʃrɔːl"
+    ],
+    "def": "joke",
+    "root": ["tashra"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taslaech": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːʃleːyx"
+    ],
+    "def": "coterie",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tav": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːv"
+    ],
+    "def": "plan",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tava": {
+    "pos": "verb",
+    "ipa": [
+      "tɔːvɔː"
+    ],
+    "def": [
+      "to plan"
+    ],
+    "root": ["tav"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tayl'sol": {
+    "pos": "noun",
+    "ipa": [
+      "teːɪl'sɒl"
+    ],
+    "def": [
+      "eighth day of the week"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "teach": {
+    "pos": "noun",
+    "ipa": [
+      "teːɔːx"
+    ],
+    "def": "fire",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "teachi": {
+    "pos": "verb",
+    "ipa": [
+      "teːɔːxi"
+    ],
+    "def": [
+      "to burn"
+    ],
+    "root": ["teach"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "teachisra": {
+    "pos": "verb",
+    "ipa": [
+      "teːɔːxiʃrɔː"
+    ],
+    "def": [
+      "to incinerate"
+    ],
+    "root": ["teach"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "teachisral": {
+    "pos": "noun",
+    "ipa": [
+      "teːɔːxiʃrɔːl"
+    ],
+    "def": "wildfire",
+    "root": ["teach"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "teachsoln": {
+    "pos": "noun",
+    "ipa": [
+      "teːɔːxsɒln"
+    ],
+    "def": "fireplace",
+    "root": ["teach", "soln"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "Compound of teach + soln"
+  },
+  "tefna": {
+    "pos": "verb",
+    "ipa": [
+      "teːfnɔː"
+    ],
+    "def": [
+      "to summon",
+      "to call forth"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tefná": {
+    "pos": "noun",
+    "ipa": [
+      "teːfna"
+    ],
+    "def": "summon",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tevar": {
+    "pos": "preposition",
+    "ipa": [
+      "teːvɔːʀ"
+    ],
+    "def": "ahead",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "thal": {
+    "pos": "adjective",
+    "ipa": [
+      "θɔːl"
+    ],
+    "def": "new",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "thra": {
+    "pos": "verb",
+    "ipa": [
+      "θrɔː"
+    ],
+    "def": [
+      "to throw, to hurl"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "thril": {
+    "pos": "noun",
+    "ipa": [
+      "θril"
+    ],
+    "def": "night",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "thrá": {
+    "pos": "noun",
+    "ipa": [
+      "θra"
+    ],
+    "def": "throw",
+    "root": ["thra"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "thurszaz": {
+    "pos": "noun",
+    "ipa": [
+      "θurɮɔːt͡s"
+    ],
+    "def": "giant",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tianu": {
+    "pos": "noun",
+    "ipa": [
+      "tiɔːnʌ"
+    ],
+    "def": "the belief that everything happens for a reason",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tih": {
+    "pos": "noun",
+    "ipa": [
+      "ti"
+    ],
+    "def": "lifeforce",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tin": {
+    "pos": "noun",
+    "ipa": [
+      "tɪn"
+    ],
+    "def": "warrior",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tov": {
+    "pos": "noun",
+    "ipa": [
+      "tɒv"
+    ],
+    "def": "stew",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tova": {
+    "pos": "verb",
+    "ipa": [
+      "tɒvɔː"
+    ],
+    "def": [
+      "to stew",
+      "to cook for a long period"
+    ],
+    "root": ["tov"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "traidhym": {
+    "pos": "noun",
+    "ipa": [
+      "trɔːɪiðym"
+    ],
+    "def": [
+      "a reflection",
+      "a mirror"
+    ],
+    "root": ["traidh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "traidhymi": {
+    "pos": "verb",
+    "ipa": [
+      "trɔːɪiðymi"
+    ],
+    "def": [
+      "to reflect, to mirror"
+    ],
+    "root": ["traidh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "trava": {
+    "pos": "verb",
+    "ipa": [
+      "trɔːvɔː"
+    ],
+    "def": [
+      "to feel or be sad"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "travas": {
+    "pos": "noun",
+    "ipa": [
+      "trɔːvɔːs"
+    ],
+    "def": "sadness",
+    "root": ["trava"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "travas'it": {
+    "pos": "adverb",
+    "ipa": [
+      "trɔːvɔːs'it"
+    ],
+    "def": "sadly",
+    "root": ["trava"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tria": {
+    "pos": "verb",
+    "ipa": [
+      "triɔː"
+    ],
+    "def": [
+      "to cycle",
+      "to change or oscillate in a cyclical manner"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "triat": {
+    "pos": "noun",
+    "ipa": [
+      "triɔːt"
+    ],
+    "def": [
+      "a repeating period",
+      "a cycle"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tsaidh": {
+    "pos": "noun",
+    "ipa": [
+      "t͡sɔːɪið"
+    ],
+    "def": [
+      "a set",
+      "a complete collection"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tsaln": {
+    "pos": "preposition",
+    "ipa": [
+      "t͡sɔːln"
+    ],
+    "def": "beyond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tsela": {
+    "pos": "verb",
+    "ipa": [
+      "t͡seːlɔː"
+    ],
+    "def": [
+      "to hold dear or close",
+      "to treasure"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tsenovach": {
+    "pos": "noun",
+    "ipa": [
+      "t͡seːnɒvɔːx"
+    ],
+    "def": "wife",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tuis": {
+    "pos": "noun",
+    "ipa": [
+      "tuiʃ"
+    ],
+    "def": [
+      "a jug, amphora, or other container for liquid"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydh": {
+    "pos": "noun",
+    "ipa": [
+      "tyð"
+    ],
+    "def": [
+      "allowance",
+      "something given willingly"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydha": {
+    "pos": "verb",
+    "ipa": [
+      "tyðɔː"
+    ],
+    "def": [
+      "to allow, to let (something happen)"
+    ],
+    "root": ["tydh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydhaim": {
+    "pos": "noun",
+    "ipa": [
+      "tyðɔːɪm"
+    ],
+    "def": [
+      "an act that is especially permitted, an allowance (non-monetary)"
+    ],
+    "root": ["tydh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydhais": {
+    "pos": "noun",
+    "ipa": [
+      "tyðɔːɪʃ"
+    ],
+    "def": [
+      "something that is conceded"
+    ],
+    "root": ["tydh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydhe": {
+    "pos": "noun",
+    "ipa": [
+      "tyðeː"
+    ],
+    "def": "time",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydhea": {
+    "pos": "verb",
+    "ipa": [
+      "tyðeːɔː"
+    ],
+    "def": [
+      "to measure time"
+    ],
+    "root": ["tydhe"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tydhi": {
+    "pos": "verb",
+    "ipa": [
+      "tyði"
+    ],
+    "def": [
+      "to concede",
+      "to give up as part of a negotiation",
+      "to admit defeat"
+    ],
+    "root": ["tydh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tyraidh": {
+    "pos": "noun",
+    "ipa": [
+      "tyrɔːɪið"
+    ],
+    "def": "veil",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tyron": {
+    "pos": "noun",
+    "ipa": [
+      "tyrɒn"
+    ],
+    "def": "eclipse",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tziu": {
+    "pos": "noun",
+    "ipa": [
+      "tt͡siʌ"
+    ],
+    "def": "peace",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tísvach": {
+    "pos": "noun",
+    "ipa": [
+      "tɪsvɔːx"
+    ],
+    "def": "husband",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ulast": {
+    "pos": "noun",
+    "ipa": [
+      "ulɔːst"
+    ],
+    "def": "people",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ulasti": {
+    "pos": "verb",
+    "ipa": [
+      "ulɔːsti"
+    ],
+    "def": [
+      "to populate, as with people"
+    ],
+    "root": ["ulast"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ulastin": {
+    "pos": "noun",
+    "ipa": [
+      "ulɔːstɪn"
+    ],
+    "def": "folk",
+    "root": ["ulast"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "urotr": {
+    "pos": "noun",
+    "ipa": [
+      "urɒtʀ"
+    ],
+    "def": "gate",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "urotra": {
+    "pos": "verb",
+    "ipa": [
+      "urɒtrɔː"
+    ],
+    "def": [
+      "to gate",
+      "to block the way"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "uruch": {
+    "pos": "preposition",
+    "ipa": [
+      "urux"
+    ],
+    "def": "against",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "va'osör": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɔː'ɒʊ̞ʃoʊʀ"
+    ],
+    "def": "neither",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "va'sör": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɔː'soʊʀ"
+    ],
+    "def": [
+      "and/or with inclusive choice allowed"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vae'sol": {
+    "pos": "noun",
+    "ipa": [
+      "veːy'sɒl"
+    ],
+    "def": [
+      "third day of the week"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaeladh": {
+    "pos": "noun",
+    "ipa": [
+      "veːylɔːð"
+    ],
+    "def": [
+      "pottery",
+      "earthen or stonewares"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaer": {
+    "pos": "noun",
+    "ipa": [
+      "veːyʀ"
+    ],
+    "def": [
+      "blood",
+      "vital fluids"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaeri": {
+    "pos": "verb",
+    "ipa": [
+      "veːyri"
+    ],
+    "def": [
+      "to bleed",
+      "to bloody"
+    ],
+    "root": ["vaer"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaerit": {
+    "pos": "noun",
+    "ipa": [
+      "veːyrit"
+    ],
+    "def": "heart",
+    "root": ["vaer"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaet": {
+    "pos": "noun",
+    "ipa": [
+      "veːyt"
+    ],
+    "def": "nature",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaett": {
+    "pos": "noun",
+    "ipa": [
+      "veːytt"
+    ],
+    "def": "nature spirit",
+    "root": ["vaet"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vain": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɔːɪn"
+    ],
+    "def": "while",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vair": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːɪʀ"
+    ],
+    "def": "month",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vairael": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːɪreːyl"
+    ],
+    "def": [
+      "sixth month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vairsin": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːɪrsɪn"
+    ],
+    "def": [
+      "fourth month of the year"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vais": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːɪʃ"
+    ],
+    "def": [
+      "a joint, as between two things",
+      "a joint between bones"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vais'an": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɔːɪʃ'æn"
+    ],
+    "def": [
+      "plural but, indicating more than one"
+    ],
+    "root": ["vais"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaisa": {
+    "pos": "verb",
+    "ipa": [
+      "vɔːɪʃɔː"
+    ],
+    "def": [
+      "to come together",
+      "to join",
+      "to come to a location as a final destination"
+    ],
+    "root": ["vais"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaital": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːɪtɔːl"
+    ],
+    "def": "reckoner",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaith": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːɪθ"
+    ],
+    "def": "sister",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaka": {
+    "pos": "verb",
+    "ipa": [
+      "vɔːkɔː"
+    ],
+    "def": [
+      "to grow, to change willingly"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vakan": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːkɔːn"
+    ],
+    "def": "growth",
+    "root": ["vaka"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "valeth": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːleːθ"
+    ],
+    "def": "market",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "valtyr": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːltyʀ"
+    ],
+    "def": "subversion",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "valtyri": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɔːltyri"
+    ],
+    "def": [
+      "to subvert"
+    ],
+    "root": ["valtyr"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaotprar": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɔːɒtprɔːʀ"
+    ],
+    "def": "since",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vardi": {
+    "pos": "verb",
+    "ipa": [
+      "vɔːrdi"
+    ],
+    "def": [
+      "to shield",
+      "to stand between safety and danger"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vardir": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːrdiʀ"
+    ],
+    "def": "shield",
+    "root": ["vardi"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vatraidh": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːtraɪið"
+    ],
+    "def": "sorrow",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vatraidha": {
+    "pos": "verb",
+    "ipa": [
+      "vɔːtrɔːɪiðɔː"
+    ],
+    "def": [
+      "to feel sorrow"
+    ],
+    "root": ["vatraidh"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vayl": {
+    "pos": "adjective",
+    "ipa": [
+      "veːɪl"
+    ],
+    "def": "old",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "veko": {
+    "pos": "noun",
+    "ipa": [
+      "veːkɒ"
+    ],
+    "def": "anger",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vekoa": {
+    "pos": "verb",
+    "ipa": [
+      "veːkɒɔː"
+    ],
+    "def": [
+      "to anger",
+      "to enrage"
+    ],
+    "root": ["veko"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vekra": {
+    "pos": "verb",
+    "ipa": [
+      "veːkrɔː"
+    ],
+    "def": [
+      "to light, as on fire or ablaze"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vhar": {
+    "pos": "noun",
+    "ipa": [
+      "ⱱɔːʀ"
+    ],
+    "def": "thing",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vhatar": {
+    "pos": "noun",
+    "ipa": [
+      "ⱱɔːtɔːʀ"
+    ],
+    "def": "path",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vin": {
+    "pos": "conjunction",
+    "ipa": [
+      "vɪn"
+    ],
+    "def": "if",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "visrac": {
+    "pos": "preposition",
+    "ipa": [
+      "viʃrɔːk"
+    ],
+    "def": "when",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "visrak": {
+    "pos": "verb",
+    "ipa": [
+      "viʃrɔːk"
+    ],
+    "def": [
+      "to time, as to act at a specific time: \"to time it properly\""
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vitr": {
+    "pos": "adjective",
+    "ipa": [
+      "vitʀ"
+    ],
+    "def": "known",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vityr": {
+    "pos": "noun",
+    "ipa": [
+      "vityʀ"
+    ],
+    "def": "paramour",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vodh": {
+    "pos": "preposition",
+    "ipa": [
+      "vɒð"
+    ],
+    "def": "upon",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vorn": {
+    "pos": "noun",
+    "ipa": [
+      "vɒrn"
+    ],
+    "def": "cold",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "voska": {
+    "pos": "verb",
+    "ipa": [
+      "vɒ̞ʃkɔː"
+    ],
+    "def": [
+      "to go"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "voui": {
+    "pos": "verb",
+    "ipa": [
+      "vɒui"
+    ],
+    "def": [
+      "to want"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vouin": {
+    "pos": "noun",
+    "ipa": [
+      "vɒuɪn"
+    ],
+    "def": "want",
+    "root": ["voui"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vran": {
+    "pos": "pronoun",
+    "ipa": [
+      "vrɔːn"
+    ],
+    "def": [
+      "Draconic formal pronoun"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vu": {
+    "pos": "conjunction",
+    "ipa": [
+      "vʌ"
+    ],
+    "def": "so",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vyri": {
+    "pos": "verb",
+    "ipa": [
+      "vyri"
+    ],
+    "def": [
+      "to champion, to defend",
+      "to protect heroically or selflessly"
+    ],
+    "root": ["vyr"],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vyr": {
+    "pos": "noun",
+    "ipa": [
+      "vyr"
+    ],
+    "def": [
+      "champion, defender",
+      "defense"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vüi": {
+    "pos": "verb",
+    "ipa": [
+      "voʊi"
+    ],
+    "def": [
+      "to shear, as an animal",
+      "to remove outer layers of something"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vüidh": {
+    "pos": "noun",
+    "ipa": [
+      "voʊið"
+    ],
+    "def": [
+      "shears",
+      "scissors",
+      "a tool for cutting paper or fabric or fibers"
+    ],
+    "root": "vüi",
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vüln": {
+    "pos": "noun",
+    "ipa": [
+      "voʊln"
+    ],
+    "def": [
+      "bother, minor annoyance, irk"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vülna": {
+    "pos": "verb",
+    "ipa": [
+      "voʊlnɔː"
+    ],
+    "def": [
+      "to annoy, to bother, to irk"
+    ],
+    "root": "vüln",
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ögcabáh": {
+    "pos": "noun",
+    "ipa": [
+      "oʊgkæva"
+    ],
+    "def": [
+      "element, component part",
+      "chemical or alchemical element"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  }
+}
