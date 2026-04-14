@@ -14,6 +14,15 @@ const VERB_ENDINGS = {
   'Fs': "'ich", 'Fp': "'ech",
 };
 
+const NOUN_ENDINGS = {
+  'pl': '\'an',  'poss': '\'il',
+};
+
+const NOUN_PREFIXES = {
+  'nom': '', 'acc': 'odh\'', 'dat': 'av\'',
+  'gen': 'il\'', 'voc': 'os\'',
+}
+
 const TENSE_LABELS = {
   pres: 'Present', past: 'Past', fut: 'Future',
   imp: 'Imperative', fimp: 'Fut. Imper.', dpast: 'Distant Past',
@@ -60,6 +69,17 @@ function setMode(btn) {
   render();
 }
 
+function nounDecl(root) {
+  const map = {};
+  for (const cl in NOUN_PREFIXES) {
+    map[cl] = NOUN_PREFIXES[cl] + root
+  };
+  for (const cl in NOUN_ENDINGS) {
+    map[cl] = root + NOUN_ENDINGS[cl]
+  };
+  return map
+}
+
 function conjugate(root) {
   const stem = root.slice(0, -1);
   const vowel = root.slice(-1);
@@ -104,6 +124,27 @@ function buildConjTable(root) {
   return html;
 }
 
+function buildNounDeclTable(root) {
+  const decl = nounDecl(root);
+  const cases   = Object.keys(NOUN_PREFIXES);
+  const endings = Object.keys(NOUN_ENDINGS);
+
+  let html = '<table class="conj-table"><thead><tr><th></th><th>form</th></tr></thead><tbody>';
+
+  cases.forEach(cl => {
+    const cell = decl[cl];
+    html += `<tr><td>${cl}</td>${cell === '--' ? '<td class="dash">—</td>' : `<td>${cell}</td>`}</tr>`;
+  });
+
+  endings.forEach(cl => {
+    const cell = decl[cl];
+    html += `<tr><td>${cl}</td>${cell === '--' ? '<td class="dash">—</td>' : `<td>${cell}</td>`}</tr>`;
+  });
+
+  html += '</tbody></table>';
+  return html;
+}
+
 function posClass(pos) {
   if (!pos) return 'pos-other';
   const p = pos.toLowerCase();
@@ -127,6 +168,7 @@ function highlightMatch(text, query) {
 
 function renderEntry(word, data, query) {
   const isVerb = data.pos && data.pos.toLowerCase() === 'verb';
+  const isNoun = data.pos && data.pos.toLowerCase() === 'noun';
   const defs = (Array.isArray(data.def) ? data.def : [data.def]).filter(d => d && d.trim());
 
   const defsHtml = defs.map(d =>
@@ -139,6 +181,16 @@ function renderEntry(word, data, query) {
         <path d="M1 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
       </svg>
       conjugations
+    </button>
+    <div class="conj-table-wrap"></div>
+  ` : '';
+
+    const declHtml = isNoun ? `
+    <button class="conj-toggle" data-word="${escapeHtml(word)}" onclick="toggleDecl(this)">
+      <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+        <path d="M1 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      declensions
     </button>
     <div class="conj-table-wrap"></div>
   ` : '';
@@ -157,6 +209,7 @@ function renderEntry(word, data, query) {
             ${data.root.map(r => `<button class="root-link" data-root="${escapeHtml(r)}" onclick="jumpToRoot(this.dataset.root)">${escapeHtml(r)}</button>`).join('')}
         </div>` : ''}
         ${conjHtml}
+        ${declHtml}
     <button class="copy-btn" data-word="${escapeHtml(word)}" onclick="copyWord(this)">⎘ copy</button>
     </div>
   `;
@@ -173,6 +226,23 @@ function toggleConj(btn) {
   } else {
     if (!wrap.dataset.built) {
       wrap.innerHTML = buildConjTable(word);
+      wrap.dataset.built = '1';
+    }
+    wrap.classList.add('visible');
+    btn.classList.add('open');
+  }
+}
+
+function toggleDecl(btn) {
+  const word = btn.dataset.word;
+  const wrap = btn.nextElementSibling;
+  const isOpen = wrap.classList.contains('visible');
+  if (isOpen) {
+    wrap.classList.remove('visible');
+    btn.classList.remove('open');
+  } else {
+    if (!wrap.dataset.built) {
+      wrap.innerHTML = buildNounDeclTable(word);
       wrap.dataset.built = '1';
     }
     wrap.classList.add('visible');
