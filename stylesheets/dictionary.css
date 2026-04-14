@@ -325,6 +325,7 @@ cursor: pointer;
 opacity: 0;
 pointer-events: none;
 transition: opacity 0.2s, border-color 0.2s;
+bottom: 3rem;
 }
 
 #top-btn:hover { border-color: var(--purple-mid); }
@@ -424,3 +425,68 @@ text-align: center;
   color: var(--purple-light);
   background: rgba(122,184,245,0.08);
 }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  background: linear-gradient(0deg, var(--bg) 60%, transparent 100%);
+  pointer-events: none;
+  letter-spacing: 0.06em;
+  font-style: italic;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem 1.4rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  cursor: pointer;
+  transition: border-color 0.18s, background 0.18s;
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--purple-light);
+  letter-spacing: 0.06em;
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.card-arrow {
+  margin-top: auto;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.06em;
+  transition: color 0.2s;
+}
+
+.card:hover .card-arrow { color: var(--purple-mid); }
+
+.divider {
+    width: 120px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--purple-mid), transparent);
+    margin: 1.6rem auto;
+  }

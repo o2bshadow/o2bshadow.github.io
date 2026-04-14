@@ -552,3 +552,18 @@ header .meta {
     #sidebar { height: 240px; }
     .editor-grid { grid-template-columns: 1fr; }
 }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  background: linear-gradient(0deg, var(--bg) 60%, transparent 100%);
+  pointer-events: none;
+  letter-spacing: 0.06em;
+  font-style: italic;
+}

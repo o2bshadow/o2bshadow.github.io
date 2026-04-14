@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0"; url="./dictionary-editor.html">
-    <link rel="canonical" href="./dictionary-editor.html">
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>If you are not redirected, <a href="./dictionary-editor.html">click here</a>.</p>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conlang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylesheets/dictionary.css">
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  .hero {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    font-weight: 600;
+    color: var(--purple-light);
+    letter-spacing: 0.14em;
+    text-shadow: 0 0 80px rgba(139,120,220,0.35);
+    margin-bottom: 0.6rem;
+  }
+
+  .hero p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 0.08em;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+    gap: 1.2rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .card:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-card-hover);
+  }
+
+  .card:hover::before { opacity: 1; }
+
+  .card-icon {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.4rem;
+    color: var(--purple-mid);
+    margin-bottom: 0.3rem;
+  }
+
+  .card:hover .card-arrow { color: var(--purple-mid); }
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    background: linear-gradient(0deg, var(--bg) 60%, transparent 100%);
+    pointer-events: none;
+    letter-spacing: 0.06em;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Aistvharkol</h1>
+  <div class="divider"></div>
+</div>
+
+<div class="grid">
+  <a class="card" href="dictionary.html">
+    <div class="card-icon">§</div>
+    <div class="card-title">Dictionary</div>
+    <div class="card-desc">Browse and search the full lexicon, with IPA pronunciations, definitions, roots, and verb conjugations.</div>
+    <div class="card-arrow">open →</div>
+  </a>
+</div>
+
+<div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
+
+</body>
 </html>
