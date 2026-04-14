@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dictionary Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="./dictionary-editor.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- AUTH OVERLAY -->
+<div id="auth-overlay">
+  <div class="auth-box">
+    <h2>Dictionary Editor</h2>
+    <p>GitHub credentials required to push changes</p>
+    <div class="field-group">
+      <label>GitHub Owner / Org</label>
+      <input type="text" id="gh-owner" placeholder="your-username" autocomplete="off">
+    </div>
+    <div class="field-group">
+      <label>Repository Name</label>
+      <input type="text" id="gh-repo" placeholder="your-repo-name" autocomplete="off">
+    </div>
+    <div class="field-group">
+      <label>Path to dictionary.json in repo</label>
+      <input type="text" id="gh-path" placeholder="dictionary.json" value="dictionary.json" autocomplete="off">
+    </div>
+    <div class="field-group">
+      <label>Personal Access Token</label>
+      <input type="password" id="gh-pat" placeholder="ghp_…" autocomplete="off">
+    </div>
+    <div class="field-group">
+      <label>Default Branch</label>
+      <input type="text" id="gh-branch" placeholder="main" value="main" autocomplete="off">
+    </div>
+    <div class="auth-error" id="auth-error"></div>
+    <button class="btn btn-primary" onclick="authenticate()">Connect to Repository</button>
+  </div>
+</div>
+
+<!-- PUSH MODAL -->
+<div id="push-modal">
+  <div class="modal-box">
+    <h3>Push Changes</h3>
+    <div class="branch-preview" id="branch-name-display"></div>
+    <div class="changes-summary" id="changes-summary"></div>
+    <div class="field-group">
+      <label>Commit message</label>
+      <input type="text" id="commit-message" placeholder="Dictionary edits via browser editor">
+    </div>
+    <div class="auth-error" id="push-error"></div>
+    <div class="modal-actions" style="margin-top:1rem;">
+      <button class="btn" onclick="closePushModal()">Cancel</button>
+      <button class="btn btn-success" onclick="confirmPush()">Push Branch</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<!-- MAIN UI -->
+<header>
+  <div>
+    <h1>Dictionary Editor</h1>
+    <div class="meta" id="repo-meta"></div>
+  </div>
+  <div class="header-actions">
+    <span class="modified-count" id="modified-count" style="display:none"></span>
+    <button class="btn" onclick="window.open('dictionary.html','_blank')">← Dictionary</button>
+    <button class="btn btn-success" onclick="openPushModal()">Push to GitHub</button>
+  </div>
+</header>
+
+<div id="status-bar"><span class="status-info">Not connected</span></div>
+
+<div class="editor-layout">
+  <div id="sidebar">
+    <div class="sidebar-search">
+      <input type="text" id="sidebar-search" placeholder="Filter words…" oninput="filterWordList(this.value)">
+    </div>
+    <div class="sidebar-actions">
+      <button class="btn btn-sm" onclick="openNewWordEditor()">+ New word</button>
+    </div>
+    <div id="word-list"></div>
+  </div>
+  <div id="editor-panel">
+    <div class="editor-empty">Select a word to edit, or add a new one</div>
+  </div>
+</div>
+
+<script type="text/javascript" src="./dictionary-editor.js"></script>
+</body>
+</html>

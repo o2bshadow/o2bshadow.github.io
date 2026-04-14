@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Dictionary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="./dictionary.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <h1>Dictionary</h1>
+  <p>Aistvharkol; The Old Tongue</p>
+  <div class="search-bar">
+    <div class="search-wrap">
+      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="6.5" cy="6.5" r="5" stroke="#9993c4" stroke-width="1.5"/>
+        <line x1="10.5" y1="10.5" x2="14" y2="14" stroke="#9993c4" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input type="text" id="search" placeholder="Search…" autocomplete="off" spellcheck="false">
+      <button id="clear-btn" onclick="clearSearch()" aria-label="Clear search">✕</button>
+    </div>
+      <select id="pos-filter">
+        <option value="">All parts of speech</option>
+      </select>
+      <div id="search-mode">
+        <button class="mode-btn active" data-mode="both" onclick="setMode(this)">All</button>
+        <button class="mode-btn" data-mode="word" onclick="setMode(this)">Word</button>
+        <button class="mode-btn" data-mode="def" onclick="setMode(this)">Definition</button>
+        <button class="mode-btn" onclick="window.open('dictionary-editor.html','_blank')">Edit</button>
+      </div>
+  </div>
+</header>
+
+<div id="results-count"></div>
+<div id="dictionary"></div>
+
+<button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+
+<script type="text/javascript" src="./dictionary.js"></script>
+</body>
+
+</body>
+</html>
