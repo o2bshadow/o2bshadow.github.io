@@ -39,6 +39,35 @@
     "related": [],
     "notes": ""
   },
+  "a'var": {
+    "pos": "idiom",
+    "ipa": [
+      "æ'vɔːʀ"
+    ],
+    "def": [
+      "will (modal verb)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aechra": {
+    "pos": "noun",
+    "ipa": [
+      "eyxrɔː"
+    ],
+    "def": [
+      "to share, especially as knowledge or wisdom",
+      "to impart"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "aet": {
     "pos": "noun",
     "ipa": [
@@ -935,7 +964,10 @@
   },
   "astirorn": {
     "pos": "noun",
-    "ipa": [],
+    "ipa": [
+      "empire",
+      "kingdom"
+    ],
     "def": [],
     "root": [],
     "antonyms": [],
@@ -1689,6 +1721,20 @@
     "related": [],
     "notes": ""
   },
+  "ceá": {
+    "pos": "preposition",
+    "ipa": [
+      "keːa"
+    ],
+    "def": [
+      "what"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "chais": {
     "pos": "noun",
     "ipa": [
@@ -1836,6 +1882,34 @@
     "related": [],
     "notes": ""
   },
+  "cávaidh": {
+    "pos": "noun",
+    "ipa": [
+      "kavaɪið"
+    ],
+    "def": [
+      "expectation"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cávaidhi": {
+    "pos": "verb",
+    "ipa": [
+      "kavaɪiði"
+    ],
+    "def": [
+      "to expect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "cöa": {
     "pos": "noun",
     "ipa": [
@@ -1933,6 +2007,20 @@
       "deːɪmiʃt"
     ],
     "def": "once",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "daysel": {
+    "pos": "noun",
+    "ipa": [
+      "deɪseːl"
+    ],
+    "def": [
+      "week / eight-day"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -2826,6 +2914,20 @@
       "hɔːk"
     ],
     "def": "the",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "han'avkar": {
+    "pos": "idiom",
+    "ipa": [
+      "hɔːn'ævkɔːʀ"
+    ],
+    "def": [
+      "what it was"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -4736,6 +4838,48 @@
     "related": [],
     "notes": ""
   },
+  "naevach": {
+    "pos": "noun",
+    "ipa": [
+      "neyvɔːx"
+    ],
+    "def": [
+      "failure"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naevachi": {
+    "pos": "verb",
+    "ipa": [
+      "neyvɔːxi"
+    ],
+    "def": [
+      "to fail"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naim": {
+    "pos": "adverb",
+    "ipa": [
+      "naɪm"
+    ],
+    "def": [
+      "same"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "nall": {
     "pos": "noun",
     "ipa": [
@@ -4998,6 +5142,20 @@
     "related": [],
     "notes": ""
   },
+  "o'ka'naevachi'it": {
+    "pos": "idiom",
+    "ipa": [
+      "oʊ'kɔː'neyvɔːxi'it"
+    ],
+    "def": [
+      "unfailingly"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "o'tevar": {
     "pos": "preposition",
     "ipa": [
@@ -5040,6 +5198,20 @@
       "ɒʊeːytirn"
     ],
     "def": "never",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "oansiv": {
+    "pos": "noun",
+    "ipa": [
+      "oʊɔːnsiv"
+    ],
+    "def": [
+      "silence"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -5422,6 +5594,16 @@
     "related": [],
     "notes": ""
   },
+  "raeta": {
+    "pos": "noun",
+    "ipa": [],
+    "def": [],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "raetir": {
     "pos": "noun",
     "ipa": [
@@ -5487,6 +5669,21 @@
     "root": [
       "rains"
     ],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "raischa": {
+    "pos": "noun",
+    "ipa": [
+      "raɪʃxɔː"
+    ],
+    "def": [
+      "to ask",
+      "to request"
+    ],
+    "root": [],
     "antonyms": [],
     "synonyms": [],
     "related": [],
@@ -5562,6 +5759,20 @@
       "rɔːθɔːn"
     ],
     "def": "court",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rau": {
+    "pos": "conjunction",
+    "ipa": [
+      "rɔːʌ"
+    ],
+    "def": [
+      "yet"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -5952,6 +6163,20 @@
       "ʃeːɪɔx"
     ],
     "def": "bond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "saechri": {
+    "pos": "verb",
+    "ipa": [
+      "ʃeɪɔxhri"
+    ],
+    "def": [
+      "to receive"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -6351,6 +6576,20 @@
     "related": [],
     "notes": ""
   },
+  "solia": {
+    "pos": "verb",
+    "ipa": [
+      "sɒliɔː"
+    ],
+    "def": [
+      "to belong"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "solmit": {
     "pos": "noun",
     "ipa": [
@@ -6592,6 +6831,20 @@
     "related": [],
     "notes": ""
   },
+  "tach": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːx"
+    ],
+    "def": [
+      "gift"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "tachri": {
     "pos": "verb",
     "ipa": [
@@ -6631,6 +6884,20 @@
       "teːylvɔːʀ"
     ],
     "def": "void",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taer": {
+    "pos": "noun",
+    "ipa": [
+      "teyʀ"
+    ],
+    "def": [
+      "future"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -6942,7 +7209,9 @@
     "ipa": [
       "θɔːl"
     ],
-    "def": "new",
+    "def": [
+      "young"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -7973,6 +8242,34 @@
     "related": [],
     "notes": ""
   },
+  "vian": {
+    "pos": "<TYPE NOT FOUND>",
+    "ipa": [
+      "viɔːn"
+    ],
+    "def": [
+      "more"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "determiner"
+  },
+  "viand'ot": {
+    "pos": "adverb",
+    "ipa": [
+      "viɔːnd'oʊt"
+    ],
+    "def": [
+      "again"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "fossilized from \"once more\" - vian day'ot"
+  },
   "viendeodh": {
     "pos": "noun",
     "ipa": [
@@ -8008,6 +8305,21 @@
       "vɪn"
     ],
     "def": "if",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "visra'ak": {
+    "pos": "idiom",
+    "ipa": [
+      "viʃrɔː'æk"
+    ],
+    "def": [
+      "when at",
+      "at a specific point in time, i.e. \"at birth\""
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -8270,6 +8582,21 @@
     "def": [
       "duty",
       "obligation"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "üvaidha": {
+    "pos": "verb",
+    "ipa": [
+      "oʊvaɪiðɔː"
+    ],
+    "def": [
+      "to serve",
+      "to fulfill a duty or obligation"
     ],
     "root": [],
     "antonyms": [],
