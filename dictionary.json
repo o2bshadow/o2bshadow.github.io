@@ -3077,6 +3077,20 @@
     "related": [],
     "notes": ""
   },
+  "iedhach": {
+    "pos": "preposition",
+    "ipa": [
+      "ieːðɔːx"
+    ],
+    "def": [
+      "within"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ien": {
     "pos": "preposition",
     "ipa": [
@@ -3305,6 +3319,20 @@
       "ɪnilɔːs"
     ],
     "def": "good",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "inilraidh": {
+    "pos": "noun",
+    "ipa": [
+      "ɪnilraɪið"
+    ],
+    "def": [
+      "excellence, distinction"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -6079,6 +6107,21 @@
     "related": [],
     "notes": ""
   },
+  "rodhaychil": {
+    "pos": "noun",
+    "ipa": [
+      "rɒðeɪxil"
+    ],
+    "def": [
+      "boundary",
+      "border"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "rodis": {
     "pos": "adjective",
     "ipa": [
@@ -6571,6 +6614,21 @@
     "root": [
       "solchaiv"
     ],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solchanir": {
+    "pos": "noun",
+    "ipa": [
+      "sɒlxɔːniʀ"
+    ],
+    "def": [
+      "poise",
+      "grace"
+    ],
+    "root": [],
     "antonyms": [],
     "synonyms": [],
     "related": [],
