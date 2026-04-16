@@ -39,6 +39,35 @@
     "related": [],
     "notes": ""
   },
+  "a'var": {
+    "pos": "idiom",
+    "ipa": [
+      "æ'vɔːʀ"
+    ],
+    "def": [
+      "will (modal verb)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "aechra": {
+    "pos": "noun",
+    "ipa": [
+      "eyxrɔː"
+    ],
+    "def": [
+      "to share, especially as knowledge or wisdom",
+      "to impart"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "aet": {
     "pos": "noun",
     "ipa": [
@@ -594,7 +623,7 @@
     "notes": ""
   },
   "aldrevha": {
-    "pos": "<TYPE NOT FOUND>",
+    "pos": "verb",
     "ipa": [
       "ældreːⱱɔː"
     ],
@@ -935,7 +964,10 @@
   },
   "astirorn": {
     "pos": "noun",
-    "ipa": [],
+    "ipa": [
+      "empire",
+      "kingdom"
+    ],
     "def": [],
     "root": [],
     "antonyms": [],
@@ -1508,6 +1540,20 @@
     "related": [],
     "notes": ""
   },
+  "caedh": {
+    "pos": "noun",
+    "ipa": [
+      "keyð"
+    ],
+    "def": [
+      "seven (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'cae' is used when creating compound number forms"
+  },
   "cai'os": {
     "pos": "pronoun",
     "ipa": [
@@ -1675,6 +1721,34 @@
     "related": [],
     "notes": ""
   },
+  "ceá": {
+    "pos": "preposition",
+    "ipa": [
+      "keːa"
+    ],
+    "def": [
+      "what"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "chais": {
+    "pos": "noun",
+    "ipa": [
+      "xaɪʃ"
+    ],
+    "def": [
+      "nine (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'cha' is used when creating compound number forms."
+  },
   "chaita": {
     "pos": "noun",
     "ipa": [
@@ -1808,6 +1882,34 @@
     "related": [],
     "notes": ""
   },
+  "cávaidh": {
+    "pos": "noun",
+    "ipa": [
+      "kavaɪið"
+    ],
+    "def": [
+      "expectation"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "cávaidhi": {
+    "pos": "verb",
+    "ipa": [
+      "kavaɪiði"
+    ],
+    "def": [
+      "to expect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "cöa": {
     "pos": "noun",
     "ipa": [
@@ -1885,12 +1987,40 @@
     "related": [],
     "notes": ""
   },
+  "day": {
+    "pos": "noun",
+    "ipa": [
+      "deɪ"
+    ],
+    "def": [
+      "one (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'da' is used when creating compound number forms"
+  },
   "daymist": {
     "pos": "conjunction",
     "ipa": [
       "deːɪmiʃt"
     ],
     "def": "once",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "daysel": {
+    "pos": "noun",
+    "ipa": [
+      "deɪseːl"
+    ],
+    "def": [
+      "week / eight-day"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -2790,6 +2920,20 @@
     "related": [],
     "notes": ""
   },
+  "han'avkar": {
+    "pos": "idiom",
+    "ipa": [
+      "hɔːn'ævkɔːʀ"
+    ],
+    "def": [
+      "what it was"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "han": {
     "pos": "noun",
     "ipa": [
@@ -2927,6 +3071,20 @@
       "idrɔːɪl"
     ],
     "def": "storm",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "iedhach": {
+    "pos": "preposition",
+    "ipa": [
+      "ieːðɔːx"
+    ],
+    "def": [
+      "within"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -3167,6 +3325,20 @@
     "related": [],
     "notes": ""
   },
+  "inilraidh": {
+    "pos": "noun",
+    "ipa": [
+      "ɪnilraɪið"
+    ],
+    "def": [
+      "excellence, distinction"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "innithria": {
     "pos": "verb",
     "ipa": [
@@ -3382,6 +3554,20 @@
     "synonyms": [],
     "related": [],
     "notes": ""
+  },
+  "ivak": {
+    "pos": "noun",
+    "ipa": [
+      "ivɔːk"
+    ],
+    "def": [
+      "three (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'iva' is used when creating compound number forms"
   },
   "jhod": {
     "pos": "noun",
@@ -3911,6 +4097,20 @@
     "synonyms": [],
     "related": [],
     "notes": ""
+  },
+  "kitja": {
+    "pos": "noun",
+    "ipa": [
+      "kitd͡ʒɔː"
+    ],
+    "def": [
+      "five (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'ki' is used when creating compound number forms"
   },
   "kol": {
     "pos": "preposition",
@@ -4666,6 +4866,48 @@
     "related": [],
     "notes": ""
   },
+  "naevach": {
+    "pos": "noun",
+    "ipa": [
+      "neyvɔːx"
+    ],
+    "def": [
+      "failure"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naevachi": {
+    "pos": "verb",
+    "ipa": [
+      "neyvɔːxi"
+    ],
+    "def": [
+      "to fail"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "naim": {
+    "pos": "adverb",
+    "ipa": [
+      "naɪm"
+    ],
+    "def": [
+      "same"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "nall": {
     "pos": "noun",
     "ipa": [
@@ -4928,6 +5170,20 @@
     "related": [],
     "notes": ""
   },
+  "o'ka'naevachi'it": {
+    "pos": "idiom",
+    "ipa": [
+      "oʊ'kɔː'neyvɔːxi'it"
+    ],
+    "def": [
+      "unfailingly"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "o'tevar": {
     "pos": "preposition",
     "ipa": [
@@ -4970,6 +5226,20 @@
       "ɒʊeːytirn"
     ],
     "def": "never",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "oansiv": {
+    "pos": "noun",
+    "ipa": [
+      "oʊɔːnsiv"
+    ],
+    "def": [
+      "silence"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -5352,6 +5622,16 @@
     "related": [],
     "notes": ""
   },
+  "raeta": {
+    "pos": "noun",
+    "ipa": [],
+    "def": [],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "raetir": {
     "pos": "noun",
     "ipa": [
@@ -5417,6 +5697,21 @@
     "root": [
       "rains"
     ],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "raischa": {
+    "pos": "noun",
+    "ipa": [
+      "raɪʃxɔː"
+    ],
+    "def": [
+      "to ask",
+      "to request"
+    ],
+    "root": [],
     "antonyms": [],
     "synonyms": [],
     "related": [],
@@ -5492,6 +5787,20 @@
       "rɔːθɔːn"
     ],
     "def": "court",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rau": {
+    "pos": "conjunction",
+    "ipa": [
+      "rɔːʌ"
+    ],
+    "def": [
+      "yet"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -5798,6 +6107,21 @@
     "related": [],
     "notes": ""
   },
+  "rodhaychil": {
+    "pos": "noun",
+    "ipa": [
+      "rɒðeɪxil"
+    ],
+    "def": [
+      "boundary",
+      "border"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "rodis": {
     "pos": "adjective",
     "ipa": [
@@ -5882,6 +6206,20 @@
       "ʃeːɪɔx"
     ],
     "def": "bond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "saechri": {
+    "pos": "verb",
+    "ipa": [
+      "ʃeɪɔxhri"
+    ],
+    "def": [
+      "to receive"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -6048,6 +6386,20 @@
     "related": [],
     "notes": ""
   },
+  "sidha": {
+    "pos": "noun",
+    "ipa": [
+      "siðɔː"
+    ],
+    "def": [
+      "four (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'sia' is used when creating compound number forms"
+  },
   "sier": {
     "pos": "noun",
     "ipa": [
@@ -6073,6 +6425,34 @@
     "synonyms": [],
     "related": [],
     "notes": ""
+  },
+  "sifi": {
+    "pos": "noun",
+    "ipa": [
+      "sifi"
+    ],
+    "def": [
+      "zero (numeric)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'si' is used when creating compound number forms"
+  },
+  "siwa": {
+    "pos": "noun",
+    "ipa": [
+      "siwɔː"
+    ],
+    "def": [
+      "six (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'sa' is used when creating compound number forms"
   },
   "skaidh": {
     "pos": "noun",
@@ -6234,6 +6614,35 @@
     "root": [
       "solchaiv"
     ],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solchanir": {
+    "pos": "noun",
+    "ipa": [
+      "sɒlxɔːniʀ"
+    ],
+    "def": [
+      "poise",
+      "grace"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "solia": {
+    "pos": "verb",
+    "ipa": [
+      "sɒliɔː"
+    ],
+    "def": [
+      "to belong"
+    ],
+    "root": [],
     "antonyms": [],
     "synonyms": [],
     "related": [],
@@ -6480,6 +6889,20 @@
     "related": [],
     "notes": ""
   },
+  "tach": {
+    "pos": "noun",
+    "ipa": [
+      "tɔːx"
+    ],
+    "def": [
+      "gift"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "tachri": {
     "pos": "verb",
     "ipa": [
@@ -6519,6 +6942,20 @@
       "teːylvɔːʀ"
     ],
     "def": "void",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "taer": {
+    "pos": "noun",
+    "ipa": [
+      "teyʀ"
+    ],
+    "def": [
+      "future"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -6830,7 +7267,9 @@
     "ipa": [
       "θɔːl"
     ],
-    "def": "new",
+    "def": [
+      "young"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -7754,6 +8193,34 @@
     "related": [],
     "notes": ""
   },
+  "vau": {
+    "pos": "noun",
+    "ipa": [
+      "vɔːʌ"
+    ],
+    "def": [
+      "eight (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'va' is used when creating compound number forms"
+  },
+  "vaya": {
+    "pos": "noun",
+    "ipa": [
+      "veɪɔː"
+    ],
+    "def": [
+      "two (numerical)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "'vy' is used when creating compound number forms"
+  },
   "vayl": {
     "pos": "adjective",
     "ipa": [
@@ -7833,6 +8300,34 @@
     "related": [],
     "notes": ""
   },
+  "vian": {
+    "pos": "determiner",
+    "ipa": [
+      "viɔːn"
+    ],
+    "def": [
+      "more"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "viand'ot": {
+    "pos": "adverb",
+    "ipa": [
+      "viɔːnd'oʊt"
+    ],
+    "def": [
+      "again"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": "fossilized from \"once more\" - vian day'ot"
+  },
   "viendeodh": {
     "pos": "noun",
     "ipa": [
@@ -7868,6 +8363,21 @@
       "vɪn"
     ],
     "def": "if",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "visra'ak": {
+    "pos": "idiom",
+    "ipa": [
+      "viʃrɔː'æk"
+    ],
+    "def": [
+      "when at",
+      "at a specific point in time, i.e. \"at birth\""
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -8130,6 +8640,21 @@
     "def": [
       "duty",
       "obligation"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "üvaidha": {
+    "pos": "verb",
+    "ipa": [
+      "oʊvaɪiðɔː"
+    ],
+    "def": [
+      "to serve",
+      "to fulfill a duty or obligation"
     ],
     "root": [],
     "antonyms": [],
