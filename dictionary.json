@@ -965,10 +965,11 @@
   "astirorn": {
     "pos": "noun",
     "ipa": [
-      "empire",
-      "kingdom"
+      "æstirɒrn"
     ],
-    "def": [],
+    "def": [
+      "empire, kingdom"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -1721,6 +1722,20 @@
     "related": [],
     "notes": ""
   },
+  "cedh": {
+    "pos": "adjective",
+    "ipa": [
+      "keːð"
+    ],
+    "def": [
+      "less"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ceá": {
     "pos": "preposition",
     "ipa": [
@@ -2232,6 +2247,20 @@
       "drɒʀ"
     ],
     "def": "land",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dröe": {
+    "pos": "adjective",
+    "ipa": [
+      "drüeː"
+    ],
+    "def": [
+      "great"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
