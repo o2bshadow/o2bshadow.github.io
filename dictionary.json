@@ -592,6 +592,20 @@
     "related": [],
     "notes": ""
   },
+  "aldraech": {
+    "pos": "noun",
+    "ipa": [
+      "ældreyx"
+    ],
+    "def": [
+      "avenue"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "aldreva": {
     "pos": "verb",
     "ipa": [
@@ -1782,6 +1796,21 @@
       "kɒ"
     ],
     "def": "i",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "conraidh": {
+    "pos": "noun",
+    "ipa": [
+      "kɒnraɪið"
+    ],
+    "def": [
+      "covenant",
+      "mage, or covenanted one. A servant of the Court trained from childhood to wield the Sere."
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -3045,6 +3074,20 @@
     "def": [
       "to walk, to stride",
       "to travel by foot"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "iburaln": {
+    "pos": "noun",
+    "ipa": [
+      "iburɔːln"
+    ],
+    "def": [
+      "a passage or small, hidden path"
     ],
     "root": [],
     "antonyms": [],
@@ -7881,6 +7924,20 @@
     "def": [
       "pottery",
       "earthen or stonewares"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vaelün": {
+    "pos": "noun",
+    "ipa": [
+      "veyloʊn"
+    ],
+    "def": [
+      "road or street"
     ],
     "root": [],
     "antonyms": [],
