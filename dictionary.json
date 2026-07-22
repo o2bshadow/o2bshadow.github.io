@@ -4197,11 +4197,13 @@
     "notes": ""
   },
   "kolt": {
-    "pos": "preposition",
+    "pos": "pronoun",
     "ipa": [
       "kɒlt"
     ],
-    "def": "those",
+    "def": [
+      "what"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -4365,11 +4367,13 @@
     "notes": ""
   },
   "kyat": {
-    "pos": "noun",
+    "pos": "pronoun",
     "ipa": [
       "kyɔːt"
     ],
-    "def": "that",
+    "def": [
+      "that"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -4458,11 +4462,13 @@
     "notes": ""
   },
   "kía": {
-    "pos": "noun",
+    "pos": "pronoun",
     "ipa": [
       "kɪɔː"
     ],
-    "def": "this",
+    "def": [
+      "this"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -8386,10 +8392,10 @@
     "related": [],
     "notes": ""
   },
-  "vian": {
-    "pos": "determiner",
+  "vial": {
+    "pos": "pronoun",
     "ipa": [
-      "viɔːn"
+      "viɔːl"
     ],
     "def": [
       "more"
