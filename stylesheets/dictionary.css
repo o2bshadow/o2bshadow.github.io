@@ -490,3 +490,222 @@ text-align: center;
     background: linear-gradient(90deg, transparent, var(--purple-mid), transparent);
     margin: 1.6rem auto;
   }
+
+/* ==========================================================
+   Pronunciation Tool
+   ========================================================== */
+ 
+.tool-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+ 
+.tool-panel {
+  max-width: 720px;
+  margin: 2.5rem auto 2rem;
+  padding: 0 1.5rem;
+}
+ 
+.tool-label {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+ 
+#phon-input {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.05rem;
+  outline: none;
+  resize: vertical;
+  min-height: 90px;
+  line-height: 1.5;
+  transition: border-color 0.2s;
+}
+ 
+#phon-input:focus { border-color: var(--purple-mid); }
+#phon-input::placeholder { color: var(--text-dim); }
+ 
+.phon-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0.8rem 0 0.3rem;
+}
+ 
+.live-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  cursor: pointer;
+  user-select: none;
+}
+ 
+.live-toggle input { accent-color: var(--purple-mid); cursor: pointer; }
+ 
+.interlinear {
+  margin-top: 1.6rem;
+  padding: 1.3rem 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+}
+ 
+.gloss-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 7px;
+  margin: 2px 1px;
+  border-radius: 6px;
+  transition: background 0.15s;
+  cursor: default;
+}
+ 
+.gloss-word.known { background: rgba(139,120,220,0.08); }
+.gloss-word:hover { background: rgba(139,120,220,0.14); }
+ 
+.gloss-orig {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+ 
+.gloss-word.known .gloss-orig { color: var(--purple-light); }
+ 
+.gloss-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--blue-light);
+  opacity: 0.85;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+ 
+.gloss-punct {
+  font-family: 'Crimson Pro', serif;
+  color: var(--text-secondary);
+  align-self: flex-end;
+  padding-bottom: 6px;
+  white-space: pre-wrap;
+}
+ 
+.phon-summary-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.6rem;
+}
+ 
+#breakdown {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+ 
+.breakdown-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: var(--purple-dim);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+ 
+.entry-unknown {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+ 
+.history-panel {
+  max-width: 720px;
+  margin: 0 auto 5rem;
+  padding: 0 1.5rem;
+}
+ 
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  margin-bottom: 0.5rem;
+}
+ 
+#history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+ 
+.history-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 6px 4px 12px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.18s;
+  max-width: 260px;
+}
+ 
+.history-chip:hover { border-color: var(--border-hover); color: var(--text-primary); }
+ 
+.history-chip span.chip-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+ 
+.history-chip button {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 2px 5px;
+  line-height: 1;
+}
+ 
+.history-chip button:hover { color: var(--red); }
+ 
+.history-empty {
+  color: var(--text-dim);
+  font-style: italic;
+  font-size: 0.85rem;
+}
+ 
+@media (max-width: 580px) {
+  .interlinear { padding: 1rem; }
+  .gloss-word { padding: 3px 5px; }
+}

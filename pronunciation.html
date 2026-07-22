@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronunciation — Aistvharkol</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="./stylesheets/dictionary.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <h1>Pronunciation</h1>
+  <p>paste a word or a passage to hear it in Aistvharkol</p>
+  <div class="divider"></div>
+  <div class="tool-nav">
+    <button class="mode-btn" onclick="window.open('./index.html', '_self')">Home</button>
+    <button class="mode-btn" onclick="window.open('./dictionary.html', '_self')">Dictionary</button>
+  </div>
+</header>
+
+<main class="tool-panel">
+  <label for="phon-input" class="tool-label">Text to convert</label>
+  <textarea id="phon-input" rows="4" placeholder="Type or paste a word, phrase, or passage…" spellcheck="false" autocomplete="off"></textarea>
+
+  <div class="phon-actions">
+    <button class="mode-btn active" id="convert-btn" onclick="convertText()">Convert</button>
+    <button class="mode-btn" onclick="clearTool()">Clear</button>
+    <label class="live-toggle"><input type="checkbox" id="live-toggle" checked> live</label>
+  </div>
+
+  <div id="phon-empty" class="no-results">Nothing to convert yet — paste some text above.</div>
+
+  <div id="interlinear" class="interlinear" style="display:none;"></div>
+
+  <div id="phon-summary-actions" class="phon-summary-actions" style="display:none;">
+    <button class="copy-btn" id="copy-all-btn" onclick="copyAllIPA()">⎘ copy full IPA</button>
+  </div>
+
+  <div id="breakdown"></div>
+</main>
+
+<div class="history-panel">
+  <div class="history-header">
+    <span>Recent</span>
+    <button class="copy-btn" onclick="clearHistory()">clear all</button>
+  </div>
+  <div id="history-list"></div>
+</div>
+
+<script type="text/javascript" src="./js/pronunciation.js"></script>
+
+<div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
+</body>
+
+</html>
