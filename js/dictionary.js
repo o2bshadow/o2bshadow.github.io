@@ -209,9 +209,10 @@ function renderEntry(word, data, query) {
             <span class="roots-label">roots:</span>
             ${data.root.map(r => `<button class="root-link" data-root="${escapeHtml(r)}" onclick="jumpToRoot(this.dataset.root)">${escapeHtml(r)}</button>`).join('')}
         </div>` : ''}
+        <button class="copy-btn" data-word="${escapeHtml(word)}" onclick="copyWord(this)">⎘ copy</button>
+        <br />
         ${conjHtml}
         ${declHtml}
-    <button class="copy-btn" data-word="${escapeHtml(word)}" onclick="copyWord(this)">⎘ copy</button>
     </div>
   `;
 }

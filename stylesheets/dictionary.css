@@ -28,13 +28,13 @@
     --yellow-dim: rgba(245,192,122,0.12);
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; font-size: 1rem;}
 
 body {
     background: var(--bg);
     color: var(--text-primary);
     font-family: 'Crimson Pro', Georgia, serif;
-    font-size: 17px;
+    font-size: 1rem;
     line-height: 1.6;
     min-height: 100vh;
 }
@@ -58,7 +58,7 @@ header h1 {
 
 header p {
     color: var(--text-secondary);
-    font-size: 0.95rem;
+    font-size: 1rem;
     letter-spacing: 0.06em;
     font-style: italic;
 }
@@ -108,7 +108,7 @@ border: 1px solid var(--border);
 border-radius: 8px;
 color: var(--text-secondary);
 font-family: 'Crimson Pro', serif;
-font-size: 0.95rem;
+font-size: 1rem;
 outline: none;
 cursor: pointer;
 appearance: none;
@@ -125,7 +125,7 @@ transition: border-color 0.2s;
 #results-count {
 text-align: center;
 color: var(--text-dim);
-font-size: 0.9rem;
+font-size: 1rem;
 letter-spacing: 0.08em;
 margin: 1.5rem auto 0.5rem;
 font-style: italic;
@@ -155,14 +155,14 @@ margin-bottom: 8px;
 .entry-header {
 display: flex;
 align-items: baseline;
-gap: 0.9rem;
+gap: 1rem;
 flex-wrap: wrap;
 margin-bottom: 0.3rem;
 }
 
 .entry-word {
 font-family: 'Cinzel', serif;
-font-size: 1.2rem;
+font-size: 1.4rem;
 font-weight: 600;
 color: var(--purple-light);
 letter-spacing: 0.04em;
@@ -170,13 +170,13 @@ letter-spacing: 0.04em;
 
 .entry-ipa {
 font-family: 'JetBrains Mono', monospace;
-font-size: 0.82rem;
+font-size: 1rem;
 color: var(--blue-light);
 opacity: 0.8;
 }
 
 .pos-badge {
-font-size: 0.72rem;
+font-size: 0.8rem;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 padding: 2px 9px;
@@ -207,9 +207,8 @@ line-height: 1.55;
 content: counter(def) ".";
 counter-increment: def;
 color: var(--text-dim);
-font-size: 0.8rem;
+font-size: 1rem;
 margin-right: 0.5rem;
-font-family: 'JetBrains Mono', monospace;
 }
 
 .entry-defs { counter-reset: def; }
@@ -224,7 +223,7 @@ border: 1px solid var(--border);
 border-radius: 6px;
 color: var(--text-dim);
 font-family: 'Crimson Pro', serif;
-font-size: 0.85rem;
+font-size: 1rem;
 font-style: italic;
 cursor: pointer;
 padding: 3px 10px;
@@ -250,8 +249,8 @@ display: none;
 .conj-table {
 width: 100%;
 border-collapse: collapse;
-font-size: 0.82rem;
-font-family: 'JetBrains Mono', monospace;
+font-size: 1rem;
+
 }
 
 .conj-table th {
@@ -263,7 +262,7 @@ padding: 6px 10px;
 text-align: center;
 border-bottom: 1px solid var(--border);
 white-space: nowrap;
-font-size: 0.72rem;
+font-size: 1rem;
 text-transform: uppercase;
 }
 
@@ -280,7 +279,7 @@ white-space: nowrap;
 .conj-table td:first-child {
 text-align: left;
 color: var(--text-secondary);
-font-size: 0.75rem;
+font-size: 1rem;
 letter-spacing: 0.08em;
 text-transform: uppercase;
 background: rgba(42,40,64,0.5);
@@ -295,7 +294,7 @@ text-align: center;
 padding: 4rem 2rem;
 color: var(--text-dim);
 font-style: italic;
-font-size: 1.05rem;
+font-size: 1rem;
 }
 
 .highlight { color: inherit; font-style: normal; text-decoration: underline; text-decoration-color: var(--purple-mid); text-underline-offset: 3px; }
@@ -320,7 +319,7 @@ border-radius: 50%;
 background: var(--charcoal);
 border: 1px solid var(--border);
 color: var(--purple-light);
-font-size: 1.1rem;
+font-size: 1rem;
 cursor: pointer;
 opacity: 0;
 pointer-events: none;
@@ -369,7 +368,7 @@ text-align: center;
   border-radius: 6px;
   color: var(--text-dim);
   font-family: 'Crimson Pro', serif;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
   transition: all 0.18s;
@@ -384,10 +383,11 @@ text-align: center;
   border: none;
   color: var(--text-dim);
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 2px 4px;
   transition: color 0.18s;
   margin-left: auto;
+  font-family: 'Crimson Pro', serif;
 }
 
 .copy-btn:hover { color: var(--purple-light); }
@@ -433,7 +433,7 @@ text-align: center;
   right: 0;
   text-align: center;
   padding: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--text-dim);
   background: linear-gradient(0deg, var(--bg) 60%, transparent 100%);
   pointer-events: none;
@@ -449,7 +449,7 @@ text-align: center;
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 1rem;
   cursor: pointer;
   transition: border-color 0.18s, background 0.18s;
 }
@@ -461,25 +461,25 @@ text-align: center;
 
 .card-title {
   font-family: 'Cinzel', serif;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--purple-light);
   letter-spacing: 0.06em;
 }
 
 .card-desc {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-secondary);
   line-height: 1.55;
 }
 
 .card-arrow {
   margin-top: auto;
-  font-size: 0.78rem;
+  font-size: 1rem;
   color: var(--text-dim);
-  font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.06em;
   transition: color 0.2s;
+  font-variant: small-caps;
 }
 
 .card:hover .card-arrow { color: var(--purple-mid); }
@@ -509,12 +509,11 @@ text-align: center;
 
 .tool-label {
   display: block;
-  font-size: 0.78rem;
+  font-size: 1rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-dim);
   margin-bottom: 0.5rem;
-  font-family: 'JetBrains Mono', monospace;
 }
 
 #phon-input {
@@ -548,9 +547,9 @@ text-align: center;
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 0.82rem;
+  font-size: 1.05rem;
   color: var(--text-dim);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Crimson Pro', serif;
   cursor: pointer;
   user-select: none;
 }
@@ -724,12 +723,12 @@ text-align: center;
   padding: 0 1.5rem;
 }
 
-.namegen-controls .small-label {
-  font-size: 0.76rem;
+.namegen-controls .small-label,
+.small-label {
+  font-size: 1rem;
   color: var(--text-dim);
-  font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-variant: small-caps;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -741,9 +740,8 @@ text-align: center;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 6px;
-  color: var(--text-primary);
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.9rem;
+  color: var(--text-dim);
+  font-size: 1rem;
   outline: none;
 }
 
@@ -788,6 +786,44 @@ text-align: center;
 }
 
 #blocklist-input:focus { border-color: var(--purple-mid); }
+
+.suffix-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  max-width: 900px;
+  margin: 0.8rem auto 0;
+  padding: 0 1.5rem;
+}
+ 
+.suffix-chip {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 4px 10px 4px 12px;
+  cursor: pointer;
+  transition: all 0.18s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+ 
+.suffix-chip .chip-gloss {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+}
+ 
+.suffix-chip:hover { border-color: var(--border-hover); color: var(--text-secondary); }
+.suffix-chip.active { border-color: var(--purple-mid); color: var(--purple-light); background: rgba(139,120,220,0.12); }
+.suffix-chip.active .chip-gloss { opacity: 1; }
+ 
+.suffix-chip.verb-chip.active { border-color: var(--accent-verb); color: var(--accent-verb); background: rgba(180,142,240,0.12); }
 
 .name-grid {
   max-width: 900px;
