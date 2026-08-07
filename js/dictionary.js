@@ -199,7 +199,8 @@ function renderEntry(word, data, query) {
     <div class="entry">
         <div class="entry-header">
             <span class="entry-word">${highlightMatch(word, query)}</span>
-            ${data.ipa ? `<span class="entry-ipa">${escapeHtml(Array.isArray(data.ipa) ? data.ipa[0] : data.ipa)}</span>` : ''}
+            ${data.ipa ? `<span class="entry-ipa">${escapeHtml(Array.isArray(data.ipa) ? data.ipa[0] : data.ipa)}</span>
+            <button class="ipa-copy-btn" data-ipa="${escapeHtml(Array.isArray(data.ipa) ? data.ipa[0] : data.ipa)}" onclick="copyIPA(this, event)" aria-label="Copy IPA" title="Copy IPA">⎘ copy IPA</button>` : ''}
             ${data.pos ? `<span class="pos-badge ${posClass(data.pos)}">${escapeHtml(data.pos)}</span>` : ''}
         </div>
         <ol class="entry-defs">${defsHtml}</ol>
@@ -278,13 +279,16 @@ function render() {
 
   if (entries.length === 0) {
     container.innerHTML = `<div class="no-results">No entries found for "<em>${escapeHtml(query)}</em>"</div>`;
+    updateAZNavState(new Set());
     return;
   }
 
   let html = '';
   let currentLetter = '';
+  const presentLetters = new Set();
   entries.forEach(([w, d]) => {
     const letter = w[0].toUpperCase();
+    presentLetters.add(letter);
     if (letter !== currentLetter) {
       currentLetter = letter;
       html += `<div class="letter-divider">${letter}</div>`;
@@ -292,6 +296,7 @@ function render() {
     html += renderEntry(w, d, query);
   });
   container.innerHTML = html;
+  updateAZNavState(presentLetters);
 }
 
 async function loadDictionary() {
@@ -302,16 +307,55 @@ async function loadDictionary() {
   } catch (e) {
     DICT = SAMPLE_DICT;
     console.warn('Could not load dictionary.json — using sample data');
+    const banner = document.getElementById('fallback-banner');
+    if (banner) banner.style.display = 'block';
   }
+
+  const posCounts = {};
+  Object.values(DICT).forEach(d => {
+    if (!d.pos) return;
+    const key = d.pos.toLowerCase();
+    posCounts[key] = (posCounts[key] || 0) + 1;
+  });
+
   const parts = [...new Set(Object.values(DICT).map(d => d.pos).filter(Boolean))].sort();
   const select = document.getElementById('pos-filter');
+  const allOpt = select.querySelector('option[value=""]');
+  if (allOpt) allOpt.textContent = `All parts of speech (${Object.keys(DICT).length})`;
   parts.forEach(pos => {
+    const key = pos.toLowerCase();
     const opt = document.createElement('option');
-    opt.value = pos.toLowerCase();
-    opt.textContent = pos.charAt(0).toUpperCase() + pos.slice(1);
+    opt.value = key;
+    opt.textContent = `${pos.charAt(0).toUpperCase() + pos.slice(1)} (${posCounts[key] || 0})`;
     select.appendChild(opt);
   });
+
+  buildAZNav();
   render();
+}
+
+// ── A–Z jump nav ──────────────────────────────────────────
+function buildAZNav() {
+  const container = document.getElementById('az-nav');
+  if (!container) return;
+  const letters = [...new Set(Object.keys(DICT).map(w => w[0].toUpperCase()))].sort();
+  container.innerHTML = letters
+    .map(l => `<button class="az-letter" data-letter="${l}" onclick="jumpToLetter('${l}')">${l}</button>`)
+    .join('');
+}
+
+function jumpToLetter(letter) {
+  const target = [...document.querySelectorAll('.letter-divider')]
+    .find(el => el.textContent.trim() === letter);
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function updateAZNavState(presentLetters) {
+  document.querySelectorAll('.az-letter').forEach(btn => {
+    btn.classList.toggle('disabled', !presentLetters.has(btn.dataset.letter));
+  });
 }
 
 document.getElementById('search').addEventListener('input', () => {
@@ -320,6 +364,20 @@ document.getElementById('search').addEventListener('input', () => {
   render();
 });
 document.getElementById('pos-filter').addEventListener('change', render);
+
+function copyIPA(btn, evt) {
+  if (evt) evt.stopPropagation();
+  const text = btn.dataset.ipa;
+  navigator.clipboard.writeText(text).then(() => {
+    const original = btn.textContent;
+    btn.textContent = '✓ copied';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = original;
+      btn.classList.remove('copied');
+    }, 1200);
+  });
+}
 
 function copyWord(btn) {
   const word = btn.dataset.word;
