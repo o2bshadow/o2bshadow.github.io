@@ -310,7 +310,7 @@ function pinCard(btn) {
 function renderKept() {
   const listEl = document.getElementById('kept-list');
   if (!kept.length) {
-    listEl.innerHTML = `<div class="kept-empty">Nothing kept yet — generate some names and hit "+ keep" on the ones you like.</div>`;
+    listEl.innerHTML = `<div class="kept-empty">Nothing kept yet!</div>`;
     return;
   }
   listEl.innerHTML = kept.map((k, i) => `

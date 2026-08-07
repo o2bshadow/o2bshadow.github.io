@@ -1,5 +1,5 @@
 :root {
-    --bg: #0f0e17;
+    --bg: #0c0c0e; /* old: #0f0e17 */
     --bg-card: #16152a;
     --bg-card-hover: #1c1b35;
     --border: rgba(139, 120, 220, 0.18);
