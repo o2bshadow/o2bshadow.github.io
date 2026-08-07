@@ -490,24 +490,23 @@ text-align: center;
     background: linear-gradient(90deg, transparent, var(--purple-mid), transparent);
     margin: 1.6rem auto;
   }
-
 /* ==========================================================
    Pronunciation Tool
    ========================================================== */
- 
+
 .tool-nav {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-top: 1rem;
 }
- 
+
 .tool-panel {
   max-width: 720px;
-  margin: 2.5rem auto 2rem;
+  margin: 2.5rem auto 5rem;
   padding: 0 1.5rem;
 }
- 
+
 .tool-label {
   display: block;
   font-size: 0.78rem;
@@ -517,7 +516,7 @@ text-align: center;
   margin-bottom: 0.5rem;
   font-family: 'JetBrains Mono', monospace;
 }
- 
+
 #phon-input {
   width: 100%;
   padding: 0.9rem 1.1rem;
@@ -533,17 +532,17 @@ text-align: center;
   line-height: 1.5;
   transition: border-color 0.2s;
 }
- 
+
 #phon-input:focus { border-color: var(--purple-mid); }
 #phon-input::placeholder { color: var(--text-dim); }
- 
+
 .phon-actions {
   display: flex;
   align-items: center;
   gap: 8px;
   margin: 0.8rem 0 0.3rem;
 }
- 
+
 .live-toggle {
   margin-left: auto;
   display: flex;
@@ -555,9 +554,9 @@ text-align: center;
   cursor: pointer;
   user-select: none;
 }
- 
+
 .live-toggle input { accent-color: var(--purple-mid); cursor: pointer; }
- 
+
 .interlinear {
   margin-top: 1.6rem;
   padding: 1.3rem 1.5rem;
@@ -570,7 +569,7 @@ text-align: center;
   gap: 0.25rem 0;
   line-height: 1.5;
 }
- 
+
 .gloss-word {
   display: inline-flex;
   flex-direction: column;
@@ -581,19 +580,19 @@ text-align: center;
   transition: background 0.15s;
   cursor: default;
 }
- 
+
 .gloss-word.known { background: rgba(139,120,220,0.08); }
 .gloss-word:hover { background: rgba(139,120,220,0.14); }
- 
+
 .gloss-orig {
   font-family: 'Cinzel', serif;
   font-size: 1rem;
   color: var(--text-primary);
   letter-spacing: 0.02em;
 }
- 
+
 .gloss-word.known .gloss-orig { color: var(--purple-light); }
- 
+
 .gloss-ipa {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.78rem;
@@ -602,7 +601,7 @@ text-align: center;
   margin-top: 2px;
   white-space: nowrap;
 }
- 
+
 .gloss-punct {
   font-family: 'Crimson Pro', serif;
   color: var(--text-secondary);
@@ -610,20 +609,20 @@ text-align: center;
   padding-bottom: 6px;
   white-space: pre-wrap;
 }
- 
+
 .phon-summary-actions {
   display: flex;
   justify-content: flex-end;
   margin-top: 0.6rem;
 }
- 
+
 #breakdown {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
- 
+
 .breakdown-title {
   font-family: 'Cinzel', serif;
   font-size: 0.9rem;
@@ -632,80 +631,299 @@ text-align: center;
   text-transform: uppercase;
   margin-bottom: 0.4rem;
 }
- 
+
 .entry-unknown {
   font-size: 0.85rem;
   color: var(--text-dim);
   font-style: italic;
   margin-top: 0.3rem;
 }
- 
-.history-panel {
-  max-width: 720px;
-  margin: 0 auto 5rem;
-  padding: 0 1.5rem;
+
+@media (max-width: 580px) {
+  .interlinear { padding: 1rem; }
+  .gloss-word { padding: 3px 5px; }
 }
- 
-.history-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-  font-family: 'JetBrains Mono', monospace;
-  margin-bottom: 0.5rem;
+
+/* ==========================================================
+   Dictionary readability additions (A-Z nav, IPA copy, fallback)
+   ========================================================== */
+
+.fallback-banner {
+  max-width: 680px;
+  margin: 1.5rem auto 0;
+  padding: 0.7rem 1.2rem;
+  background: var(--yellow-dim);
+  border: 1px solid rgba(245,192,122,0.35);
+  border-radius: 8px;
+  color: var(--yellow);
+  font-size: 0.88rem;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
- 
-#history-list {
+
+.az-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  justify-content: center;
+  gap: 4px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 0.7rem 1.5rem;
+  margin-top: 1.5rem;
 }
- 
-.history-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--bg-card);
+
+.az-letter {
+  background: none;
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 4px 6px 4px 12px;
-  font-size: 0.85rem;
+  border-radius: 6px;
   color: var(--text-secondary);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: all 0.18s;
-  max-width: 260px;
 }
- 
-.history-chip:hover { border-color: var(--border-hover); color: var(--text-primary); }
- 
-.history-chip span.chip-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
- 
-.history-chip button {
+
+.az-letter:hover:not(.disabled) { border-color: var(--purple-mid); color: var(--purple-light); }
+.az-letter.disabled { opacity: 0.25; cursor: default; pointer-events: none; }
+
+.letter-divider { scroll-margin-top: 64px; }
+
+.ipa-copy-btn {
   background: none;
   border: none;
   color: var(--text-dim);
   cursor: pointer;
-  font-size: 0.75rem;
-  padding: 2px 5px;
-  line-height: 1;
+  font-size: 0.72rem;
+  padding: 0 2px;
+  opacity: 0.55;
+  transition: opacity 0.15s, color 0.15s;
 }
- 
-.history-chip button:hover { color: var(--red); }
- 
-.history-empty {
+
+.ipa-copy-btn:hover { opacity: 1; color: var(--purple-light); }
+.ipa-copy-btn.copied { opacity: 1; color: var(--accent-adj); }
+
+/* ==========================================================
+   Name Generator
+   ========================================================== */
+
+.namegen-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  max-width: 900px;
+  margin: 2.5rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.namegen-controls .small-label {
+  font-size: 0.76rem;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#batch-size {
+  width: 60px;
+  padding: 0.5rem 0.6rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+#batch-size:focus { border-color: var(--purple-mid); }
+
+.namegen-note {
+  max-width: 900px;
+  margin: 0.6rem auto 0;
+  padding: 0 1.5rem;
+  font-size: 0.82rem;
   color: var(--text-dim);
   font-style: italic;
-  font-size: 0.85rem;
 }
- 
+
+.blocklist-wrap {
+  max-width: 900px;
+  margin: 0.7rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.blocklist-wrap summary {
+  cursor: pointer;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.03em;
+}
+
+.blocklist-wrap summary:hover { color: var(--text-secondary); }
+
+#blocklist-input {
+  width: 100%;
+  margin-top: 0.6rem;
+  padding: 0.6rem 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  outline: none;
+}
+
+#blocklist-input:focus { border-color: var(--purple-mid); }
+
+.name-grid {
+  max-width: 900px;
+  margin: 1.6rem auto 0;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.name-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.18s;
+}
+
+.name-card:hover { border-color: var(--border-hover); }
+
+.name-conlang-input {
+  background: none;
+  border: none;
+  border-bottom: 1px dashed var(--border);
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  color: var(--purple-light);
+  padding: 2px 0;
+  width: 100%;
+  outline: none;
+}
+
+.name-conlang-input:focus { border-color: var(--purple-mid); }
+
+.name-gloss-input {
+  background: none;
+  border: none;
+  border-bottom: 1px dashed var(--border);
+  font-family: 'Crimson Pro', serif;
+  font-style: italic;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  padding: 2px 0;
+  width: 100%;
+  outline: none;
+}
+
+.name-gloss-input:focus { border-color: var(--purple-mid); }
+
+.name-card-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.name-mini-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  padding: 3px 9px;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.name-mini-btn:hover { border-color: var(--purple-mid); color: var(--purple-light); }
+.name-mini-btn.pinned { border-color: var(--purple-mid); color: var(--purple-light); background: rgba(139,120,220,0.1); }
+
+.kept-panel {
+  max-width: 900px;
+  margin: 2.5rem auto 5rem;
+  padding: 0 1.5rem;
+}
+
+.kept-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.kept-header span {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: var(--purple-dim);
+}
+
+.kept-actions { display: flex; gap: 6px; }
+
+#kept-list { display: flex; flex-direction: column; gap: 6px; }
+
+.kept-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+}
+
+.kept-item .kept-text {
+  font-family: 'Cinzel', serif;
+  color: var(--purple-light);
+  font-size: 0.95rem;
+}
+
+.kept-item .kept-gloss {
+  font-family: 'Crimson Pro', serif;
+  font-style: italic;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  margin-left: 8px;
+}
+
+.kept-item button {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.kept-item button:hover { color: var(--red); }
+
+.kept-empty { color: var(--text-dim); font-style: italic; font-size: 0.85rem; }
+
 @media (max-width: 580px) {
-  .interlinear { padding: 1rem; }
-  .gloss-word { padding: 3px 5px; }
+  .name-grid { grid-template-columns: 1fr; }
 }

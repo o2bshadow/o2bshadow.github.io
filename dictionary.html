@@ -15,11 +15,6 @@
   <h1>Dictionary</h1>
   <p><button class="copy-btn" onclick="window.open('./index.html', '_blank')">Aistvharkol; The Old Tongue</button></p>
   <div class="divider"></div>
-  <div class="tool-nav">
-    <button class="mode-btn" onclick="window.open('./index.html', '_self')">Home</button>
-    <button class="mode-btn" onclick="window.open('./pronounce.html', '_self')">Pronunciation</button>
-  </div>
-</header>
   <div class="search-bar">
     <div class="search-wrap">
       <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,10 +31,18 @@
         <button class="mode-btn active" data-mode="both" onclick="setMode(this)">All</button>
         <button class="mode-btn" data-mode="word" onclick="setMode(this)">Word</button>
         <button class="mode-btn" data-mode="def" onclick="setMode(this)">Definition</button>
+        <button class="mode-btn" onclick="window.open('pronunciation.html','_self')">Pronounce</button>
+        <button class="mode-btn" onclick="window.open('names.html','_self')">Names</button>
         <button class="mode-btn" onclick="window.open('dictionary-editor.html','_blank')">Edit</button>
       </div>
   </div>
 </header>
+
+<div id="fallback-banner" class="fallback-banner" style="display:none;">
+  ⚠ Showing sample entries — the live dictionary could not be loaded.
+</div>
+
+<div id="az-nav" class="az-nav"></div>
 
 <div id="results-count"></div>
 <div id="dictionary"></div>
