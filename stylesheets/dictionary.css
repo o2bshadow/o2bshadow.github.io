@@ -366,13 +366,14 @@ text-align: center;
   background: none;
   border: 1px solid var(--border);
   border-radius: 6px;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   font-family: 'Crimson Pro', serif;
-  font-size: 1rem;
+  font-size: .9rem;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
   transition: all 0.18s;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .mode-btn:hover { border-color: var(--purple-mid); color: var(--text-secondary); }
@@ -383,11 +384,12 @@ text-align: center;
   border: none;
   color: var(--text-dim);
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 2px 4px;
   transition: color 0.18s;
   margin-left: auto;
   font-family: 'Crimson Pro', serif;
+  text-transform: uppercase;
 }
 
 .copy-btn:hover { color: var(--purple-light); }
@@ -547,11 +549,13 @@ text-align: center;
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text-dim);
   font-family: 'Crimson Pro', serif;
   cursor: pointer;
   user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .live-toggle input { accent-color: var(--purple-mid); cursor: pointer; }
@@ -594,7 +598,7 @@ text-align: center;
 
 .gloss-ipa {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   color: var(--blue-light);
   opacity: 0.85;
   margin-top: 2px;
@@ -624,7 +628,7 @@ text-align: center;
 
 .breakdown-title {
   font-family: 'Cinzel', serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 0.08em;
   color: var(--purple-dim);
   text-transform: uppercase;
@@ -632,7 +636,7 @@ text-align: center;
 }
 
 .entry-unknown {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--text-dim);
   font-style: italic;
   margin-top: 0.3rem;
@@ -679,8 +683,8 @@ text-align: center;
   border: 1px solid var(--border);
   border-radius: 6px;
   color: var(--text-secondary);
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.9rem;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
   width: 28px;
   height: 28px;
   display: flex;
@@ -703,6 +707,9 @@ text-align: center;
   font-size: 0.8rem;
   padding: 0 4px;
   transition: color 0.18s;
+  text-transform: uppercase;
+  font-family: 'Crimson Pro', serif;
+  
 }
 
 .ipa-copy-btn:hover { color: var(--purple-light); }
@@ -726,7 +733,7 @@ text-align: center;
 .namegen-controls .small-label,
 .small-label {
   font-size: 1rem;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   letter-spacing: 0.06em;
   font-variant: small-caps;
   display: flex;
@@ -751,9 +758,10 @@ text-align: center;
   max-width: 900px;
   margin: 0.6rem auto 0;
   padding: 0 1.5rem;
-  font-size: 0.82rem;
-  color: var(--text-dim);
+  font-size: 1rem;
+  color: var(--text-secondary);
   font-style: italic;
+  text-align: center;
 }
 
 .blocklist-wrap {
@@ -765,8 +773,8 @@ text-align: center;
 .blocklist-wrap summary {
   cursor: pointer;
   color: var(--text-dim);
-  font-size: 0.82rem;
-  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
@@ -781,7 +789,7 @@ text-align: center;
   border-radius: 8px;
   color: var(--text-secondary);
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   outline: none;
 }
 
@@ -801,8 +809,8 @@ text-align: center;
   background: none;
   border: 1px solid var(--border);
   border-radius: 20px;
-  color: var(--text-dim);
-  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
   font-weight: 500;
   padding: 4px 10px 4px 12px;
   cursor: pointer;
@@ -810,10 +818,12 @@ text-align: center;
   display: inline-flex;
   align-items: center;
   gap: 5px;
+  text-transform: uppercase;
+  font-family: 'Crimson Pro', serif;
 }
  
 .suffix-chip .chip-gloss {
-  font-size: 0.66rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   opacity: 0.75;
@@ -852,7 +862,7 @@ text-align: center;
   border: none;
   border-bottom: 1px dashed var(--border);
   font-family: 'Cinzel', serif;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: var(--purple-light);
   padding: 2px 0;
   width: 100%;
@@ -867,7 +877,7 @@ text-align: center;
   border-bottom: 1px dashed var(--border);
   font-family: 'Crimson Pro', serif;
   font-style: italic;
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   padding: 2px 0;
   width: 100%;
@@ -887,8 +897,9 @@ text-align: center;
   border: 1px solid var(--border);
   border-radius: 6px;
   color: var(--text-dim);
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.8rem;
   padding: 3px 9px;
   cursor: pointer;
   transition: all 0.18s;
@@ -914,8 +925,8 @@ text-align: center;
   font-family: 'Cinzel', serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-size: 0.9rem;
-  color: var(--purple-dim);
+  font-size: 1rem;
+  color: var(--purple-light);
 }
 
 .kept-actions { display: flex; gap: 6px; }
@@ -936,14 +947,14 @@ text-align: center;
 .kept-item .kept-text {
   font-family: 'Cinzel', serif;
   color: var(--purple-light);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .kept-item .kept-gloss {
   font-family: 'Crimson Pro', serif;
   font-style: italic;
   color: var(--text-dim);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   margin-left: 8px;
 }
 
@@ -958,7 +969,7 @@ text-align: center;
 
 .kept-item button:hover { color: var(--red); }
 
-.kept-empty { color: var(--text-dim); font-style: italic; font-size: 0.85rem; }
+.kept-empty { color: var(--text-dim); font-style: italic; font-size: 1rem; }
 
 @media (max-width: 580px) {
   .name-grid { grid-template-columns: 1fr; }
