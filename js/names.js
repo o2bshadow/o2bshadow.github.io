@@ -46,7 +46,6 @@ const SUFFIXES = [
   { id: 'dim',    form: "'in",  gloss: 'DIM',      label: 'Diminutive',                        applies: 'noun-optional' },
   { id: 'aug',    form: "'odh", gloss: 'AUG',      label: 'Augmentative',                      applies: 'noun-optional' },
   { id: 'nom',    form: "'r",   gloss: 'NOM',      label: 'Verb Nominalization',                applies: 'verb-head' },
-  { id: 'nmzrln', form: "'ir",  gloss: 'NMZ.RLN',  label: 'Verb Nom. with Relation',            applies: 'verb-head' },
   { id: 'poss',   form: "'il",  gloss: 'POSS',     label: 'Possessive',                        applies: 'noun-optional' },
   { id: 'aprt',   form: "'ka",  gloss: 'APRT',     label: 'Present Participle',                applies: 'verb-modifier' },
 ];
@@ -212,20 +211,43 @@ function generateOne() {
   const blocklist = nameMode === 'suffix' ? getBlocklist() : null;
 
   if (wordCount === 1) {
-    const { adjs, nouns } = getBasePools();
-    const combined = [...adjs, ...nouns];
-    const filtered = blocklist ? combined.filter(([w, d]) => !isRoady(d, blocklist)) : combined;
-    const source = filtered.length ? filtered : combined;
-    const picked = pickRandom(source);
-    if (!picked) return null;
-    const unit = bareUnit(picked[0], picked[1]);
+    const { adjs, nouns, verbs } = getBasePools();
+    const pool = [
+      ...adjs.map(([w, d]) => bareUnit(w, d)),
+      ...nouns.map(([w, d]) => bareUnit(w, d))
+    ];
+
+    // Add nominalized/relational verbs if toggled on
+    const verbHeadSuffixes = SUFFIXES.filter(
+      s => s.applies === 'verb-head' && activeSuffixes.has(s.id)
+    );
+    verbHeadSuffixes.forEach(suf => {
+      verbs.forEach(([w, d]) => pool.push(suffixedUnit(w, d, suf)));
+    });
+
+    // Add participle verbs if APRT is toggled on
+    const aprtSuffix = SUFFIXES.find(s => s.id === 'aprt');
+    if (activeSuffixes.has('aprt')) {
+      verbs.forEach(([w, d]) => pool.push(suffixedUnit(w, d, aprtSuffix)));
+    }
+
+    // Filter against road blocklist if street suffix mode is enabled
+    const filtered = blocklist
+      ? pool.filter(u => !isRoady(u.rootData, blocklist))
+      : pool;
+    const source = filtered.length ? filtered : pool;
+    const pickedUnit = pickRandom(source);
+    if (!pickedUnit) return null;
+
     const suffix = nameMode === 'suffix' ? pickRandom(STREET_SUFFIXES) : null;
     return {
-      conlang: [unit.conlang, suffix].filter(Boolean).join(' '),
-      gloss: [unit.gloss, suffix].filter(Boolean).join(' ')
+      conlang: [pickedUnit.conlang, suffix].filter(Boolean).join(' '),
+      gloss: [pickedUnit.gloss, suffix].filter(Boolean).join(' ')
     };
   }
 
+
+// ── 2-Word Names ───────────────────────────────────────
   const modifierPool = buildModifierPool();
   let headPool = buildHeadPool();
   if (blocklist) {
@@ -237,11 +259,16 @@ function generateOne() {
   const head = pickRandom(headPool);
   if (!modifier || !head) return null;
 
+  // Randomize word order (50% Adj/Noun vs. 50% Noun/Adj)
+  const isHeadFirst = Math.random() < 0.5;
+  const firstUnit = isHeadFirst ? head : modifier;
+  const secondUnit = isHeadFirst ? modifier : head;
+
   const suffix = nameMode === 'suffix' ? pickRandom(STREET_SUFFIXES) : null;
 
   return {
-    conlang: [modifier.conlang, head.conlang, suffix].filter(Boolean).join(' '),
-    gloss: [modifier.gloss, head.gloss, suffix].filter(Boolean).join(' ')
+    conlang: [firstUnit.conlang, secondUnit.conlang, suffix].filter(Boolean).join(' '),
+    gloss: [firstUnit.gloss, secondUnit.gloss, suffix].filter(Boolean).join(' ')
   };
 }
 
