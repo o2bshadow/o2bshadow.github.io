@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Name Generator — Aistvharkol</title>
+<link href="./stylesheets/dictionary.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="./stylesheets/dictionary.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <h1>Name Generator</h1>
+  <p>modifier + head word combinations for streets, districts, and places</p>
+  <div class="divider"></div>
+  <div class="tool-nav">
+    <button class="mode-btn" onclick="window.open('./index.html', '_self')">Home</button>
+    <button class="mode-btn" onclick="window.open('./dictionary.html', '_self')">Dictionary</button>
+    <button class="mode-btn" onclick="window.open('./pronunciation.html', '_self')">Pronounce</button>
+  </div>
+</header>
+
+<div class="namegen-controls">
+  <button class="mode-btn active" id="mode-suffix-btn" onclick="setNameMode('suffix')">Conlang + English suffix</button>
+  <button class="mode-btn" id="mode-plain-btn" onclick="setNameMode('plain')">Conlang only</button>
+  <label class="small-label">Batch <input type="number" id="batch-size" value="10" min="1" max="50"></label>
+  <button class="mode-btn active" onclick="generateBatch()">Generate</button>
+</div>
+
+<div class="namegen-controls">
+  <span class="small-label">Length</span>
+  <button class="mode-btn active" id="count-2-btn" onclick="setWordCount(2)">2 words</button>
+  <button class="mode-btn" id="count-1-btn" onclick="setWordCount(1)">1 word</button>
+  <label class="live-toggle" id="adverb-toggle-label">
+    <input type="checkbox" id="use-adverbs-toggle" onchange="renderSuffixChips()"> include adverbs as a modifier (2-word only)
+  </label>
+</div>
+
+<div class="suffix-toggles" id="suffix-toggles"></div>
+
+<p class="namegen-note">2-word names pair a modifier (adjective, or a noun/verb turned adjectival) with a head (noun, or a suffixed/nominalized form). 1-word names are a bare adjective or noun.</p>
+<p class="namegen-note">The English gloss underneath is auto-drafted from the definitions and may not be correct (or sensible).</p>
+
+<details class="blocklist-wrap">
+  <summary>Road-like words to avoid when using suffixes:</summary>
+  <input type="text" id="blocklist-input" spellcheck="false">
+</details>
+
+<div id="namegen-empty" class="no-results" style="display:none;">Not enough adjective and noun entries in the dictionary yet to generate names.</div>
+
+<div id="name-grid" class="name-grid"></div>
+
+<div class="kept-panel">
+  <div class="kept-header">
+    <span>Kept names</span>
+    <div class="kept-actions">
+      <button class="copy-btn" onclick="copyKeptList()">⎘ copy list</button>
+      <button class="copy-btn" onclick="downloadKeptList()">⬇ download .txt</button>
+      <button class="copy-btn" onclick="clearKeptList()">clear</button>
+    </div>
+  </div>
+  <div id="kept-list"></div>
+</div>
+
+<script type="text/javascript" src="./js/names.js"></script>
+
+<div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
+</body>
+
+</html>
