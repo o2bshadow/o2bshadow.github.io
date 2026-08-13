@@ -16,9 +16,9 @@
   <p>paste a word or a passage to hear it in Aistvharkol</p>
   <div class="divider"></div>
   <div class="tool-nav">
-    <button class="mode-btn" onclick="window.open('./index.html', '_self')">Home</button>
-    <button class="mode-btn" onclick="window.open('./dictionary.html', '_self')">Dictionary</button>
-    <button class="mode-btn" onclick="window.open('names.html','_self')">Name Generator</button>
+    <button class="mode-btn" onclick="window.open('./index.html', '_self')"><i data-lucide="home" class="mode-icon"></i> Home</button>
+    <button class="mode-btn" onclick="window.open('./dictionary.html', '_self')"><i data-lucide="book-open-text" class="mode-icon"></i> Dictionary</button>
+    <button class="mode-btn" onclick="window.open('names.html','_self')"><i data-lucide="sparkles" class="mode-icon"></i> Name Generator</button>
   </div>
 </header>
 
@@ -46,6 +46,11 @@
 <script type="text/javascript" src="./js/pronunciation.js"></script>
 
 <div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
-</body>
 
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
 </html>

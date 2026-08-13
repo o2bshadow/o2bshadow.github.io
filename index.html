@@ -50,23 +50,7 @@
     max-width: 900px;
   }
 
-  .card:hover {
-    border-color: var(--border-hover);
-    background: var(--bg-card-hover);
-  }
-
-  .card:hover::before { opacity: 1; }
-
-  .card-icon {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 1.4rem;
-    color: var(--purple-mid);
-    margin-bottom: 0.3rem;
-  }
-
-  .card:hover .card-arrow { color: var(--purple-mid); }
-
-  #footer {
+    #footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -91,19 +75,19 @@
 
 <div class="grid">
   <a class="card" href="dictionary.html">
-    <div class="card-icon">§</div>
+    <i data-lucide="book-open-text" class="card-icon"></i>
     <div class="card-title">Dictionary</div>
     <div class="card-desc">Browse and search the full lexicon, with IPA pronunciations, definitions, roots, and verb conjugations.</div>
     <div class="card-arrow">open →</div>
   </a>
   <a class="card" href="pronunciation.html">
-    <div class="card-icon">◈</div>
+    <i data-lucide="messages-square" class="card-icon"></i>
     <div class="card-title">Pronunciation</div>
     <div class="card-desc">Paste any word or passage to see its IPA transcription, cross-referenced against the dictionary.</div>
     <div class="card-arrow">open →</div>
   </a>
   <a class="card" href="names.html">
-    <div class="card-icon">➥</div>
+    <i data-lucide="sparkles" class="card-icon"></i>
     <div class="card-title">Name Generator</div>
     <div class="card-desc">Generate adjective-noun name pairs for streets, districts, or other inspiration.</div>
     <div class="card-arrow">open →</div>
@@ -111,6 +95,9 @@
 </div>
 
 <div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
-
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
 </body>
 </html>

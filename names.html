@@ -17,17 +17,20 @@
   <p>modifier + head word combinations for streets, districts, and places</p>
   <div class="divider"></div>
   <div class="tool-nav">
-    <button class="mode-btn" onclick="window.open('./index.html', '_self')">Home</button>
-    <button class="mode-btn" onclick="window.open('./dictionary.html', '_self')">Dictionary</button>
-    <button class="mode-btn" onclick="window.open('./pronunciation.html', '_self')">Pronounce</button>
+    <button class="mode-btn" onclick="window.open('./index.html', '_self')"><i data-lucide="home" class="mode-icon"></i> Home</button>
+    <button class="mode-btn" onclick="window.open('./dictionary.html', '_self')"><i data-lucide="book-open-text" class="mode-icon"></i> Dictionary</button>
+    <button class="mode-btn" onclick="window.open('./pronunciation.html', '_self')"><i data-lucide="messages-square" class="mode-icon"></i> Pronunciation</button>
   </div>
+
 </header>
 
 <div class="namegen-controls">
   <button class="mode-btn active" id="mode-suffix-btn" onclick="setNameMode('suffix')">Conlang + English suffix</button>
   <button class="mode-btn" id="mode-plain-btn" onclick="setNameMode('plain')">Conlang only</button>
-  <label class="small-label">Batch <input type="number" id="batch-size" value="10" min="1" max="50"></label>
-  <button class="mode-btn active" onclick="generateBatch()">Generate</button>
+  <div style="display: flex; align-items: center; gap: 10px; margin-left: auto;">
+    <label class="small-label">Batch <input type="number" id="batch-size" value="10" min="1" max="50"></label>
+    <button class="mode-btn active" onclick="generateBatch()">Generate</button>
+  </div>
 </div>
 
 <div class="namegen-controls">
@@ -68,6 +71,12 @@
 <script type="text/javascript" src="./js/names.js"></script>
 
 <div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
 </body>
 
 </html>

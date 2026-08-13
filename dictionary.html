@@ -13,10 +13,15 @@
 
 <header>
   <h1>Dictionary</h1>
-    <button class="mode-btn" onclick="window.open('./index.html', '_self')">Home</button>
-    <button class="mode-btn" onclick="window.open('./pronunciation.html', '_self')">Pronunciation</button>
-    <button class="mode-btn" onclick="window.open('names.html','_self')">Name Generator</button>
-</header>
+  <p>Browse the Aistvharkol dictionary</p>
+  <div class="divider"></div>
+  <div class="tool-nav">
+    <button class="mode-btn" onclick="window.open('./index.html', '_self')"><i data-lucide="home" class="mode-icon"></i> Home</button>
+    <button class="mode-btn" onclick="window.open('./pronunciation.html', '_self')"><i data-lucide="messages-square" class="mode-icon"></i> Pronunciation</button>
+    <button class="mode-btn" onclick="window.open('names.html','_self')"><i data-lucide="sparkles" class="mode-icon"></i> Name Generator</button>
+  </div>
+
+  </header>
   <div class="search-bar">
     <div class="search-wrap">
       <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +57,11 @@
 <script type="text/javascript" src="./js/dictionary.js"></script>
 
 <div id="footer">© 2026 Sara Laudeman. All rights reserved.</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
 </body>
-
-
 </html>

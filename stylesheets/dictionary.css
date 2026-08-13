@@ -368,7 +368,7 @@ text-align: center;
   border-radius: 6px;
   color: var(--text-secondary);
   font-family: 'Crimson Pro', serif;
-  font-size: .9rem;
+  font-size: 1rem;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
   transition: all 0.18s;
@@ -486,12 +486,59 @@ text-align: center;
 
 .card:hover .card-arrow { color: var(--purple-mid); }
 
+
+/* ==========================================================
+   Icons (Lucide) — drop any Lucide SVG in with class="icon"
+   and it inherits size from font-size and color from
+   currentColor, so no per-icon tuning is needed.
+   ========================================================== */
+
+.icon {
+  width: 1em;
+  height: 1em;
+  stroke: currentColor;
+  stroke-width: 1;
+  fill: none;
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.lucide {
+  /* Change this! */
+  color: var(--purple-mid);
+  width: 1em;
+  height: 1em;
+  stroke-width: 1px;
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.mode-icon {
+  width: 1.1em;
+  height: 1em;
+  stroke: currentColor;
+  stroke-width: 1;
+  fill: none;
+  display: inline-block;
+  position: relative;
+  top: .15em;
+}
+
+.card-icon {
+  font-size: 1.5rem;
+  color: var(--purple-mid);
+  margin-bottom: 0.3rem;
+}
+
 .divider {
     width: 120px;
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--purple-mid), transparent);
     margin: 1.6rem auto;
   }
+
 /* ==========================================================
    Pronunciation Tool
    ========================================================== */
