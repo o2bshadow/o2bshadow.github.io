@@ -291,6 +291,8 @@ function generateBatch() {
     if (r) results.push(r);
   }
   renderGrid(results);
+
+  lucide.createIcons();
 }
 
 function renderGrid(results) {
@@ -304,12 +306,17 @@ function renderGrid(results) {
       <input class="name-conlang-input" value="${escapeHtml(r.conlang)}">
       <input class="name-gloss-input" value="${escapeHtml(r.gloss)}">
       <div class="name-card-actions">
-        <button class="name-mini-btn" onclick="rerollCard(this)">↻ reroll</button>
-        <button class="name-mini-btn" onclick="pinCard(this)">+ keep</button>
+        <button class="name-mini-btn" onclick="rerollCard(this)">
+          <i data-lucide="rotate-ccw" class="mini-icon"></i> reroll
+        </button>
+        <button class="name-mini-btn" onclick="pinCard(this)">
+          <i data-lucide="circle-plus" class="mini-icon"></i> keep
+        </button>
       </div>
     </div>
   `).join('');
 }
+
 
 function rerollCard(btn) {
   const card = btn.closest('.name-card');
@@ -317,9 +324,13 @@ function rerollCard(btn) {
   if (!r) return;
   card.querySelector('.name-conlang-input').value = r.conlang;
   card.querySelector('.name-gloss-input').value = r.gloss;
+  
   const pinBtn = card.querySelector('.name-mini-btn:last-child');
   pinBtn.classList.remove('pinned');
-  pinBtn.textContent = '+ keep';
+  
+  // Revert keep button structure back to normal
+  pinBtn.innerHTML = `<i data-lucide="circle-plus" class="mini-icon"></i> keep`;
+  lucide.createIcons();
 }
 
 function pinCard(btn) {
@@ -328,10 +339,15 @@ function pinCard(btn) {
   const gloss = card.querySelector('.name-gloss-input').value.trim();
   if (!conlang) return;
   kept.push({ conlang, gloss });
+  
   btn.classList.add('pinned');
-  btn.textContent = '✓ kept';
+  // Swap to checkmark icon instantly
+  btn.innerHTML = `<i data-lucide="clipboard-check" class="mini-icon"></i> kept`;
+  
+  lucide.createIcons();
   renderKept();
 }
+
 
 // ── Kept list ────────────────────────────────────────────
 function renderKept() {
