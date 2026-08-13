@@ -190,10 +190,19 @@ function convertText() {
         ${defs.length
           ? `<ol class="entry-defs">${defs.map(d => `<li>${escapeHtml(d)}</li>`).join('')}</ol>`
           : `<div class="entry-unknown">No dictionary entry — pronunciation generated from phonology rules only.</div>`}
-        <button class="copy-btn" data-text="${escapeHtml(ipa)}" onclick="copyText(this)">⎘ copy IPA</button>
+        
+        <!-- Updated to match copy-btn framework -->
+        <button class="copy-btn" data-text="${escapeHtml(ipa)}" onclick="copyText(this)">
+          <i data-lucide="clipboard-copy" class="copy-icon"></i> copy IPA
+        </button>
       </div>`;
   });
   breakdownEl.innerHTML = breakdownHtml;
+
+  lucide.createIcons();
+
+  saveHistory(text);
+
 
   saveHistory(text);
 }
@@ -207,12 +216,14 @@ function clearTool() {
 function copyText(btn) {
   const text = btn.dataset.text;
   navigator.clipboard.writeText(text).then(() => {
-    const original = btn.textContent;
-    btn.textContent = '✓ copied';
+    btn.innerHTML = `<i data-lucide="clipboard-check" class="copy-icon"></i> copied`;
     btn.classList.add('copied');
+    lucide.createIcons();
+
     setTimeout(() => {
-      btn.textContent = original;
+      btn.innerHTML = `<i data-lucide="clipboard-copy" class="copy-icon"></i> copy IPA`;
       btn.classList.remove('copied');
+      lucide.createIcons();
     }, 1500);
   });
 }
@@ -220,17 +231,22 @@ function copyText(btn) {
 function copyAllIPA() {
   const summaryEl = document.getElementById('phon-summary-actions');
   const text = summaryEl.dataset.fullIpa || '';
+  const btn = document.getElementById('copy-all-btn');
+  if (!btn || !text) return;
+
   navigator.clipboard.writeText(text).then(() => {
-    const btn = document.getElementById('copy-all-btn');
-    const original = btn.textContent;
-    btn.textContent = '✓ copied';
+    btn.innerHTML = `<i data-lucide="clipboard-check" class="copy-icon"></i> Copied All!`;
     btn.classList.add('copied');
+    lucide.createIcons();
+
     setTimeout(() => {
-      btn.textContent = original;
+      btn.innerHTML = `<i data-lucide="clipboard-copy" class="copy-icon"></i> Copy All IPA`;
       btn.classList.remove('copied');
+      lucide.createIcons();
     }, 1500);
   });
 }
+
 
 // ── History (localStorage only — no cookies) ────────────────
 function getHistory() {

@@ -198,9 +198,11 @@ function renderEntry(word, data, query) {
   return `
     <div class="entry">
         <div class="entry-header">
-            <span class="entry-word">${highlightMatch(word, query)}</span>
+          <span class="entry-word">${highlightMatch(word, query)}</span>
             ${data.ipa ? `<span class="entry-ipa">${escapeHtml(Array.isArray(data.ipa) ? data.ipa[0] : data.ipa)}</span>
-            <button class="ipa-copy-btn" data-ipa="${escapeHtml(Array.isArray(data.ipa) ? data.ipa[0] : data.ipa)}" onclick="copyIPA(this, event)" aria-label="Copy IPA" title="Copy IPA">⎘ copy IPA</button>` : ''}
+              <button class="ipa-copy-btn" data-ipa="${escapeHtml(Array.isArray(data.ipa) ? data.ipa[0] : data.ipa)}" onclick="copyIPA(this, event)" aria-label="Copy IPA" title="Copy IPA">
+                <i data-lucide="clipboard-copy" class="copy-icon"></i> copy IPA
+              </button>` : ''}
             ${data.pos ? `<span class="pos-badge ${posClass(data.pos)}">${escapeHtml(data.pos)}</span>` : ''}
         </div>
         <ol class="entry-defs">${defsHtml}</ol>
@@ -209,14 +211,13 @@ function renderEntry(word, data, query) {
             <span class="roots-label">roots:</span>
             ${data.root.map(r => `<button class="root-link" data-root="${escapeHtml(r)}" onclick="jumpToRoot(this.dataset.root)">${escapeHtml(r)}</button>`).join('')}
         </div>` : ''}
-        <button class="copy-btn" data-word="${escapeHtml(word)}" onclick="copyWord(this)">⎘ copy</button>
+        <button class="copy-btn" data-word="${escapeHtml(word)}" onclick="copyWord(this)"><i data-lucide="clipboard-copy" class="copy-icon"></i> copy</button>
         <br />
         ${conjHtml}
         ${declHtml}
     </div>
   `;
 }
-
 
 function toggleConj(btn) {
   const word = btn.dataset.word;
@@ -298,6 +299,8 @@ function render() {
   });
   container.innerHTML = html;
   updateAZNavState(presentLetters);
+
+  lucide.createIcons(); 
 }
 
 async function loadDictionary() {
@@ -369,28 +372,49 @@ document.getElementById('pos-filter').addEventListener('change', render);
 function copyIPA(btn, evt) {
   if (evt) evt.stopPropagation();
   const text = btn.dataset.ipa;
+  
   navigator.clipboard.writeText(text).then(() => {
-    const original = btn.textContent;
-    btn.textContent = '✓ copied';
+    // 1. Change to the 'check' icon and state
+    btn.innerHTML = `<i data-lucide="clipboard-check" class="copy-icon"></i> copied`;
     btn.classList.add('copied');
-    setTimeout(() => {
-      btn.textContent = original;
-      btn.classList.remove('copied');
-    }, 1200);
-  });
-}
+    
+    // 2. Force Lucide to render the check icon immediately
+    lucide.createIcons();
 
-function copyWord(btn) {
-  const word = btn.dataset.word;
-  navigator.clipboard.writeText(word).then(() => {
-    btn.textContent = '✓ copied';
-    btn.classList.add('copied');
     setTimeout(() => {
-      btn.textContent = '⎘ copy';
+      // 3. Revert back to the original 'copy' icon and state
+      btn.innerHTML = `<i data-lucide="clipboard-copy" class="copy-icon"></i> copy IPA`;
       btn.classList.remove('copied');
+      
+      // 4. Force Lucide to render the original icon again
+      lucide.createIcons();
     }, 1500);
   });
 }
+
+
+function copyWord(btn) {
+  const word = btn.dataset.word;
+  
+  navigator.clipboard.writeText(word).then(() => {
+    // 1. Change to the 'check' icon
+    btn.innerHTML = `<i data-lucide="clipboard-check" style="copy-icon"></i> copied`;
+    btn.classList.add('copied');
+    
+    // 2. Force Lucide to render the new icon immediately
+    lucide.createIcons();
+
+    setTimeout(() => {
+      // 3. Revert back to the 'copy' icon
+      btn.innerHTML = `<i data-lucide="clipboard-copy" style="copy-icon"></i> copy`;
+      btn.classList.remove('copied');
+      
+      // 4. Force Lucide to render the original icon again
+      lucide.createIcons();
+    }, 1500);
+  });
+}
+
 
 const SAMPLE_DICT = {
   "ava": {
