@@ -379,7 +379,9 @@ text-align: center;
 .mode-btn:hover { border-color: var(--purple-mid); color: var(--text-secondary); }
 .mode-btn.active { border-color: var(--purple-mid); color: var(--purple-light); background: rgba(139,120,220,0.1); }
 
-.copy-btn {
+.copy-btn, 
+.remove-kept-btn,
+.download-btn {
   /* Layout & Alignment */
   display: inline-flex;
   align-items: center;
@@ -1080,4 +1082,61 @@ text-align: center;
 
 @media (max-width: 580px) {
   .name-grid { grid-template-columns: 1fr; }
+}
+
+/* Keeps the copy, download, and delete actions vertically uniform */
+.kept-list-actions button,
+.remove-kept-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Style specifically for your individual delete trash cans */
+.remove-kept-btn {
+  background: none;
+  border: none;
+  padding: 4px;
+  color: var(--text-dim, #888);
+  transition: color 0.15s ease;
+}
+
+.remove-kept-btn:hover, 
+.remove-kept-btn:hover svg {
+  color: var(--accent-other) !important;
+}
+
+.download-btn:hover,
+.download-btn:hover svg {
+  color: var(--accent-noun);
+}
+
+.remove-kept-btn svg {
+  width: 14px;
+  height: 14px;
+}
+/* --- Download Button Flash State --- */
+.kept-list-actions button.downloaded svg {
+  stroke: var(--accent-adj) !important;
+}
+.kept-list-actions button.downloaded {
+  color: var(--accent-adj);
+}
+
+/* --- Row Delete Flash State --- */
+.remove-kept-btn.removed svg {
+  stroke: var(--accent-other) !important;
+  transform: scale(1.2);
+  transition: transform 0.15s ease, stroke 0.15s ease;
+}
+
+/* --- Clear All Flash State --- */
+.kept-list-actions button.cleared svg {
+  stroke: var(--accent-other) !important;
+}
+.kept-list-actions button.cleared {
+  color: var(--accent-other);
 }
