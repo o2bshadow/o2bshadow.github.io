@@ -1750,6 +1750,21 @@
     "related": [],
     "notes": ""
   },
+  "ceirich": {
+    "pos": "noun",
+    "ipa": [
+      "keːirix"
+    ],
+    "def": [
+      "craft, work",
+      "the result of skilled work or the work itself"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ceá": {
     "pos": "preposition",
     "ipa": [
@@ -5948,42 +5963,6 @@
     "related": [],
     "notes": ""
   },
-  "riv'alvaidh": {
-    "pos": "idiom",
-    "ipa": [
-      "riv'ælvɔːɪið"
-    ],
-    "def": "for the purpose of",
-    "root": [],
-    "antonyms": [],
-    "synonyms": [],
-    "related": [],
-    "notes": ""
-  },
-  "rü'wae": {
-    "pos": "noun",
-    "ipa": [
-      "roʊ'weːɪ"
-    ],
-    "def": "sacred will",
-    "root": [],
-    "antonyms": [],
-    "synonyms": [],
-    "related": [],
-    "notes": ""
-  },
-  "riv": {
-    "pos": "preposition",
-    "ipa": [
-      "riv"
-    ],
-    "def": "of",
-    "root": [],
-    "antonyms": [],
-    "synonyms": [],
-    "related": [],
-    "notes": ""
-  },
   "ria": {
     "pos": "verb",
     "ipa": [
@@ -6156,6 +6135,30 @@
     "related": [],
     "notes": ""
   },
+  "riv'alvaidh": {
+    "pos": "idiom",
+    "ipa": [
+      "riv'ælvɔːɪið"
+    ],
+    "def": "for the purpose of",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "riv": {
+    "pos": "preposition",
+    "ipa": [
+      "riv"
+    ],
+    "def": "of",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "roda": {
     "pos": "verb",
     "ipa": [
@@ -6233,6 +6236,18 @@
       "roʊ'ʃeːɪɔx"
     ],
     "def": "true bond",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "rü'wae": {
+    "pos": "noun",
+    "ipa": [
+      "roʊ'weːɪ"
+    ],
+    "def": "sacred will",
     "root": [],
     "antonyms": [],
     "synonyms": [],
