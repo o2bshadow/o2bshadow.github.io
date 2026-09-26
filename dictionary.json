@@ -733,6 +733,21 @@
     "related": [],
     "notes": ""
   },
+  "alwaer": {
+    "pos": "noun",
+    "ipa": [
+      "ælweɪʀ"
+    ],
+    "def": [
+      "Mercury",
+      "Quicksilver"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "amirni": {
     "pos": "verb",
     "ipa": [
@@ -5604,6 +5619,22 @@
     "related": [],
     "notes": ""
   },
+  "ovlai": {
+    "pos": "verb",
+    "ipa": [
+      "oʊvlaɪ"
+    ],
+    "def": [
+      "to shirk",
+      "to set aside, as work",
+      "to avoid"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ovoska": {
     "pos": "verb",
     "ipa": [
@@ -8535,6 +8566,22 @@
       "vityʀ"
     ],
     "def": "paramour",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "vlai": {
+    "pos": "verb",
+    "ipa": [
+      "vlaɪ"
+    ],
+    "def": [
+      "to carry",
+      "to lift",
+      "to bear, as a burden or a weight"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
