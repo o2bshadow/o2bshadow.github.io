@@ -13,10 +13,10 @@
     "related": [],
     "notes": ""
   },
-  "Rathan il'Drakkir": {
+  "Rathan il'Drakir": {
     "pos": "idiom",
     "ipa": [
-      "rɔːθɔːn il'drɔːkkiʀ"
+      "rɔːθɔːn il'drɔːkiʀ"
     ],
     "def": [
       "Dragoncourt"
@@ -2188,12 +2188,14 @@
     "related": [],
     "notes": ""
   },
-  "drakkir": {
+  "drakir": {
     "pos": "noun",
     "ipa": [
-      "drɔːkkiʀ"
+      "drɔːkiʀ"
     ],
-    "def": "dragon",
+    "def": [
+      "dragon"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -2418,12 +2420,14 @@
     "related": [],
     "notes": ""
   },
-  "einnor": {
+  "einor": {
     "pos": "noun",
     "ipa": [
-      "eːɪnnɒʀ"
+      "eːɪnɒʀ"
     ],
-    "def": "alone",
+    "def": [
+      "alone"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -3290,34 +3294,6 @@
     "related": [],
     "notes": ""
   },
-  "illtari": {
-    "pos": "verb",
-    "ipa": [
-      "illtɔːri"
-    ],
-    "def": [
-      "to cloak, shelter, or protect"
-    ],
-    "root": [],
-    "antonyms": [],
-    "synonyms": [],
-    "related": [],
-    "notes": ""
-  },
-  "illtarn": {
-    "pos": "noun",
-    "ipa": [
-      "illtɔːrn"
-    ],
-    "def": [
-      "cloak, cape"
-    ],
-    "root": [],
-    "antonyms": [],
-    "synonyms": [],
-    "related": [],
-    "notes": ""
-  },
   "ilri": {
     "pos": "verb",
     "ipa": [
@@ -3389,6 +3365,34 @@
     "related": [],
     "notes": ""
   },
+  "iltari": {
+    "pos": "verb",
+    "ipa": [
+      "iltɔːri"
+    ],
+    "def": [
+      "to cloak, shelter, or protect"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "iltarn": {
+    "pos": "noun",
+    "ipa": [
+      "iltɔːrn"
+    ],
+    "def": [
+      "cloak, cape"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "im'avar": {
     "pos": "idiom",
     "ipa": [
@@ -3441,10 +3445,10 @@
     "related": [],
     "notes": ""
   },
-  "innithria": {
+  "inithria": {
     "pos": "verb",
     "ipa": [
-      "ɪnniθriɔː"
+      "ɪniθriɔː"
     ],
     "def": [
       "to fear (something)",
@@ -3456,12 +3460,14 @@
     "related": [],
     "notes": ""
   },
-  "innithrian": {
+  "inithrian": {
     "pos": "noun",
     "ipa": [
-      "ɪnniθriɔːn"
+      "ɪniθriɔːn"
     ],
-    "def": "fear",
+    "def": [
+      "fear"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -3768,12 +3774,14 @@
     "related": [],
     "notes": ""
   },
-  "jotunn": {
+  "jotun": {
     "pos": "noun",
     "ipa": [
-      "d͡ʒɒtunn"
+      "d͡ʒɒtun"
     ],
-    "def": "power",
+    "def": [
+      "power"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -4533,22 +4541,24 @@
     "related": [],
     "notes": ""
   },
-  "lann": {
+  "lan": {
     "pos": "noun",
     "ipa": [
-      "lɔːnn"
+      "lɔːn"
     ],
-    "def": "crest",
+    "def": [
+      "crest"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
     "related": [],
     "notes": ""
   },
-  "lanni": {
+  "lani": {
     "pos": "verb",
     "ipa": [
-      "lɔːnni"
+      "lɔːni"
     ],
     "def": [
       "to crest, to come to the peak of",
@@ -5016,12 +5026,14 @@
     "related": [],
     "notes": ""
   },
-  "nall": {
+  "nal": {
     "pos": "noun",
     "ipa": [
-      "nɔːll"
+      "nɔːl"
     ],
-    "def": "lake",
+    "def": [
+      "lake"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -6379,10 +6391,10 @@
     "related": [],
     "notes": ""
   },
-  "sannacha": {
+  "sanacha": {
     "pos": "verb",
     "ipa": [
-      "sɔːnnɔːxɔː"
+      "sɔːnɔːxɔː"
     ],
     "def": [
       "to smile"
@@ -6395,12 +6407,14 @@
     "related": [],
     "notes": ""
   },
-  "sannachaos": {
+  "sanachaos": {
     "pos": "noun",
     "ipa": [
-      "sɔːnnɔːxɔːɒ̞ʃ"
+      "sɔːnɔːxɔːɒ̞ʃ"
     ],
-    "def": "smile",
+    "def": [
+      "smile"
+    ],
     "root": [
       "san"
     ],
@@ -6409,10 +6423,10 @@
     "related": [],
     "notes": ""
   },
-  "sannaga": {
+  "sanaga": {
     "pos": "verb",
     "ipa": [
-      "sɔːnnɔːgɔː"
+      "sɔːnɔːgɔː"
     ],
     "def": [
       "to speak"
@@ -6425,12 +6439,14 @@
     "related": [],
     "notes": ""
   },
-  "sannagat": {
+  "sanagat": {
     "pos": "noun",
     "ipa": [
-      "sɔːnnɔːgɔːt"
+      "sɔːnɔːgɔːt"
     ],
-    "def": "speech",
+    "def": [
+      "speech"
+    ],
     "root": [
       "san"
     ],
