@@ -235,6 +235,21 @@
     "related": [],
     "notes": ""
   },
+  "aidhera": {
+    "pos": "verb",
+    "ipa": [
+      "aɪiðeːrɔː"
+    ],
+    "def": [
+      "to commit",
+      "to promise (to do something)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "aigran": {
     "pos": "noun",
     "ipa": [
@@ -949,6 +964,20 @@
     "related": [],
     "notes": ""
   },
+  "ari": {
+    "pos": "verb",
+    "ipa": [
+      "æri"
+    ],
+    "def": [
+      "to agree, to assent"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ariot": {
     "pos": "noun",
     "ipa": [
@@ -956,6 +985,20 @@
     ],
     "def": [
       "left, directional"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ariv": {
+    "pos": "adverb",
+    "ipa": [
+      "æriv"
+    ],
+    "def": [
+      "yes"
     ],
     "root": [],
     "antonyms": [],
@@ -2188,6 +2231,36 @@
     "related": [],
     "notes": ""
   },
+  "dracri": {
+    "pos": "verb",
+    "ipa": [
+      "drɔːkri"
+    ],
+    "def": [
+      "to swear (as an oath)",
+      "to pledge"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dracriv": {
+    "pos": "noun",
+    "ipa": [
+      "drɔːkriv"
+    ],
+    "def": [
+      "oath",
+      "promise"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "drakir": {
     "pos": "noun",
     "ipa": [
@@ -2375,6 +2448,35 @@
       "dveːrtʃa"
     ],
     "def": "unwelcome",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dyszav": {
+    "pos": "noun",
+    "ipa": [
+      "dyɮɔːv"
+    ],
+    "def": [
+      "test, trial, or tribulation"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "dyszavi": {
+    "pos": "verb",
+    "ipa": [
+      "dyɮɔːvi"
+    ],
+    "def": [
+      "to test",
+      "to trial"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -3294,6 +3396,20 @@
     "related": [],
     "notes": ""
   },
+  "ikara": {
+    "pos": "verb",
+    "ipa": [
+      "ikɔːrɔː"
+    ],
+    "def": [
+      "to  hold"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ilri": {
     "pos": "verb",
     "ipa": [
@@ -3543,6 +3659,20 @@
       "irmeːy"
     ],
     "def": "sky",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "isaevi": {
+    "pos": "verb",
+    "ipa": [
+      "iʃeyvi"
+    ],
+    "def": [
+      "to accept, as a gift or a condition"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -4284,6 +4414,21 @@
     "related": [],
     "notes": ""
   },
+  "kritvayr": {
+    "pos": "noun",
+    "ipa": [
+      "kritveɪʀ"
+    ],
+    "def": [
+      "strength",
+      "muscle"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "krivi": {
     "pos": "verb",
     "ipa": [
@@ -4492,6 +4637,20 @@
     ],
     "def": [
       "right, as correctness"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "ká": {
+    "pos": "noun",
+    "ipa": [
+      "ka"
+    ],
+    "def": [
+      "mind"
     ],
     "root": [],
     "antonyms": [],
@@ -5262,6 +5421,34 @@
     "related": [],
     "notes": ""
   },
+  "o'ari": {
+    "pos": "verb",
+    "ipa": [
+      "oʊ'æri"
+    ],
+    "def": [
+      "to disagree, to dissent"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "o'ariv": {
+    "pos": "adverb",
+    "ipa": [
+      "oʊ'æriv"
+    ],
+    "def": [
+      "no"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "o'athvol": {
     "pos": "noun",
     "ipa": [
@@ -5808,6 +5995,21 @@
     "related": [],
     "notes": ""
   },
+  "raidhyr": {
+    "pos": "noun",
+    "ipa": [
+      "raɪiðyʀ"
+    ],
+    "def": [
+      "mortal",
+      "human (colloquial)"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "rains": {
     "pos": "noun",
     "ipa": [
@@ -5949,6 +6151,20 @@
       "rɔːvɔːð"
     ],
     "def": "elder",
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "raüxir": {
+    "pos": "noun",
+    "ipa": [
+      "rɔːoʊxiʀ"
+    ],
+    "def": [
+      "body"
+    ],
     "root": [],
     "antonyms": [],
     "synonyms": [],
@@ -7059,6 +7275,21 @@
     "related": [],
     "notes": ""
   },
+  "tachvari": {
+    "pos": "verb",
+    "ipa": [
+      "tɔːxvɔːri"
+    ],
+    "def": [
+      "to grant",
+      "to provide with expectation of payment"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "taelva": {
     "pos": "verb",
     "ipa": [
@@ -7699,6 +7930,21 @@
     ],
     "def": [
       "a jug, amphora, or other container for liquid"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "tychir": {
+    "pos": "noun",
+    "ipa": [
+      "tyxiʀ"
+    ],
+    "def": [
+      "hand",
+      "forelimb"
     ],
     "root": [],
     "antonyms": [],
@@ -8387,6 +8633,20 @@
     "related": [],
     "notes": ""
   },
+  "vaön": {
+    "pos": "adjective",
+    "ipa": [
+      "vɔːün"
+    ],
+    "def": [
+      "permanent"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "veko": {
     "pos": "noun",
     "ipa": [
@@ -8787,6 +9047,21 @@
     "related": [],
     "notes": ""
   },
+  "íalca": {
+    "pos": "noun",
+    "ipa": [
+      "ɪælkɔː"
+    ],
+    "def": [
+      "boon",
+      "blessing"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
   "ögcabáh": {
     "pos": "noun",
     "ipa": [
@@ -8795,6 +9070,21 @@
     "def": [
       "element, component part",
       "chemical or alchemical element"
+    ],
+    "root": [],
+    "antonyms": [],
+    "synonyms": [],
+    "related": [],
+    "notes": ""
+  },
+  "öltyra": {
+    "pos": "noun",
+    "ipa": [
+      "ültyrɔː"
+    ],
+    "def": [
+      "to ease",
+      "to gentle or soften"
     ],
     "root": [],
     "antonyms": [],
